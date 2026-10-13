@@ -3,7 +3,7 @@
  * skills charge, Student visa money. Figures: params-2026.json (processing, sponsor, student).
  */
 import P from '../../data/params-2026.json';
-import { addDays, addMonths, addWorkingDays, type ISO } from './dates';
+import { addDays, addMonths, addWorkingDays, isWorkingDay, type ISO } from './dates';
 import { FEE } from './fees';
 
 export type TimeRoute = 'skilled-worker' | 'health-and-care' | 'student' | 'visitor' | 'partner' | 'global-talent' | 'hpi' | 'ancestry' | 'graduate' | 'ilr' | 'citizenship';
@@ -23,7 +23,8 @@ export function decisionDate(route: TimeRoute, where: 'outside' | 'inside', from
   if (route === 'ilr' || route === 'citizenship') {
     const m = route === 'ilr' ? T.ilrMonths : T.citizenshipMonths;
     const expected = addMonths(from, m);
-    return { available: true, standard: `${m} months`, expected, priority: route === 'ilr' ? addWorkingDays(from, T.priorityWorkingDays) : null, superPriority: route === 'ilr' ? addWorkingDays(from, T.superPriorityIlrWorkingDays) : null, chaseFrom: addDays(expected, 1) };
+    return { available: true, standard: `${m} months`, expected, priority: route === 'ilr' ? addWorkingDays(from, T.priorityWorkingDays) : null, // Super priority: end of the next working day after a weekday appointment, 2 working days after a weekend one.
+      superPriority: route === 'ilr' ? addWorkingDays(from, isWorkingDay(from) || ![0, 6].includes(new Date(from + 'T00:00:00Z').getUTCDay()) ? 1 : 2) : null, chaseFrom: addDays(expected, 1) };
   }
   const weeks = (T[where] as Record<string, number | null>)[route] ?? null;
   if (weeks == null) return { available: false, standard: where === 'outside' ? 'apply from inside the UK' : 'no published standard', expected: null, priority: null, superPriority: null, chaseFrom: null };

@@ -9,7 +9,7 @@
  *  - absences: whole days only (the day you leave and the day you return are not counted); no more
  *    than 180 days in any rolling 12-month window; long residence keeps the old limits (548 days in
  *    total, 184 days at a time) for absences that began before 11 April 2024;
- *  - a breach restarts the qualifying period on the day after the return from the trip that broke it
+ *  - a breach restarts the qualifying period on the day of return from the trip that broke it
  *    (a simplification: the Home Office can accept "compelling" reasons, which the tool cannot judge);
  *  - citizenship: 5 years (3 if married to a British citizen) with at most 450 days (270) outside in
  *    the period, 90 in the last 12 months, present in the UK exactly 5 (3) years before the

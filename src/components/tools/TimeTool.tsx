@@ -29,7 +29,7 @@ export default function TimeTool({ initialRoute = 'skilled-worker', initialWhere
         <div className="mt-3"><Verdict ok={r.available ? true : null}>{r.available ? `UKVI service standard: ${r.standard}.` : `No standard: ${r.standard}.`}</Verdict></div>
         <table className="mt-3 w-full text-sm"><tbody className="divide-y divide-navy-200">
           {r.priority && <Row label="With priority (5 working days)" value={longDate(r.priority)} />}
-          {r.superPriority && <Row label={route === 'ilr' ? 'With super priority (2 working days)' : 'With super priority (next working day)'} value={longDate(r.superPriority)} />}
+          {r.superPriority && <Row label="With super priority (next working day; 2 after a weekend appointment)" value={longDate(r.superPriority)} />}
           {r.chaseFrom && <Row label="Contact UKVI if no news after" value={longDate(r.chaseFrom)} />}
         </tbody></table>
         <p className="mt-2 text-xs text-navy-700">Counted from the day you prove your identity (app or appointment), not the day you pay. Working days skip weekends and bank holidays in England and Wales. Abroad, faster services depend on the visa centre: their timing is given when you book.</p>

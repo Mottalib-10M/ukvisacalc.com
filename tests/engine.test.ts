@@ -93,6 +93,7 @@ describe('total visa cost', () => {
     expect(visaCost({ route: 'health-and-care', where: 'outside', months: 60, partner: true, children: 1 }).ihsTotal).toBe(0);
     expect(visaCost({ route: 'ilr', where: 'inside', months: 0, partner: true, children: 0 }).total).toBe(2 * 3226);
     expect(visaCost({ route: 'citizenship', where: 'inside', months: 0, partner: false, children: 0 }).total).toBe(1839);
+    expect(visaCost({ route: 'citizenship', where: 'inside', months: 0, partner: true, children: 1 }).total).toBe(2 * 1839 + 1000);
   });
   it('prices a spouse visa from outside the UK', () => {
     const r = visaCost({ route: 'partner', where: 'outside', months: 33, partner: false, children: 0 });

@@ -33,7 +33,7 @@ export const HOME = {
   timelineTitle: 'What changed, and what is coming',
   timeline: (h: Helpers) => [
     { date: '2025-07-22', text: `Skilled Worker threshold raised to ${K.gbp(S.general)} and skill level to degree level: ${K.int(K.count('Table 1a'))} codes become "medium skilled", open only through the shortage lists; overseas recruitment of care workers closes. ${h.a('skilled-worker-visa-salary-threshold', 'Salary threshold')}` },
-    { date: '2025-11-28', text: `The Home Office opens its consultation on "earned settlement", which would lengthen the usual qualifying period; no rule change has been laid yet. ${h.a('earned-settlement', 'What is proposed')}` },
+    { date: '2025-11-20', text: `The Home Office opens its consultation on "earned settlement", which would lengthen the usual qualifying period; no rule change has been laid yet. ${h.a('earned-settlement', 'What is proposed')}` },
     { date: '2026-01-08', text: `English at level B2 for new Skilled Worker applicants (B1 kept for extensions by those already on the route).` },
     { date: '2026-04-08', text: `Fee table uplift: Skilled Worker from abroad ${K.gbp(swHist.find((p) => p.date === '2025-11-11')!.amount)} → ${K.gbp(swHist.find((p) => p.date === '2026-04-08')!.amount)}; salary must now be met in every pay period.` },
     { date: '2026-10-08', text: `Current fee table and Statement of Changes HC 584 in force; ILR stays at ${K.gbp(ilrHist[ilrHist.length - 1].amount)} (it was ${K.gbp(ilrHist[0].amount)} in ${K.monthYear(ilrHist[0].date)}).` },

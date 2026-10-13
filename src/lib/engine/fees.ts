@@ -107,7 +107,7 @@ export function visaCost(inp: CostInput): CostResult {
   const notes: string[] = [];
   const years = inp.months / 12;
   let where = inp.where;
-  let feeEach = 0, depFee: number | null = null, feeLabel = '';
+  let feeEach = 0, depFee: number | null = null, childFee: number | null = null, feeLabel = '';
   switch (inp.route) {
     case 'skilled-worker': feeEach = FEE.skilledWorker(where, years, !!inp.isl); feeLabel = `Skilled Worker${inp.isl ? ', Immigration Salary List job' : ''}, ${years > 3 ? 'over 3 years' : 'up to 3 years'}, ${where} the UK`; break;
     case 'health-and-care': feeEach = FEE.healthCare(where, years); feeLabel = `Health and Care Worker, ${years > 3 ? 'over 3 years' : 'up to 3 years'}`; notes.push('No immigration health surcharge for Health and Care Worker visa holders and their dependants.'); break;
@@ -120,7 +120,7 @@ export function visaCost(inp: CostInput): CostResult {
     case 'ancestry': feeEach = where === 'outside' ? FEE.ancestry() : FEE.leaveToRemainOther(); feeLabel = `UK Ancestry, ${where === 'outside' ? 'first visa' : 'extension'}`; break;
     case 'visitor': feeEach = inp.months <= 6 ? FEE.visitor6m() : inp.months <= 24 ? FEE.visitor2y() : inp.months <= 60 ? FEE.visitor5y() : FEE.visitor10y(); feeLabel = 'Standard Visitor'; break;
     case 'ilr': feeEach = FEE.ilr(); feeLabel = 'Indefinite leave to remain (each person)'; notes.push('No surcharge on a settlement application.'); break;
-    case 'citizenship': feeEach = FEE.naturalisation() + FEE.ceremony(); feeLabel = 'Naturalisation + citizenship ceremony'; depFee = FEE.registrationChild(); notes.push('Children register separately; the ceremony fee is added for a child who turns 18 during the application.'); break;
+    case 'citizenship': feeEach = FEE.naturalisation() + FEE.ceremony(); feeLabel = 'Naturalisation + citizenship ceremony'; childFee = FEE.registrationChild(); notes.push('Children register separately; the ceremony fee is added for a child who turns 18 during the application.'); break;
   }
   const reducedAll = inp.route === 'student';
   const noIhs = NO_IHS.includes(inp.route);
@@ -132,7 +132,7 @@ export function visaCost(inp: CostInput): CostResult {
   };
   add('Main applicant', feeEach, false);
   if (inp.partner) add('Partner', depFee ?? feeEach, false);
-  for (let i = 0; i < Math.max(0, Math.min(10, Math.floor(inp.children))); i++) add(`Child ${i + 1}`, depFee ?? feeEach, true);
+  for (let i = 0; i < Math.max(0, Math.min(10, Math.floor(inp.children))); i++) add(`Child ${i + 1}`, childFee ?? depFee ?? feeEach, true);
   const fees = lines.reduce((a, l) => a + l.fee, 0), ihsTotal = lines.reduce((a, l) => a + l.ihs, 0);
   let priority = 0;
   if (inp.priority === 'priority') priority = where === 'outside' ? (inp.route === 'partner' || inp.route === 'fiance' ? FEE.prioritySettlementOutside() : FEE.priorityOutside()) : FEE.priorityInside();

@@ -151,7 +151,7 @@
   "lifeInUkTest": 50,
   "englishB2SettlementFrom": "2027-03-26",
   "loseIlrAfterYears": 2,
-  "earnedSettlementStatus": "Consultation published 2025-11-28 (Earned settlement). No change to the qualifying periods had been laid in the Immigration Rules by the Statement of Changes HC 584 (in force 8 October 2026).",
+  "earnedSettlementStatus": "Consultation published 2025-11-20 (open until 2026-02-13) (Earned settlement). No change to the qualifying periods had been laid in the Immigration Rules by the Statement of Changes HC 584 (in force 8 October 2026).",
   "_absences": "Whole days only: the day you leave and the day you return are not counted (continuous residence guidance v10.0). Rolling: no more than 180 days in any 12-month window, for permission granted on or after 11 January 2018."
  },
  "citizenship": {
@@ -345,7 +345,7 @@
   },
   "earned_settlement": {
    "url": "https://www.gov.uk/government/consultations/earned-settlement",
-   "label": "Home Office consultation: earned settlement (28 November 2025)"
+   "label": "Home Office consultation: earned settlement (20 November 2025)"
   },
   "hc_1691": {
    "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-1619-5-march-2026",
@@ -458,6 +458,14 @@
   "youth_mobility": {
    "url": "https://www.gov.uk/youth-mobility",
    "label": "GOV.UK: Youth Mobility Scheme visa"
+  },
+  "appendix_lr": {
+   "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-long-residence",
+   "label": "Immigration Rules, Appendix Long Residence"
+  },
+  "earned_settlement_paper": {
+   "url": "https://www.gov.uk/government/consultations/earned-settlement/a-fairer-pathway-to-settlement-statement-and-accompanying-consultation-on-earned-settlement-accessible",
+   "label": "Home Office: A Fairer Pathway to Settlement, statement and consultation on earned settlement (CP 1448)"
   }
  }
 }
