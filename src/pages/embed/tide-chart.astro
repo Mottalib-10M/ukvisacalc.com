@@ -1,0 +1,23 @@
+---
+/** Embeddable page (iframe): the tide chart alone. noindex, outside the sitemap (astro.config). */
+import '../../styles/global.css';
+import TideTool from '../../components/tide/TideTool';
+import { SITE_URL, SITE_NAMES } from '../../data/site-config';
+import { windowOf, ALL_LITE, BUILD_MIN } from '../../lib/stations';
+const k = 'california/san-diego';
+---
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tide chart and tide times, US stations (widget)</title>
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href={`${SITE_URL}/en/`} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  </head>
+  <body class="bg-white p-2 text-navy-900">
+    <TideTool client:load stations={ALL_LITE()} picker initialKey={k} initialWin={windowOf(k)} buildMin={BUILD_MIN} methodHref={`${SITE_URL}/en/method/`} idPrefix="embed" planner={false} />
+    <p class="mt-2 text-center text-xs text-navy-600"><a href={`${SITE_URL}/en/`} target="_blank" rel="noopener" class="underline">{SITE_NAMES.en}</a> · NOAA predictions · not for navigation</p>
+  </body>
+</html>

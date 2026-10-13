@@ -1,0 +1,87 @@
+# Immigration Rules Appendix Continuous Residence | updated 2025-11-11T07:40:38+00:00 | /guidance/immigration-rules/immigration-rules-appendix-continuous-residence
+Where the continuous residence requirement is specified within the relevant Immigration Rules, it will be satisfied where applicants have been resident in the UK for the qualifying period required by their route with permission, their continuous residence must not be broken, and their absences from the UK must not exceed the maximum permitted.
+This Appendix applies only to applications under Appendix HM Armed Forces (only settlement as a Partner or Child), Appendix Skilled Worker, Appendix Representative of an Overseas Business, Appendix Global Talent, Appendix Innovator Founder, Appendix T2 Minister of Religion, Appendix International Sportsperson, Appendix UK Ancestry, Appendix Domestic Worker in a Private Household, Appendix Temporary Work - International Agreement, Appendix Scale-up, Appendix Settlement Family Life, Appendix Private Life (settlement only, apart from where the applicant is applying to settle as a child born in the UK), Appendix Hong Kong National (Overseas), Appendix Long Residence, Appendix ECAA Settlement, and Part 6A (for Tier 1 (Entrepreneur) and Tier 1 (Investor) only).
+Calculating the qualifying period
+    CR 1.1. The qualifying period for continuous residence will be calculated by counting back from whichever of the following dates is the most beneficial to the applicant, taking periods of absence into account:
+        (a) the date of application; or
+        (b) any date up to 28 days after the date of application; or
+        (c) the date of decision; or
+        (d) if the applicant is applying for settlement on the UK Ancestry route, and their last grant of permission was not as a person with UK Ancestry, the date their most recent permission as a person with UK Ancestry expired.
+CR 1.2. The qualifying period can vary between routes. The specific length of the qualifying period required is set out in the rules for the route the person is applying for.
+Lawful presence
+    CR 2.1. The applicant will not be regarded as lawfully present in the UK (and these periods will not count towards the qualifying period for continuous residence):
+        (a) during any period of imprisonment or detention under CR 4.1.(a) or CR 4.4.; and
+        (b) during any period the applicant is subject to a deportation order, exclusion order, or exclusion direction; and
+        (c) during any period when the applicant is subject to removal directions under section 10 of the Immigration and Asylum Act 1999 (except where the application is under Appendix Long Residence); and
+        (d) during any period where the applicant required permission and did not have it unless:
+            (i) the applicant was in the UK without permission in the period from 1 to 31 August 2020; and
+            (ii) the applicant had permission immediately before that period,
+    in which case the applicant will be treated as lawfully present between 1 and 31 August 2020.
+Absence from the UK
+CR 3.1. To meet the continuous residence requirement, the applicant must not have been outside the UK for more than 180 days in any 12- month period (unless CR 3.2., CR 3.3., CR 5.1. or CR 5.2. applies, and subject to CR 3.4.).
+CR 3.2. For any absence from the UK with permission granted under the rules in place before 11 January 2018, the applicant must not have been outside the UK for more than 180 days during any consecutive 12-month period, ending on the same date of their current application unless CR 3.3 applies, and subject to CR 3.4.
+    CR 3.3. Subject to CR 3.4, where the application is under Appendix Long Residence, the applicant must not have:
+        (a) spent a total of more than 548 days outside the UK during their qualifying period, where that 548-day total was reached before 11 April 2024; and
+        (b) been outside the UK for more than 184 days at any one time during their qualifying period, where that absence started before 11 April 2024.
+    CR 3.4. When calculating the period of absence in CR 3.1., CR 3.2. or CR 3.3., any period spent outside the UK will not count where the absence was for any of the following reasons:
+        (a) the applicant was assisting with a national or international humanitarian or environmental crisis overseas, providing, if on a sponsored route, their sponsor agreed to the absence for that purpose; or
+        (b) travel disruption due to natural disaster, military conflict or pandemic; or
+        (c) compelling and compassionate personal circumstances, such as the life-threatening illness of the applicant, or the life- threatening illness or death of a close family member; or
+        (d) research activity undertaken by a Skilled Worker which was approved by their sponsor and where the applicant was sponsored for a job in one of the following SOC 2020 occupation codes:
+            • 2111 Chemical scientists
+            • 2112 Biological scientists
+            • 2113 Biochemists and biomedical scientists
+            • 2114 Physical scientists
+            • 2115 Social and humanities scientists
+            • 2119 Natural and social science professionals not elsewhere classified
+            • 2161 Research and development (R&D) managers
+            • 2162 Other researchers, unspecified discipline
+            • 2311 Higher education teaching professionals; or
+        (e) research activity undertaken by a person on the Global Talent route who was endorsed by:
+            (i) The Royal Society; or
+            (ii) The British Academy; or
+            (iii) The Royal Academy of Engineering; or
+            (iv) UKRI; or
+        (f) research activity undertaken by a person on the Global Talent route who qualified on the basis of a prize listed in table 6 of Appendix Global Talent: Prestigious Prizes; or
+        (g) for an applicant under Appendix Settlement Family Life, absences for work, study or supporting family overseas, so long as the family have throughout the period of absence maintained a family life in the UK and the UK remained their place of permanent residence; or
+        (h) where the applicant’s partner is absent from the UK on Crown
+service as:
+            (i) a regular member of HM Armed Forces (the Royal Navy, the Royal Marines, the Army (including the Brigade of Gurkhas) and the Royal Air Force); or
+            (ii) an employee of the UK Government, a Northern Ireland department, the Scottish Administration or the Welsh Government; or
+            (iii) a permanent member of the British Council,
+    and the applicant accompanies them overseas.
+CR 3.5. Provided that the applicant’s most recent grant of permission was in the UK, any time the applicant has spent lawfully in the Channel Islands or the Isle of Man on a route equivalent to those permissible in the UK is treated for the purpose of this Appendix as time spent in the UK.
+CR 3.6. For settlement applications under Appendix Settlement Family Life, absence from the UK before 20 June 2022 will not be counted when calculating the total absence period if the applicant was subsequently granted permission as a partner or parent under Appendix FM or under paragraph 276ADE or 276BE(2), following those absences.
+CR 3.7. Absence from the UK which began before 8 October 2024 will not be counted when calculating the qualifying period for continuous residence for settlement applications under Appendix HM Armed Forces.
+Breaking continuous residence
+    CR 4.1. An applicant’s continuous residence will be broken if any of
+the following apply:
+        (a) the applicant is convicted of an offence and sentenced to a period of imprisonment (unless it is a suspended sentence) or directed to be detained in an institution other than a prison, unless the applicant is applying for settlement under Appendix Settlement Family Life or Appendix Private Life (in which case CR 4.4. applies); or
+        (b) the applicant is subject to a deportation order, exclusion order or exclusion direction; or
+        (c) the applicant is subject to removal directions, or in the case of an application under Appendix Long Residence, is removed from the UK, under section 10 of the Immigration and Asylum Act 1999; or
+        (d) the applicant does not currently have, or did not have, permission, unless:
+            (i) the applicant was granted permission following a successful application where Exceptions for overstayers section of Part Suitability of these rules applied; or
+            (ii) (except for applications under Appendix Long Residence), the applicant had permission when they left the UK, applied for entry clearance before that permission expired, or within 14 days of that permission expiring, and that application for entry clearance was successful; or
+            (iii) the application is under Appendix Long Residence, and the applicant had permission when they left the UK and returned to the UK with a valid permission (on the same or another route), provided they do not exceed the absence limit in CR 3.1., CR 3.2. or CR 3.3.; or
+            (iv) for any period without permission before 24 November 2016, where the applicant made a successful application for entry clearance or permission (either in or outside the UK) within 28 days of the date their previous permission expired; or
+            (v) the dates on which the applicant was in the UK without permission were in the period from 1 to 31 August 2020 and the applicant had permission immediately before then; or
+        (e) the applicant is absent from the UK for longer than the periods permitted under CR 3.1., CR 3.2., and CR 3.3., and none of the exceptions in CR 3.4., CR 3.6., CR 5.1. and CR 5.2. apply; or
+        (f) the applicant is removed or deported from the UK; or
+        (g) the applicant leaves the UK voluntarily having been refused permission to enter, permission to stay or settlement, and any permission held at the time of that voluntary departure has expired, unless CR 4.1(d)(iv) applies.
+CR 4.2. Where CR 4.1(d)(i) to (iv) applies, any period of time where the applicant did not have permission will not be included in any calculation of the qualifying period in CR 1.1.
+CR 4.3. Where CR 4.1.(d)(v) applies, that period of time without permission is recognised as lawful presence and will be included in any calculation of the qualifying period in CR 1.1.
+    CR 4.4. Where a person applying for settlement under Appendix Settlement Family Life or Appendix Private Life has been:
+        (a) convicted of an offence and sentenced to imprisonment in the UK for 12 months or less; or
+        (b) directed to be detained in an institution other than a prison for 12 months or less,
+    that period of imprisonment or detention will not break the
+applicant’s continuous residence during the 10-year qualifying period for the purposes of SETF 2.3, SETF 11.3, PL 12.3., or PL 27.3, but the time spent in prison or detained in an institution other than a prison will not count towards the qualifying period for continuous residence.
+Continuous residence for dependants
+CR 5.1. Where the applicant is applying as a partner or child and was absent from the UK for a reason in CR 3.4., accompanying the person they are dependent on, that period of absence will not count towards the 180-day absence limit in CR 3.1. or CR 3.2. when calculating the applicant’s qualifying period.
+    CR 5.2. Where the applicant is applying as a partner or child and the person on whom they are dependent was absent from the UK during a period of permission granted before 11 January 2018, that period of absence will not count towards the 180-day absence in CR 3.1. or CR 3.2. when calculating the applicant’s qualifying period if the person on whom they were dependent was on one of the following routes:
+        (a) Tier 1; or
+        (b) Tier 2; or
+        (c) Tier 5 (Temporary Worker); or
+        (d) Global Talent; or
+        (e) Start Up; or
+        (f) Innovator Founder; or
+        (g) ECAA worker or ECAA business person.

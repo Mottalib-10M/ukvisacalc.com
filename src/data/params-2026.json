@@ -1,0 +1,430 @@
+{
+ "_lisezmoi": "Règles et seuils lus sur GOV.UK le 2026-10-13 (Open Government Licence v3.0). Les barèmes de frais (fees.json), les codes SOC (soc.json), le registre des sponsors (sponsors-meta.json, public/data/sponsors/) et les jours fériés (bank-holidays.json) sortent de scripts/build-data.py ; ce fichier porte tout le reste, chaque bloc avec la clé de sa source. Relire à chaque Statement of Changes (CONTRIBUTING-PAGES.md).",
+ "year": 2026,
+ "retrieved_at": "2026-10-13",
+ "valid_from": "2026-10-08",
+ "valid_to": "2027-03-25",
+ "skilledWorker": {
+  "_source": "appendix_sw",
+  "general": 41700,
+  "newEntrant": {
+   "floor": 33400,
+   "share": 0.7,
+   "maxStayYears": 4,
+   "underAge": 26
+  },
+  "phdStem": {
+   "floor": 33400,
+   "share": 0.8
+  },
+  "phdOther": {
+   "floor": 37500,
+   "share": 0.9
+  },
+  "postdoc": {
+   "floor": 33400,
+   "share": 0.7,
+   "codes": [
+    "2111",
+    "2112",
+    "2113",
+    "2114",
+    "2115",
+    "2119",
+    "2162",
+    "2311"
+   ]
+  },
+  "isl": {
+   "floor": 33400,
+   "share": 1
+  },
+  "healthEducation": {
+   "floor": 25000
+  },
+  "transitional": {
+   "_note": "Options F to J: first Skilled Worker permission under the rules before 4 April 2024, continuous since, application before 4 April 2030.",
+   "general": 31300,
+   "phdOther": 28200,
+   "phdStem": 25000,
+   "isl": 25000,
+   "newEntrant": 25000,
+   "cutoff": "2024-04-04",
+   "until": "2030-04-04"
+  },
+  "mediumSkilledCutoff": "2025-07-22",
+  "goingRateHours": 37.5,
+  "maxCountedHours": 48,
+  "maintenance": 1270,
+  "dependantFunds": {
+   "partner": 285,
+   "firstChild": 315,
+   "otherChild": 200
+  },
+  "englishLevel": "B2",
+  "englishB2From": "2026-01-08",
+  "cosApplyWithinMonths": 3,
+  "applyBeforeStartMonths": 3,
+  "leaveAfterCosEndDays": 14,
+  "maxCosYears": 5,
+  "prisonOfficer": {
+   "code": "3314",
+   "general": 31300
+  },
+  "careWorkerCodes": [
+   "6135",
+   "6136"
+  ],
+  "careSwitchUntil": "2028-07-22"
+ },
+ "healthAndCare": {
+  "_source": "hcw_visa",
+  "noIhs": true,
+  "decisionWeeks": {
+   "outside": 3,
+   "inside": 3
+  }
+ },
+ "ihs": {
+  "_source": "ihs",
+  "standard": 1035,
+  "reduced": 776,
+  "_reduced": "Students, their dependants, Youth Mobility Scheme and applicants under 18 at the date of application.",
+  "shortOutsideFreeMonths": 6
+ },
+ "family": {
+  "_source": "family_income",
+  "minimumIncome": 29000,
+  "legacy": {
+   "base": 18600,
+   "firstChild": 3800,
+   "otherChild": 2400,
+   "cutoff": "2024-04-11",
+   "cap": 29000
+  },
+  "savingsBase": 16000,
+  "savingsMultiplier": 2.5,
+  "savingsMultiplierIlr": 1,
+  "firstLeaveMonths": 33,
+  "extensionMonths": 30,
+  "fianceMonths": 6,
+  "settlementYears": 5,
+  "superPriorityInside": 1000,
+  "decisionWeeks": {
+   "outside": 12,
+   "inside": 8,
+   "insideNoRequirementsMonths": 12
+  }
+ },
+ "settlement": {
+  "_source": "ilr_sw",
+  "skilledWorkerYears": 5,
+  "applyEarlyDays": 28,
+  "maxAbsenceDays": 180,
+  "absenceWindowMonths": 12,
+  "longResidenceYears": 10,
+  "longResidenceLegacy": {
+   "totalDays": 548,
+   "singleDays": 184,
+   "cutoff": "2024-04-11"
+  },
+  "globalTalentFastYears": 3,
+  "globalTalentYears": 5,
+  "ancestryYears": 5,
+  "familyYears": 5,
+  "decisionMonths": 6,
+  "priority": 500,
+  "superPriority": 1000,
+  "lifeInUkTest": 50,
+  "englishB2SettlementFrom": "2027-03-26",
+  "loseIlrAfterYears": 2,
+  "earnedSettlementStatus": "Consultation published 2025-11-28 (Earned settlement). No change to the qualifying periods had been laid in the Immigration Rules by the Statement of Changes HC 584 (in force 8 October 2026).",
+  "_absences": "Whole days only: the day you leave and the day you return are not counted (continuous residence guidance v10.0). Rolling: no more than 180 days in any 12-month window, for permission granted on or after 11 January 2018."
+ },
+ "citizenship": {
+  "_source": "citizenship",
+  "residenceYears": 5,
+  "maxAbsence5y": 450,
+  "maxAbsence12m": 90,
+  "ilrHeldMonths": 12,
+  "spouseResidenceYears": 3,
+  "spouseMaxAbsence3y": 270,
+  "spouseMaxAbsence12m": 90,
+  "decisionMonths": 6,
+  "fee": 1709,
+  "ceremony": 130
+ },
+ "student": {
+  "_source": "student_visa",
+  "maintenance": {
+   "london": 1529,
+   "outside": 1171,
+   "maxMonths": 9
+  },
+  "maintenanceFrom": {
+   "date": "2026-11-30",
+   "london": 1570,
+   "outside": 1203,
+   "_source": "hc_584"
+  },
+  "dependants": {
+   "london": 845,
+   "outside": 680
+  },
+  "graduateYears": 2,
+  "graduateYearsFrom2027": 1.5,
+  "graduateChange": "2027-01-01",
+  "graduatePhdYears": 3
+ },
+ "hpi": {
+  "_source": "hpi_visa",
+  "years": 2,
+  "phdYears": 3,
+  "ecctis": 252,
+  "qualificationWithinYears": 5
+ },
+ "globalTalent": {
+  "_source": "global_talent",
+  "endorsement": 561,
+  "visa": 205,
+  "total": 766
+ },
+ "sponsor": {
+  "_source": "sponsor_guide",
+  "isc": {
+   "small": {
+    "first12": 480,
+    "perHalf": 240
+   },
+   "large": {
+    "first12": 1320,
+    "perHalf": 660
+   }
+  },
+  "iscExemptCodes": [
+   "2111",
+   "2112",
+   "2113",
+   "2114",
+   "2115",
+   "2119",
+   "2161",
+   "2162",
+   "2311"
+  ],
+  "small": {
+   "turnover": 15000000,
+   "assets": 7500000,
+   "employees": 50
+  },
+  "decisionWeeks": 8,
+  "priorityDays": 10
+ },
+ "processing": {
+  "_source": "times_outside",
+  "updated": "2026-09-09",
+  "outside": {
+   "skilled-worker": 3,
+   "health-and-care": 3,
+   "student": 3,
+   "visitor": 3,
+   "partner": 12,
+   "global-talent": 3,
+   "hpi": 3,
+   "ancestry": 3,
+   "graduate": null,
+   "ilr": null,
+   "citizenship": null
+  },
+  "inside": {
+   "skilled-worker": 8,
+   "health-and-care": 3,
+   "student": 8,
+   "visitor": 8,
+   "partner": 8,
+   "global-talent": 8,
+   "hpi": 8,
+   "ancestry": 8,
+   "graduate": 8
+  },
+  "ilrMonths": 6,
+  "citizenshipMonths": 6,
+  "priorityWorkingDays": 5,
+  "superPriorityWorkingDays": 1,
+  "superPriorityIlrWorkingDays": 2
+ },
+ "sources": {
+  "fees_table": {
+   "url": "https://www.gov.uk/government/publications/visa-regulations-revised-table",
+   "label": "Home Office: immigration and nationality fees, table of 8 October 2026 (ODS), read 2026-10-13"
+  },
+  "appendix_sw": {
+   "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-skilled-worker",
+   "label": "Immigration Rules, Appendix Skilled Worker (HC 584, updated 8 October 2026)"
+  },
+  "appendix_aso": {
+   "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-skilled-occupations",
+   "label": "Immigration Rules, Appendix Skilled Occupations: SOC 2020 codes and going rates"
+  },
+  "appendix_isl": {
+   "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-immigration-salary-list",
+   "label": "Immigration Rules, Appendix Immigration Salary List"
+  },
+  "sw_visa": {
+   "url": "https://www.gov.uk/skilled-worker-visa",
+   "label": "GOV.UK: Skilled Worker visa (salary, costs, documents, dependants)"
+  },
+  "sw_paid_less": {
+   "url": "https://www.gov.uk/skilled-worker-visa/when-you-can-be-paid-less",
+   "label": "GOV.UK: Skilled Worker visa, when you can be paid less"
+  },
+  "sw_costs": {
+   "url": "https://www.gov.uk/skilled-worker-visa/how-much-it-costs",
+   "label": "GOV.UK: Skilled Worker visa, how much it costs"
+  },
+  "hcw_visa": {
+   "url": "https://www.gov.uk/health-care-worker-visa",
+   "label": "GOV.UK: Health and Care Worker visa"
+  },
+  "ihs": {
+   "url": "https://www.gov.uk/healthcare-immigration-application/how-much-pay",
+   "label": "GOV.UK: immigration health surcharge, how much you have to pay"
+  },
+  "ihs_who": {
+   "url": "https://www.gov.uk/healthcare-immigration-application/who-needs-pay",
+   "label": "GOV.UK: immigration health surcharge, who needs to pay"
+  },
+  "family_visa": {
+   "url": "https://www.gov.uk/uk-family-visa",
+   "label": "GOV.UK: family visa (partner, parent, child), fees and surcharge"
+  },
+  "family_income": {
+   "url": "https://www.gov.uk/uk-family-visa/proof-income-partner",
+   "label": "GOV.UK: financial requirements if you are applying as a partner or spouse"
+  },
+  "appendix_fm": {
+   "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-fm-family-members",
+   "label": "Immigration Rules, Appendix FM: family members (E-ECP.3.1, E-LTRP.3.1)"
+  },
+  "appendix_fm_se": {
+   "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-fm-se-family-members-specified-evidence",
+   "label": "Immigration Rules, Appendix FM-SE: specified evidence of income and savings"
+  },
+  "ilr": {
+   "url": "https://www.gov.uk/indefinite-leave-to-remain",
+   "label": "GOV.UK: check if you can get indefinite leave to remain"
+  },
+  "ilr_sw": {
+   "url": "https://www.gov.uk/indefinite-leave-to-remain-tier-2-t2-skilled-worker-visa",
+   "label": "GOV.UK: indefinite leave to remain with a Skilled Worker or Health and Care Worker visa"
+  },
+  "ilr_family": {
+   "url": "https://www.gov.uk/indefinite-leave-to-remain-family",
+   "label": "GOV.UK: indefinite leave to remain if you have family in the UK"
+  },
+  "continuous_residence": {
+   "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-continuous-residence",
+   "label": "Immigration Rules, Appendix Continuous Residence (180 days in any 12 months)"
+  },
+  "long_residence": {
+   "url": "https://www.gov.uk/long-residence",
+   "label": "GOV.UK: indefinite leave to remain after 10 years (long residence)"
+  },
+  "earned_settlement": {
+   "url": "https://www.gov.uk/government/consultations/earned-settlement",
+   "label": "Home Office consultation: earned settlement (28 November 2025)"
+  },
+  "hc_1691": {
+   "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-1619-5-march-2026",
+   "label": "Statement of Changes HC 1691 (5 March 2026): B2 English for settlement from 26 March 2027"
+  },
+  "hc_584": {
+   "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026",
+   "label": "Statement of Changes HC 584 (3 September 2026): student maintenance from 30 November 2026"
+  },
+  "citizenship": {
+   "url": "https://www.gov.uk/apply-citizenship-indefinite-leave-to-remain",
+   "label": "GOV.UK: apply for citizenship if you have indefinite leave to remain"
+  },
+  "citizenship_spouse": {
+   "url": "https://www.gov.uk/apply-citizenship-spouse",
+   "label": "GOV.UK: apply for citizenship if your spouse is a British citizen"
+  },
+  "life_in_uk": {
+   "url": "https://www.gov.uk/life-in-the-uk-test",
+   "label": "GOV.UK: Life in the UK test"
+  },
+  "student_visa": {
+   "url": "https://www.gov.uk/student-visa",
+   "label": "GOV.UK: Student visa (fee, money you need, dependants)"
+  },
+  "graduate_visa": {
+   "url": "https://www.gov.uk/graduate-visa",
+   "label": "GOV.UK: Graduate visa"
+  },
+  "hpi_visa": {
+   "url": "https://www.gov.uk/high-potential-individual-visa",
+   "label": "GOV.UK: High Potential Individual visa"
+  },
+  "hpi_list": {
+   "url": "https://www.gov.uk/government/publications/high-potential-individual-visa-global-universities-list",
+   "label": "Home Office: High Potential Individual visa, global universities list"
+  },
+  "global_talent": {
+   "url": "https://www.gov.uk/global-talent",
+   "label": "GOV.UK: Global Talent visa"
+  },
+  "appendix_gt": {
+   "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-global-talent",
+   "label": "Immigration Rules, Appendix Global Talent"
+  },
+  "ancestry_visa": {
+   "url": "https://www.gov.uk/ancestry-visa",
+   "label": "GOV.UK: UK Ancestry visa"
+  },
+  "visitor_visa": {
+   "url": "https://www.gov.uk/standard-visitor",
+   "label": "GOV.UK: Standard Visitor visa"
+  },
+  "eta": {
+   "url": "https://www.gov.uk/eta",
+   "label": "GOV.UK: electronic travel authorisation (ETA)"
+  },
+  "english": {
+   "url": "https://www.gov.uk/english-language",
+   "label": "GOV.UK: prove your English language abilities with a secure English language test"
+  },
+  "sponsor_guide": {
+   "url": "https://www.gov.uk/uk-visa-sponsorship-employers",
+   "label": "GOV.UK: UK visa sponsorship for employers (licence, certificates, immigration skills charge)"
+  },
+  "sponsor_register": {
+   "url": "https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers",
+   "label": "Home Office: register of licensed sponsors, workers (daily CSV)"
+  },
+  "times_outside": {
+   "url": "https://www.gov.uk/guidance/visa-processing-times-applications-outside-the-uk",
+   "label": "UKVI: visa processing times, applications outside the UK (updated 9 September 2026)"
+  },
+  "times_inside": {
+   "url": "https://www.gov.uk/guidance/visa-processing-times-applications-inside-the-uk",
+   "label": "UKVI: visa processing times, applications inside the UK (updated 9 September 2026)"
+  },
+  "bank_holidays": {
+   "url": "https://www.gov.uk/bank-holidays",
+   "label": "GOV.UK: UK bank holidays"
+  },
+  "ogl": {
+   "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+   "label": "The National Archives: Open Government Licence v3.0"
+  },
+  "cascot": {
+   "url": "https://cascotweb.warwick.ac.uk/#/classification/soc2020",
+   "label": "University of Warwick: CASCOT occupation coding tool (SOC 2020)"
+  },
+  "cr_guidance": {
+   "url": "https://www.gov.uk/government/publications/continuous-residence-caseworker-guidance",
+   "label": "Home Office: continuous residence caseworker guidance, version 10.0 (whole days, rolling 12 months)"
+  }
+ }
+}

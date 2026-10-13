@@ -1,0 +1,31 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { route } from '../../i18n/routes';
+import { AUTHOR_NAME, AUTHOR_DESC, CONTACT_EMAIL } from '../../data/site-config';
+import { STATIONS, DATA_META } from '../../lib/stations';
+import { fullDate } from '../../lib/engine/time';
+import { profilePageSchema, breadcrumbSchema } from '../../lib/seo';
+const lang = 'en';
+const path = route('about', lang);
+const title = 'Tide Day 2026: who publishes these tide charts and why';
+const description = 'Tide Day is published by Radif Partners: free 2026 tide charts for 92 US stations from NOAA predictions, with solunar times and a beach planner, no account.';
+const R = STATIONS.filter((s) => s.type === 'R').length;
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[profilePageSchema({ path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path }])]} breadcrumbs={[{ label: 'About' }]}>
+  <article class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>About Tide Day</h1>
+    <p>{AUTHOR_DESC.en}</p>
+    <h2>Why this site exists</h2>
+    <p>Search "tide chart" with the name of a beach and the results are often a page of times with no curve, built in the 1990s, or a forecast site that covers the whole world and nothing about fishing or planning a walk. Tide Day does better than the first Google result because it puts NOAA's own predictions for {STATIONS.length} named US stations on one screen you can read on a phone: the curve for today and seven days, the next high or low with a countdown, the tide coefficient, sunrise and sunset, the moon and the solunar periods, and a planner that answers "when can I walk the beach or launch the boat" for the next weeks.</p>
+    <h2>Who publishes it</h2>
+    <p>The site is published by {AUTHOR_NAME}, a company that builds free calculators and reference pages on public data. It is not affiliated with NOAA or any government agency, does not sell charters, gear or rentals, and carries no advertising today.</p>
+    <LegalIdentity lang={lang} />
+    <h2>What we use</h2>
+    <p>NOAA's predicted highs and lows for every station, NOAA's hourly predictions for the {R} reference stations among them, NOAA's datums and subordinate-station corrections, all downloaded on {fullDate(DATA_META.retrieved)} for {fullDate(DATA_META.begin)} to {fullDate(DATA_META.end)}. Sun and moon times come from Astronomy Engine, an open-source library, checked against NOAA's solar formula and the 2026 eclipses. Nothing is estimated from another tide website.</p>
+    <h2>How it is checked</h2>
+    <p>The tide curve is tested against NOAA's six-minute predictions, the windows of the planner against minute-by-minute sampling, and the times on daylight-saving days against the clock rules of each zone. The results and the limits are on the <a href={route('method', lang)}>method page</a>; how corrections work is in the <a href={route('editorial', lang)}>editorial policy</a>.</p>
+    <h2>Contact</h2>
+    <p>Questions and corrections: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>, or the <a href={route('contact', lang)}>contact page</a>.</p>
+  </article>
+</PageLayout>

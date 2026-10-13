@@ -1,0 +1,28 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, LEGAL, SITE_NAMES, SITE_URL } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'en';
+---
+<PageLayout title={`${SITE_NAMES[lang]} legal notice: publisher, host, terms and tide data`} description="Publisher and host of Tide Day, the terms of use of its tide charts, why they must never be used for navigation, the public-domain NOAA data they rely on, and governing law." lang={lang} noindex={true} breadcrumbs={[{ label: 'Legal notice' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Legal notice and terms of use</h1>
+    <p>Information given under Article 6 III-1 of French law no. 2004-575 of 21 June 2004, the publisher being established in France.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+    <p>Publication director: {AUTHOR_NAME}, responsible for the content of {SITE_URL}.</p>
+    <h2>Host</h2>
+    <LegalIdentity mode="hosting" lang={lang} />
+    <h2>Not for navigation</h2>
+    <p>{SITE_NAMES[lang]} shows predicted astronomical tides. They do not include the effects of wind, atmospheric pressure, storm surge, river discharge or ice, and the real water level can differ from them by a foot or more. The site is not an official nautical publication and must not be used to navigate, to judge a bar or channel crossing, or to decide whether an area is safe. Official charts, real-time water levels and notices to mariners take precedence over anything shown here.</p>
+    <h2>The data and its source</h2>
+    <p>High and low tide predictions are produced by the National Oceanic and Atmospheric Administration (NOAA), National Ocean Service, Center for Operational Oceanographic Products and Services. As works of the US government they are in the public domain; NOAA asks that its material be credited, which every page does. This site is independent of NOAA, which neither endorses nor reviews it. The curves between NOAA's highs and lows, the tide coefficient, the planner windows and the solunar periods are this site's own calculations and are presented as such, not as official government material.</p>
+    <h2>Liability</h2><p>Predictions are downloaded from NOAA and the calculations are tested before each release, yet errors cannot be ruled out. The publisher is not liable for decisions taken on the basis of this site. Please report any error through the <a href={route('contact', lang)}>contact page</a>.</p>
+    <h2>Intellectual property</h2><p>Texts, design and code belong to the publisher; short quotations with a link are welcome. NOAA predictions remain in the public domain.</p>
+    <h2>Embedding</h2><p>The tide chart may be embedded for free with its credit link visible: see the <a href={route('widget', lang)}>embed page</a>.</p>
+    <h2>Personal data</h2><p>The site sets no cookie and keeps nothing you choose or type. Details: <a href={route('privacy', lang)}>privacy policy</a> and <a href={route('cookies', lang)}>cookies page</a>.</p>
+    <h2>Reporting unlawful content</h2><p>Write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the address of the page.</p>
+    <h2>Governing law</h2><p>French law applies; failing an amicable settlement, the courts of {LEGAL.jurisdiction} have jurisdiction. Updated: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

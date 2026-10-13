@@ -1,0 +1,19 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { AUTHOR_NAME, REVIEW_CYCLE_MONTHS } from '../../data/site-config';
+const lang = 'en';
+---
+<PageLayout title="Editorial policy of Tide Day: tide data, local texts and corrections" description="How Tide Day chooses its stations, uses NOAA tide predictions without altering them, writes each local page and corrects mistakes; and what it will never claim about a tide." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Editorial policy</h1>
+    <h2>Data</h2>
+    <p>Tide times and heights come only from the predictions of NOAA's Center for Operational Oceanographic Products and Services, downloaded through its public API. The highs and lows are published as NOAA computes them; what this site adds (the curve between them, the tide coefficient, the planner windows, the solunar periods) is labelled as its own calculation and explained on the <a href={route('method', lang)}>method page</a>. Sun and moon times are computed with an open-source astronomy library and tested against independent references.</p>
+    <h2>Stations and texts</h2>
+    <p>A station gets a page when people search for its place and NOAA publishes predictions for a point that represents it. Each page names the exact station it uses. The text about each place is written for that place, from NOAA's own station data and corrections; it describes the tide, not the businesses around it, and recommends no charter, shop or rental.</p>
+    <h2>Independence</h2>
+    <p>{AUTHOR_NAME} has no link with NOAA or any agency, and receives nothing from marinas, charters, tackle shops or tourism offices. There is no advertising on the site today; if some is added it will be marked and kept away from the tide chart.</p>
+    <h2>Updates and corrections</h2>
+    <p>The predictions are downloaded again at least every {REVIEW_CYCLE_MONTHS} months and before the period they cover runs out, and the site is rebuilt so that "today" stays today. A reported error is checked against NOAA's figures for the same station and day and corrected; write through the <a href={route('contact', lang)}>contact page</a>.</p>
+  </div>
+</PageLayout>

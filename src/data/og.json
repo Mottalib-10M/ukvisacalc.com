@@ -1,0 +1,13 @@
+{
+ "accent": "#012169",
+ "symbol": "VISA",
+ "variants": [
+  {
+   "file": "og-en.png",
+   "title": "UK visa costs, thresholds\nand settlement dates",
+   "subtitle": "Skilled Worker · spouse visa · ILR · citizenship · sponsors",
+   "badge": "Home Office fees 8 Oct 2026",
+   "brand": "VisaCalc"
+  }
+ ]
+}

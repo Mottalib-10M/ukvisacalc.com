@@ -1,0 +1,459 @@
+# Continuous residence guidance (accessible) | updated 2026-10-08T10:00:03+01:00 | /government/publications/continuous-residence-caseworker-guidance/continuous-residence-guidance-accessible-version
+Version 10.0
+About this guidance
+This guidance for decision makers explains how to assess the continuous residence requirements for applications for settlement (indefinite leave to remain) in the UK under the routes where Appendix Continuous Residence applies.
+Other routes
+For the following routes you must use the Indefinite leave to remain: calculating continuous period in UK guidance:
+  Tier 1 (Entrepreneur)
+  Tier 1 (Investor)
+  Dependants of a Tier 1 (Entrepreneur) and Tier 1 (Investor)
+Nationality
+This guidance does not cover residence requirements for applications for nationality, although lengthy absences can impact on the applicant’s ability to meet the residency requirements for nationality: see Requirements and considerations common to all types of British nationality.
+Contacts
+If you have any questions about the guidance and your line manager or senior caseworker cannot help you or you think that the guidance has factual errors, then email the Settlement Policy team.
+If you notice any formatting errors in this guidance (broken links, spelling mistakes and so on) or have any comments about the layout or navigability of the guidance then you can email the Guidance, Rules and Forms team.
+Publication
+Below is information on when this version of the guidance was published:
+  version 10.0
+  published for Home Office staff on 08 October 2026
+Changes from last version of this guidance
+Corrections made to the qualifying period table to ensure accuracy and alignment with existing guidance. References to paragraph 39E of the Immigration Rules updated to refer to Part Suitability.
+How to assess continuous residence
+This section of the guidance explains how to assess that the continuous residence requirements have been met by the applicant.
+Who must meet the continuous residence requirement?
+Applicants who are in the UK on one of the routes listed below and who are applying for settlement must meet the continuous residence requirement:
+  Skilled Worker (and Tier 2 (General))
+  T2 Minister of Religion (and Tier 2 (Minister of Religion))
+  Scale-up Worker
+  International Sportsperson (and T2 Sportsperson and Tier 2 (Sportsperson))
+  Representative of an Overseas Business (and Media Representative and Sole Representative)
+  UK Ancestry
+  Global Talent (and Tier 1 (Exceptional Talent))
+  Innovator Founder (Innovator)
+  Domestic Worker in a Private Household
+  International Agreement Worker (and Private Servant in a Diplomatic Household)
+  Hong Kong British National (Overseas)
+  Dependants and Child Dependants of the routes listed above, except for UK Ancestry and Representative of an Overseas Business where there is no qualifying period of continuous residence for dependants
+  Appendix Settlement Family Life (previously included as 10-year partner or parent settlement under Appendix FM)
+  Appendix Private Life (previously paragraphs 276ADE(1)-276DH of Part 7) – this guidance applies for all settlement applications with the exception of a child born in the UK with 7 years continuous residence who is applying for immediate settlement - for guidance on children born in the UK refer to Settlement family and private life
+  Appendix Long Residence (previous paragraphs 276A – 276B
+  Appendix HM Armed Forces (settlement as a partner or child)
+  Appendix ECAA Settlement
+As a result of rules changes on 1 December 2020, 6 October 2021, 11 May 2022 and 20 June 2022 the names of some routes have changed. The previous name of the route is included in brackets in the list above. For example, Global Talent includes a person with permission under Appendix Global Talent, or a Global Talent migrant under Appendix W of the rules in force before 1 December 2020, or a Tier 1 (Exceptional Talent) migrant. The full definition of each route is included in the definitions section of the Immigration Rules.
+What does continuous residence mean?
+The continuous residence requirement is satisfied when the applicant has:
+  been lawfully present in the UK with relevant permission, for the qualifying period required by their route
+  not been absent from the UK for more than the specified periods, unless for permitted reasons
+  not broken their continuous residence
+How to decide whether an applicant meets the continuous residence requirement
+  the qualifying period for the route under which the applicant is applying, and whether the applicant has completed it
+  whether the applicant has been lawfully present in the UK
+  if the applicant has been absent for more than the specified allowed period
+  whether the applicant’s continuous residence has been broken during this time
+  that required evidence has been provided by the applicant
+Qualifying period
+An applicant’s most recent grant of permission must have been on the route to settlement the applicant is applying for (except for UK Ancestry, long residence, and children born in the UK applying under Appendix Private Life).
+The length of permission the applicant must have been granted and the relevant routes before qualifying for settlement is set out in the table below:
+   | 
+       | Route
+       | Rules reference
+       | Specific requirements with route
+       | Qualifying period of continuous residence needed for settlement
+       | Skilled Worker or Tier 2 (General)
+       | Appendix Skilled Worker SW 21.1 to SW 22.1
+       | Skilled Worker migrants can qualify for settlement after 5 years of continuous residence with permission on any (or any combination) of the following routes:- Skilled Worker- Global Talent- Innovator Founder- T2 Minister of Religion- International Sportsperson- Representative of an Overseas Business- Tier 1 Migrant, other than Tier 1 (Graduate Entrepreneur)- Scale-up
+       | 5 years
+       | T2 Minister of Religion or Tier 2 (Minister of Religion)
+       | Appendix T2 Minister of Religion MOR 14.1 and MOR 15.1
+       | T2 Minister of Religion migrants can qualify for settlement after 5 years of continuous residence with permission on any (or any combination) of the following routes:- Skilled Worker- Global Talent- Innovator Founder- T2 Minister of Religion- International Sportsperson- Representative of an Overseas Business- Tier 1 Migrant, other than Tier 1 (Graduate Entrepreneur)- Scale-up
+       | 5 years
+       | Scale-up Worker
+       | Appendix Scale-up SCU 15.1 to SCU 16.1
+       | Scale-up migrants can qualify for settlement after 5 years of continuous residence with permission on any (or any combination) of the following routes:- Scale-up- Skilled Worker- Global Talent- Innovator Founder- T2 Minister of Religion- International Sportsperson- Representative of an Overseas Business- Tier 1 Migrant, other than Tier 1 (Graduate Entrepreneur)
+       | 5 years
+       | International Sportsperson or T2 Sportsperson or Tier 2 (Sportsperson)
+       | Appendix International Sportsperson ISP 14.1 to ISP 15.1
+       | International Sportsperson migrants can qualify for settlement after 5 years of continuous residence with permission on any (or any combination) of the following routes:- Skilled Worker- Global Talent- Innovator Founder- T2 Minister of Religion- International Sportsperson- Representative of an Overseas Business- Tier 1 Migrant, other than Tier 1 (Graduate Entrepreneur)- Scale-up
+       | 5 years
+       | Representative of an Overseas Business or Media Representative or Sole Representative
+       | Appendix Representative of an Overseas Business ROB 14.1 and ROB 15.1
+       | Representatives of Overseas Businesses can qualify for settlement after 5 years of continuous residence as a Representative of an Overseas Business.A person applying as a Representative of an Overseas Business must either be a Media Representative or applying for an extension or settlement as a Sole Representative.Sole representatives can no longer apply for an initial period of permission in the Representative of an Overseas Business route.
+       | 5 years
+       | UK Ancestry
+       | Appendix UK Ancestry UKA 13.1 and UKA 14.1
+       | A person with UK Ancestry can qualify for settlement after 5 years of continuous residence on the UK Ancestry route. Unlike other routes, the applicant’s last grant of permission does not have to have been on the UK Ancestry route and the relevant continuous period does not have to have occurred during their most recent grant of permission – they can rely on any continuous 5-year period with permission on the UK Ancestry route.If the applicant’s last grant of permission was not on the Appendix UK Ancestry route, the 5 years is calculated by counting back from their last grant of permission under Appendix UK Ancestry.
+       | 5 years
+       | Global Talent or Tier 1 (Exceptional Talent)
+       | Appendix Global Talent GT 11.1 to GT 12.1
+       | Applicants on the Global Talent route can qualify for settlement after 3 years of continuous residence if they were endorsed:- by the Royal Society, British Academy, Royal Academy of Engineering or UK Research and Innovation (UKRI)- under the exceptional talent criteria by Arts Council England or Tech Nation- granted their initial application using a prize listed in Appendix Global Talent: Prestigious PrizesThe qualifying period must consist of time with permission on any of (or any combination of) the following routes:- Global Talent- Innovator Founder- Skilled Worker- T2 Minister of Religion- International Sportsperson- Tier 1 Migrant, other than Tier 1 (Graduate Entrepreneur)- Scale-up- Representative of an Overseas Business
+       | 3 years
+       | Global Talent or Tier 1 (Exceptional Talent)
+       | Appendix Global Talent GT 11.1 to GT 12.1
+       | Applicants on the Global Talent route can qualify for settlement after 5 years of continuous residence if they were endorsed under the ‘exceptional promise’ criteria by Arts Council England or Tech Nation.The qualifying period must consist of time with permission on any of (or any combination of) the following routes:- Global Talent- Innovator Founder- Skilled Worker- T2 Minister of Religion- International Sportsperson- Tier 1 Migrant, other than Tier 1 (Graduate Entrepreneur)- Scale-up- Representative of an Overseas Business
+       | 5 years
+       | Innovator Founder
+       | Appendix Innovator Founder INNF 18.1 and 19.1
+       | Innovator Founder migrants can qualify for settlement after 3 years of continuous residence on the Innovator Founder route.
+       | 3 years
+       | Domestic Worker in a Private Household
+       | Appendix Domestic Workers in a Private Household DW 9.1 to DW 10.1
+       | An applicant who entered the UK with a valid entry clearance as a domestic worker in a private household under the Immigration Rules in place before 6 April 2012 can qualify for settlement after 5 years of being lawfully in the UK employed in this capacity.
+       | 5 years
+       | Hong Kong British National (Overseas) (BN(O))
+       | Appendix Hong Kong British National (Overseas) route HK 62.1 and HK 63.1
+       | Hong Kong British National (Overseas) applicants can qualify for settlement after 5 years of continuous residence in the UK on this route or another route to settlement, as long as their last grant of permission was on the Hong Kong BN(O) route.
+       | 5 years
+       | Dependent Partner on the Representative of an Overseas Business or Media Representative or Sole Representative routes
+       | -
+       | There is no qualifying period requirement for a dependent partner on these routes.
+       | 0 years
+       | Dependent Partner on the UK Ancestry route
+       | -
+       | There is no qualifying period requirement for a dependent partner on this route.
+       | 0 years
+       | Dependent Partners of a person on the Global Talent, Innovator Founder, T2 Minister of Religion, International Sportsperson, Skilled Worker, Scale-up or Tier 1 Migrant routes
+       | Relationship Requirement sections for settlement in the relevant route appendices
+       | A dependent partner can qualify for settlement if they have 5 years’ continuous residence with permission as a dependent partner of a person on one of the following routes:- Global Talent- Innovator Founder- T2 Minister of Religion- International Sportsperson- Skilled Worker- Scale-up- Tier 1 Migrant, other than Tier 1 (Graduate Entrepreneur)
+       | 5 years
+       | Dependent Partner or Household Member (adult child) on the Hong Kong British National (Overseas) route
+       | Appendix Hong Kong British National (Overseas) HK 62.1 and HK 63.1
+       | An individual who was first granted permission as a Partner or Household Member (adult child) on the BN(O) route does not need to apply for settlement as a dependant. They can make an application in their own right under the Hong Kong BN(O) route. Those applying for settlement will need their last grant of permission to be on the BN(O) route and will need to have 5 years’ continuous residence on the BN(O) route or on another route to settlement.
+       | 5 years
+       | Dependent Children of a person on any of the routes listed in this table
+       | -
+       | No qualifying period required.
+       | 0 years
+       | Settlement Family Life
+       | Appendix Settlement Family Life SETF 3.1 to SETF 3.2 and SETF 4.1
+       | A person can qualify for settlement after 10 years of continuous residence.The qualifying period must consist of time with permission on any of (or any combination of) the following routes:- Appendix FM as a partner or parent (except for permission as a fiancé or proposed civil partner)- Family permission as a partner or parent (as described in grant letters)- Private Life under paragraph 276ADE or 276BE(2) before 20 June 2022- Appendix Private Life- Child of a person with limited leave as a partner or parent under Appendix FM- Leave Outside the Rules (LOTR) as a partner, parent or child, or because of private life on the basis of Article 8 of the Human Rights ConventionIf the applicant does not have a 10-year qualifying period as above, they can count time on any route leading to settlement if they:- did not enter the UK illegally- have had permission as a partner (if applying as a partner) or parent (if applying as a parent) under Appendix FM for at least one year
+       | 10 years
+       | Private Life
+       | Appendix Private Life PL 14.1 to PL 14.4 and PL 15.1 to PL 15A.3
+       | An applicant who has had permission to stay on the Private Life route as a child, or as a young adult who met the half-life test under PL 4.1, must have lived in the UK for a continuous qualifying period of 5 years.An applicant who is aged 18 or over at the date of application and does not meet the rule in PL 14.1 must have a continuous qualifying period of 10 years.The qualifying period must consist of time with permission on any of (or any combination of) the following routes:- Appendix FM as a partner or parent (except for permission as a fiancé or proposed civil partner)- Family permission as a partner or parent (as described in grant letters)- Private Life under paragraph 276ADE or 276BE(2) before 20 June 2022- Appendix Private Life- Child of a person with limited leave as a partner or parent under Appendix FM- Leave Outside the Rules (LOTR) as a partner, parent or child, or because of private life on the basis of Article 8 of the Human Rights ConventionPermission on any other route which leads to settlement also counts towards the qualifying period if the applicant:- did not enter the UK illegally (unless they have permission to stay on the Private Life route as a child or young adult)- had permission under paragraph 276ADE or 276BE(2) before 20 June 2022, or under Appendix Private Life, for at least one year at the date of application
+       | 5 years10 years
+       | Long Residence
+       | Appendix Long Residence LR 3.1 to LR 3.2 and LR 11.1 to LR 11.4 and LR 12.1
+       | The Long Residence route is for a person who has lived in the UK lawfully and continuously for 10 years or more.The person can count time with permission on most routes towards the 10-year qualifying period.
+       | 10 years
+       | Armed Forces (settlement as a Partner or Child)
+       | Appendix HM Armed Forces AF 27.1 to AF 27.3 and AF 28.1
+       | The applicant must have permission as the partner or child of a member of HM Armed Forces or an HM Armed Forces service leaver (excluding any period of entry clearance or permission to stay as a fiancé(e) or proposed civil partner).The applicant must also have completed a continuous period of 60 months (5 years) under Appendix HM Armed Forces or previous Appendix Armed Forces.The qualifying period of 60 months can be met by including periods of time spent with continuous residence on any other route to settlement if the applicant:- did not enter the UK illegally- has permission as a partner of a member of HM Armed Forces or an HM Armed Forces service leaver for at least one year immediately before the date of application
+       | 5 years
+       | ECAA Settlement
+       | Appendix ECAA Settlement ECAA 3.1, ECAA 4.1 and ECAA 6.2
+       | The applicant must have completed a continuous period of 5 years under the relevant ECAA route (for example, either as an ECAA business person, worker or partner) and in any combination of leave as specified in ECAA 3.1(b) or ECAA 4.1(b). The most recent period of leave must have been granted under the relevant ECAA route.
+       | 5 years
+Time spent living in the UK with permission
+This section explains how to assess whether the applicant has been living in the UK.
+You must assess whether the applicant has been living in the UK for the relevant qualifying period and with the required permission as set out in the qualifying period section of this guidance.
+Check immigration history
+You will need to check the time that the applicant has been in the UK on a route leading to settlement. You must check their person history on the case-working system to confirm what immigration status they have had and whether it matches the allowed types of permission for the type of settlement they are applying for.
+You must check how long they have been in the UK on the relevant route. You will need to check the route (to ensure it is a route that the person can count towards their qualifying period). You can check this in the person summary section of the casework system. You can also check any documents that show their immigration history such as their passport if available.
+You must count backwards from whichever of the following is most beneficial to the applicant to see whether they meet the qualifying period:
+  the date of application
+  any date up to 28 days after the date of application
+  the date of decision
+  if the applicant is applying for settlement on the UK Ancestry route, and their last grant of permission was not as a person with UK Ancestry, the date their most recent permission as a person with UK Ancestry expired
+A person who is applying for settlement on the UK Ancestry route needs only to have met all the requirements in Appendix Continuous Residence for the period they had permission on the UK Ancestry route, regardless of when that period was. Counting backwards from the last grant of permission on the UK Ancestry route includes those cases where the most recent grant of permission is on the UK Ancestry route.
+Time spent on 3C or 3D leave
+Time spent with leave extended by law under section 3C or 3D of the Immigration Act 1971 counts as time in the UK with permission on the relevant route for the purpose of calculating continuous residence (whether pending a decision on an application on that route or after an appeal or administrative review). Where there is a break in the continuous residence period during which the person does not have permission to stay, but where 3C leave is later resurrected, you should follow the guidance in Leave extended by section 3C (and leave extended by 3D in transitional cases) on how to treat the gap in lawful residence. Additionally, see the Overstaying exceptions section of this guidance.
+Where a person makes an in-time application, which is decided before their leave expires, the decision (as set out in section 3C(1)(c)) relates to the casework decision and not the conclusion of any subsequent administrative review or appeal.
+Where a long residence application is submitted by a person with an outstanding appeal, that application must be accepted as a human rights claim. If a decision is reached before the appeal hearing the decision can be considered as part of the appeal. If the decision is not made before the appeal hearing, the application can be considered as part of the appeal. In both cases, the application is considered to have been made in-time and 3C will continue until the applicant’s appeal rights are exhausted. Where an application is submitted whilst 3C is extending leave, pending an appeal, time after the applicant’s appeal rights are exhausted is not classed as lawful presence.
+What does the ‘UK’ mean in relation to continuous residence requirements?
+The United Kingdom (UK) means Great Britain and Northern Ireland only. The Crown Dependencies (Bailiwick of Jersey, the Bailiwick of Guernsey and the Isle of Man) are not part of the UK. However, any time the applicant has spent lawfully in a Crown Dependency may be treated as time spent in the UK, provided the applicant’s most recent grant of permission was in the UK on the relevant route. See the Crown Dependencies  section of this guidance for more information.
+Any time spent working offshore on the UK continental shelf, beyond the 12 nautical mile zone defined as UK territorial waters, does not count toward the continuous qualifying period for settlement, for example on ships or oil rigs. You must count this time as an absence from the UK.
+Crown Dependencies
+Time spent lawfully in the Crown Dependencies by applicants on a route equivalent to those in the UK will count towards the qualifying period for continuous residence, provided the applicant’s most recent grant of permission was in the UK on the relevant route. Details of routes categories and equivalents can be found in the Common Travel Area guidance.
+Where the applicant held permission on a route not included in the Common Travel Area guidance, you must treat any time spent under that permission in the Crown Dependencies as an absence from the UK.
+You will need to find out if the applicant has been living in the Crown Dependencies by checking the immigration history section of the form, and their person history on the case-working system. You must also check that their most recent grant of permission was in the UK.
+Period of full-time service overseas as a member of HM armed forces reserve
+If an applicant is a member of HM armed forces reserve, any time spent overseas during periods of permanent and full-time reserve duty must be treated as time spent in the UK on the applicant’s relevant route, for the purpose of calculating the qualifying period for continuous residence.
+Under Section 4(1) of the Reserve Forces Act 1996, non-Economic European Area (EEA) national members of the following reserve forces of HM armed forces may be enlisted to serve overseas in the:
+  Royal Fleet reserve, Royal Naval reserve, Royal Marines reserve
+  Army reserve, Territorial Army
+  Air Force reserve, Royal Auxiliary Air Force
+The enlistments concerned are permanent, full-time service that lasts for about 9 months and include a period of pre-operation training overseas.
+The Reserve Forces (Safeguard of Employment) Act 1985 requires that, where the reservist is in civilian employment:
+  before service the employer consents to the deployment
+  the reservist is re-employed after service by the same employer
+Under the Armed Forces Covenant, no member of HM armed forces is to be disadvantaged because of their service.
+For more information see: Armed Forces.
+Evidence needed to show period spent on full-time service overseas as a member of HM armed forces reserve
+The applicant should provide evidence in the form of a letter from each of the following:
+  the armed force concerned, which confirms the deployment and the dates
+  the employer, which confirms the applicant’s release for reserve service and their date of re-employment
+Appendix HM Armed Forces Transitional arrangements
+Appendix Continuous Residence (in paragraph CR 3.7) recognises there were no absence requirements before the simplification of Appendix HM Armed Forces.
+For applicants applying for settlement under Appendix HM Armed Forces, any absences from the UK which began before 8 October 2024, will not be counted or considered when calculating absences from the UK.
+Lawful presence
+For time spent in the UK to count towards the qualifying period for continuous residence, the person must be regarded as lawfully present. CR. 2.1 of the Immigration Rules includes details of periods of residence not counted as lawful presence.
+You should check the personal history (including criminal convictions and war crimes) section of the application, along with the person history on the case-working system to check the applicant has not broken their continuous residence as set out in Appendix Continuous Residence.
+An applicant will not be lawfully present, where the applicant required permission and did not have it and none of the overstaying exceptions in CR 4.1(d) apply.
+During the Coronavirus Extension Concession, a grace period was given between 1 August and 31 August 2020 for individuals to make arrangements to leave the UK. During this period individuals were not subject to sanctions that apply to overstayers, and the conditions of stay in the UK were to be the same as the conditions of the individual’s previous permission. So, if their previous conditions allowed them to work, study or rent accommodation they could continue to do so during the period August 2020, ahead of leaving the UK.
+This period is considered as lawful presence, but only where an applicant’s permission expired immediately before the grace period.
+Calculating absences
+This section explains how to calculate absences and what information to review before calculating absences.
+Determining periods when an applicant was absent
+The applicant is asked to list any absences in the immigration history section of the application form.
+Where absences have been declared, you must check the copy of the applicant’s documentation such as passport pages or travel documents, if available, for a record of absences to see if the evidence supports the information on the application form. Remember that not all absences may be recorded in a passport or travel document.
+If you have reason to believe that not all their absences have been declared, you should follow Checking the entry date section of this guidance.
+For family and private life applications, the application form will only ask the applicant to list their absences if they have been absent for 150 days or more in any 12-month period within their qualifying period. This is to ensure that cases where the person is close to 180 days, but may not be certain, are captured. It still remains the case that only absences of more than 180 days in a 12-month period will break continuous residence.
+Again, if you have reason to believe that not all their absences have been declared, you should follow Checking the entry date section of this guidance.
+Caseworkers may be asked to carry out checks on applications that don’t declare absences on a random basis. This can be done by requesting information from the applicant, checking copies of the applicant’s documentation such as passport pages and travel documents for a record of absences, as well as by following the Checking the entry date section of this guidance.
+Addressing discrepancies
+If the applicant has not listed all their dates of absence on the form, or stated they were absent for less than 150 or 180 days in a 12-month period or 184 days in a period if the absence started before 11 April 2024 for Appendix Long Residence, but the passport evidence or other records demonstrate they were absent for longer than stated, you must ask for more information and clarification to clear this discrepancy. Follow the Missing or inadequate evidence section of this guidance for more information.
+It is possible for absences to be overlooked or forgotten so you must give the applicant an opportunity to explain any inconsistencies and confirm the correct dates.
+If the applicant insists there was no absence for the dates in question, you can explain what evidence you have to show they were outside the UK.
+Calculating the qualifying period for continuous residence
+Where a person is applying for settlement as soon as they qualify you will need to calculate their qualifying period of continuous residence. See ‘Check immigration history’ section of this guidance on how to calculate the qualifying period of continuous residence.
+In these instances, you must establish the date the applicant was granted entry clearance. The time between the grant of entry clearance and the date of arrival is a period during which they had permission on that route and should be treated as a period of lawful residence. In these instances, you must establish the date the applicant entered the UK. The time between the grant of entry clearance and the date they entered the UK counts towards the total of absences.
+Where the applicant is applying on the basis that they were born in the UK, the qualifying period for continuous residence is calculated from their date of birth.
+Checking the entry date
+You may not be able to see the applicant’s date of entry on passport pages, for example if they entered using eGates that digitally scan passports. In addition to this, applicants who enter through Ireland don’t pass through immigration control and so cannot demonstrate their date of entry to the UK using their passport. If you have reason to believe that the date of entry provided by the applicant is not correct, you may need to check other Home Office systems to confirm this.
+  Official – sensitive: start of section
+The information in this section has been removed as it is restricted for internal Home Office use.
+  Official – sensitive: end of section
+You can also ask the applicant for documentation such as, but not limited to:
+  a copy of the applicant’s travel ticket or boarding pass showing the date of arrival
+  bank statements which will help you to identify a pattern of payments where transactions take place to show the applicant was in the UK
+  independent evidence of activity following entry - such as a letter from an employer stating when the applicant started their employment in the UK
+If the evidence is still inconclusive as to the date of entry and therefore the applicant may not have resided continuously for the required period, you can seek the advice of your senior caseworker on how to proceed.
+Calculating the length of absences
+The 12-month period
+If the applicant’s qualifying period includes permission granted before 11 January 2018, any absences during that period of permission are considered in consecutive 12-month periods ending on the date of application.
+Absences from the UK during a period of permission granted on or after 11 January 2018 are considered on a rolling basis over any 12-month period. This means that absences should not be considered solely in fixed consecutive 12-month periods, as they are for those with permission granted before 11 January 2018. Instead, absences are considered in any 12-month period they may fall within.  
+The table below shows how absences are considered based on an example of an applicant having permission granted on 1 July 2015 (prior to 11 January 2018) which expired on 28 July 2018, and where that person made a settlement application on 30 June 2020.
+   | 
+       | Any absences during a period of permission from 1 July 2015 to 28 July 2018
+       | Any absences during a period of permission from 29 July 2018 to 30 June 2020
+       | Considered in separate consecutive 12-month periods, ending on 30 June each year as 1 July would be the new 12-month period.
+       | Considered on a rolling basis over any 12-month period that includes the applicant’s absences.
+For Appendix Long Residence, where the applicant had an absence which began before 11 April 2024 and they did not return to the UK until on or after 11 April 2024, the 12-month rolling period would not begin until the start of the next absence from the UK.
+When absences will count towards the absence limit
+Any period spent outside of the UK, will count towards the 180-day or 184-day absence limit. The 184-day absence limit is applicable for applicants under Long Residence for any absences which started before 11 April 2024. Periods spent outside the UK includes any period:
+  when their permission remained valid
+  when they do not have a grant of permission
+  while an entry clearance application or permission to stay application is under consideration
+  before they entered the UK, once entry clearance had been granted
+Calculating absences which started before 11 April 2024 for Appendix Long Residence
+If the applicant is applying under Appendix Long Residence, any absences from the UK which started before 11 April 2024 will be considered towards a limit of 184 days in any single absence, and not more than 548 days in total for any part of the qualifying period before 11 April 2024.
+If the applicant has been absent from the UK for more than 184 days in any single absence where that absence started before 11 April 2024, or more than 548 days in total during any part of the qualifying period before 11 April 2024, the application should normally be refused, if none of the permitted reasons in CR 3.4 apply.
+Example 1 - Appendix Long Residence (whole qualifying period before 11 April 2024)
+An applicant under Appendix Long Residence:
+  completed a 10-year qualifying period on 10 April 2024
+  had 2 single absences of 50 days and 120 days respectively, with both absences completed (so they returned to the UK) before 11 April 2024
+Neither of the 2 absences exceeded the individual absence limit of 184 days. The total absences during the qualifying period did not exceed 548 days. Therefore, the applicant’s continuous residence is not broken.
+Example 2 - Appendix Long Residence (qualifying period started before 11 April 2024 and was completed on or after 11 April 2024)
+An applicant under Appendix Long Residence:
+  completed a 10-year qualifying period on 20 January 2025
+  had a total of 5 absences from the UK during the 10-year qualifying period:
+      absence 1 – 1 July 2015 until 28 November 2015
+      absence 2 – 1 January 2017 until 31 May 2017
+      absence 3 – 1 October 2018 until 28 February 2019
+      absence 4 – 1 April 2024 until 1 July 2024
+      absence 5 – 1 August 2024 until 20 January 2025
+As the qualifying period included time both prior to 11 April 2024, and on or after 11 April 2024, these 2 periods are considered individually in accordance with the relevant rules for that period, to assess whether continuous residence is broken.
+Prior to 11 April 2024, and during their 10-year qualifying period, the applicant had 3 completed absences (so they left and returned to the UK prior to 11 April 2024). These 3 absences:
+  did not exceed the applicable individual absence limit of 184 days
+  did not exceed the total absences limit of 548 days
+Continuous residence was therefore not broken in the 3 absences which completed prior to 11 April 2024.
+The applicant had 2 further absences during their 10-year qualifying period; an absence from 1 April 2024 until 1 July 2024, and an absence from 1 August 2024 until 20 January 2025.
+The absence from 1 April 2024 until 1 July 2024:
+  did not exceed the individual absence limit of 184 days (which is the applicable limit for any absence that started prior to 11 April 2024)
+  did not exceed the total absences limit of 548 days, which applies to periods prior to 11 April - the total absences included for the purpose of calculating the 548-day limit are:
+      the period of absence from 1 April 2024 until 10 April 2024
+      the 3 absences which were completed prior to 11 April 2024
+The absence from 1 August 2024 to 20 January 2025:
+  did not exceed the applicable individual absence limit of 180 days in any 12-month rolling period (which applies to absences that commenced on or after 11 April 2024) - the earliest 12-month rolling period is from 1 August 2024, as this was the beginning of the first absence to start on or after 11 April 2024 - see Calculating the length of absences
+Continuous residence is therefore not broken throughout the qualifying period.
+Example 3 - Appendix Long Residence (qualifying period started on or after 11 April 2024)
+An applicant under Appendix Long Residence:
+  completes a 10-year qualifying period on 30 April 2034
+  has one absence during that qualifying period, from 1 July 2030 until 10 August 2030
+Any absences that started on or after 11 April 2024 must not exceed a combined total of 180 days in any rolling 12-month period. As the applicant is absent from the UK for less than 180 days in a 12-month period, continuous residence is not broken.
+Count whole days
+You must only include whole days when calculating an applicant’s absences. Part day absences, less than 24 hours are not counted.
+For example, if the applicant was absent for 180 days during the 12-month period and started their journey back to the UK on day 180 but arrived on day 181, day 181 would not be a day of absence and the period would not exceed 180 days.
+Permitted absences
+This section explains what types of absences are permitted.
+If an absence is for one of the following reasons it will not count towards the 180-day limit or 184-day / 548-day limits:
+  if the applicant was assisting with a national or international humanitarian or environmental crisis overseas
+  travel disruption due to a natural disaster, military conflict or pandemic
+  compelling and compassionate personal circumstances, such as the life-threatening illness of the applicant or a close family member
+  research activity undertaken by a Skilled Worker which was approved by their sponsor and where the applicant was sponsored for a job in one of the following occupation codes:
+      2111 Chemical scientists
+      2112 Biological scientists
+      2113 Biochemists and biomedical scientists
+      2114 Physical scientists
+      2115 Social and humanities scientists
+      2119 Natural and social science professionals not elsewhere classified
+      2161 Research and development (R&D) managers
+      2162 Other researchers, unspecified discipline
+      2311 Higher education teaching professionals
+  research activity undertaken by a person on the Global Talent route who qualified using a prize in table 6 of Appendix Global Talent: Prestigious Prizes or who was endorsed by:
+      The Royal Society
+      The British Academy
+      The Royal Academy of Engineering
+      UK Research and Innovation
+  where an applicant is applying under Appendix Settlement Family Life, they may be absent for the purposes of work, study or supporting family overseas, so long as the family have throughout the period of absence maintained a family life in the UK and the UK remained their place of permanent residence
+  if the applicant’s partner is on crown service as one of the following and the applicant accompanies them overseas:
+      a member of HM Armed Forces (the Royal Navy, the Royal Marines, the Army (including the Brigade of Gurkhas) and the Royal Air Force)
+      an employee of the UK Government, a Northern Ireland department, the Scottish administration or the Welsh Government
+      a permanent member of the British Council
+Assessing reasons for absences
+You must check the reasons for any absences that the applicant has provided on their application form or supporting documents to determine whether an absence counts.
+You must check the person history on the case-working system to confirm that the reasons provided for an absence are consistent with their immigration history, for example, to confirm that a person undertaking research activity was employed in a sponsored job in one of the listed occupation codes.
+The applicant should provide evidence of absence for a permitted reason. There is no specified evidence to demonstrate a reason for an absence, but examples of the type of evidence you might expect to see are set out in the sections below.
+If you are not satisfied the evidence shows an absence was for a permitted reason, you should follow the Missing or inadequate evidence section of this guidance as well as the guidance for Evidential flexibility.
+Assistance with a national or international humanitarian or environmental crisis overseas
+You should confirm, using publicly available and credible sources that there was such a crisis at the time claimed by the applicant (which can include assistance provided in the immediate aftermath).
+You must be satisfied that the applicant’s sponsor (where they are on a sponsored route) agreed to their absence for that purpose. You would normally expect to see:
+  a letter from their sponsor agreeing to the absence for that purpose and confirming the start and end dates of the applicant’s permitted absence
+  evidence such as payslips or personal bank statements covering the entire period of absence to show the applicant was still employed during that time
+You must also be satisfied that the applicant was assisting in the response to the crisis. You would normally expect to see:
+  relevant documents from an official source independently verifiable, showing the duration of and purpose of any assistance
+Travel disruption due to a natural disaster, military conflict or pandemic
+You should confirm, using publicly available and credible sources, that there was a natural disaster, military conflict or pandemic at the relevant time which caused travel disruption. The Foreign and Commonwealth Office travel advice pages on GOV.UK may be helpful to confirm this.
+You should normally expect the applicant to provide evidence of how their ability to travel to the UK was affected, for example, evidence of disruption to planned travel arrangements.
+Absences: compelling and compassionate personal circumstances
+Absences for compelling and compassionate personal circumstances will not count towards the 180-day limit or the 184-day / 548-day limits.
+Compelling and compassionate personal circumstances includes the life-threatening illness of the applicant or a close family member. Close family members for this purpose include a parent, partner, child, grandparent, brother, sister, stepparent, uncle, aunt, and grandchildren.
+The applicant is expected to provide evidence. For example, you may expect to see a letter setting out the details of the circumstances, accompanied by supporting documents such as medical certificates.
+Compelling and compassionate circumstances are not limited to only the life-threatening illness of the applicant or a close family member and you will need to judge each case on its merits. Factors you might consider include but are not limited to:
+  whether the reason is credible and evidenced
+  whether it was in the applicant’s control
+  was the absence planned, for example, not in response to urgent or unexpected events
+  was the applicant prevented from returning to the UK, or did they experience a significant delay outside their control preventing them from returning the UK
+Examples of evidence you might expect to see in such cases include, but are not limited to:
+  medical certificates or medical records that show:
+      the applicant (or their dependant and / or child dependant) were unable to return to the UK due to factors such as ill health affecting themselves or family members
+      urgent need to seek medical care from overseas services
+      a medical appointment for the applicant that wasn’t planned before leaving the UK and / or regularly taken overseas
+  medical certificates or medical records attesting to life-threatening illness of a close family member
+  evidence of the role the applicant has played as a carer to a close family member with a life-threatening or serious illness
+  birth or death certificates
+Absences for research linked to work
+Where an applicant is a Skilled Worker (or a Tier 2 (General) Migrant) claiming the absence was for this reason you must check:
+  the occupation code on their Certificate of Sponsorship
+  that the absence was approved by their sponsor
+  that the absence was for research purposes
+You must confirm that the applicant’s sponsor (where they are on a sponsored route) agreed to their absence for this purpose. There is no specified evidence for this, but you would normally expect to see:
+  a letter from their sponsor agreeing to the absence for this purpose confirming the start and end dates of the applicant’s absence
+  payslips or bank statements covering the entire period of absence or other evidence to show the applicant was still employed during this time
+Where an applicant is a Global Talent migrant claiming to be absent for this reason, they can rely on this as a permitted absence if they qualified using a science, engineering, humanities or medicine award listed in table 6 of Appendix Global Talent: Prestigious Prizes.  They can also rely on this if they were endorsed by one of:
+  The Royal Society
+  The British Academy
+  The Royal Academy of Engineering
+  UKRI
+You can find their endorsement in their person history on the case-working system. In general, if an applicant is endorsed by those endorsement bodies listed above, the applicant will not be required to provide agreement or any documentation to prove their absence is related to research. You may accept that the applicant is absent for research purposes.
+Permitted absences under Appendix Settlement Family Life where family life maintained in UK
+Where the applicant has been absent from the UK for more than 180 days in a 12-month period for work, study or supporting family overseas, they can rely on this period being a permitted absence so long as the family have throughout the period of absence maintained a family life in the UK and the UK remained their place of permanent residence.
+You should check the information on the application form to see the reason for the absence and for any information that indicates that family life has been maintained in the UK and the UK has remained their place of permanent residence (for example you can check address history or, where provided, employment history).
+You will need to be satisfied that the reasons for the absence are work, study or supporting family overseas. There is no specified evidence, and the information people provide may vary depending on their particular circumstances. The examples below include the type of evidence you might see.
+If the absence was for work, you might expect to see:
+  letter from employer giving reasons for the absence from the UK and nature of the work being done outside the UK
+  payslips or bank statements covering the period of absence or other evidence to show the applicant was employed at the relevant time
+If the absence was for study, you might expect to see:
+  letter confirming enrolment for studies abroad
+If the absence was to support family overseas, you might expect to see:
+  evidence of why the family member overseas needed support (for example if they are ill, elderly, or needed childcare)
+  evidence of the role the applicant has played – for example as a carer to a family member
+You will need to be satisfied that family life and residence was maintained in the UK while the person was outside the UK. There is no specified evidence, and the information people provide may vary depending on their particular family circumstances. The examples below give some scenarios which can indicate that family life has been maintained in the UK but are not exhaustive.
+If one family member has left the UK and other family members remain
+For example, if the partner or children (who are not leading an independent life) remain in the UK:
+  there is evidence of the applicant returning to the UK to visit partner or children in UK or the family who have remained in the UK visiting the applicant overseas
+  retention of the family home in the UK, such as utility bills in the name of the applicant or partner
+  a tenancy agreement for a rental property in the UK, or mortgage agreement / proof of ownership of property in the UK
+If the whole family (partners and children) are absent from UK
+The family unit may have travelled abroad with the applicant for some or all of the time. If the family have relocated, you might expect to see evidence that it was temporary such as:
+  evidence of a temporary work-posting
+  evidence that the family intended to return to the UK, for example where the absence was a sabbatical, or that children were still enrolled in school and would return at a later date
+  evidence that a home / permanent residence has been maintained in the UK such a tenancy agreement for a rental property in the UK, or mortgage agreement / proof of ownership of property in the UK
+Where the whole family is absent from the UK you should also consider whether the period of absence was more than half the period of their permission to stay in the UK. For example, of a grant of permission of 30 months the applicant was absent for more than 15 months. This could indicate that the UK did not remain their place of permanent residence. If you are in doubt about intentions, you may want to make further enquiries to the applicant.
+Permitted absences for dependants
+A dependant applying as such may be absent for any of the permitted reasons and a dependant may also be absent for the period when their partner (in the case of a dependent partner) or parent (in the case of a dependent child) was absent for a permitted reason.
+If the dependant is applying at a different time from the person on whom they are dependent (the lead applicant), you should check the lead applicant’s person history on the case-working system to confirm they had a permitted absence. You may wish to request additional evidence of the lead applicant’s reasons for absences where this is not sufficiently clear. See ‘Where evidence is missing or inadequate’ section of this guidance for more information.
+Permitted absences for Crown service dependants
+Where the applicant has been absent from the UK for more than 180 days in a 12-month period and has been accompanying their partner on Crown service this period is a permitted absence.
+The partner must be a permanent member of HM Diplomatic service or a comparable UK-based staff member of the British Council, an employee of the UK Government, a Northern Ireland department, the Scottish administration or the Welsh Government, or a member of HM Forces on a tour of duty outside the UK.
+In circumstances where you may need to establish that the applicant had accompanied their partner on Crown service you can request a letter on official stationery from the partner’s head of mission or person with sufficient authority within the relevant department. The letter should confirm the partner is a Crown servant, and the start date and end date (or expected end date) of the partner’s period of Crown Service outside the UK.
+Breaking continuous residence
+This section explains how continuous residence can be broken.
+Absences from the UK
+Continuous residence is broken in specified circumstances such as when an applicant:
+  is absent for more than 180 days in any 12-month period without permitted reasons
+  is applying under Appendix Long Residence and was absent for a period of more than 184 days at any one time where the absence started before 11 April 2024, or spent a total of 548 days outside the UK in any part of their qualifying period before 11 April 2024 - for any part of the qualifying period on or after 11 April 2024 the applicant must not have been outside the UK for more than 180 days in any 12-month period (see Calculating the length of absences)
+  is applying under Appendix Long Residence, left the UK before 24 November 2016 with no valid leave to remain on their departure from the UK, and failed to apply for entry clearance within 28 days of their previous permission expiring (even if they returned to the UK within 184 days)
+Appendix Long Residence: transitional arrangements for applicants where the absence started before 11 April 2024
+Appendix Continuous Residence (at paragraph CR 3.3) recognises that its provisions are different from the previous long residence rules at paragraph 276A and makes transitional arrangements specifically for long residence applicants. These transitional arrangements preserve the position that continuous residence will be broken if an applicant has been absent from the UK for more than 184 days at any one time where the absences started before 11 April 2024, or for more than a total of 548 days overall in any part of their qualifying period before 11 April 2024.This means that:
+  any single absences started before 11 April 2024 must be no longer than 184 days
+  any part of a 10-year qualifying period before 11 April 2024 must not have total absences of more than 548 days
+  from 11 April 2024 the applicant must not have been outside the UK for more than 180 days in any 12-month period (see Calculating the length of absences)
+Imprisonment and detention
+An applicant’s continuous residence will be broken if they are convicted of an offence in the UK and sentenced to a period of imprisonment (this does not include suspended sentences which do not break continuous residence).
+Any time spent in the UK before their period of imprisonment, and the period of imprisonment itself, does not count towards the qualifying period for continuous residence. There is one exception to this as outlined in the paragraph below.
+However, where an applicant is applying for settlement under Appendix Settlement Family Life or Appendix Private Life and has been sentenced to less than 12 months imprisonment, time spent in the UK before their imprisonment can be counted towards the qualifying period of 10-years continuous residence. The period of imprisonment itself will not count towards the qualifying period and the applicant must have completed 5 years continuous residence since the end of their most recent sentence.
+An applicant’s continuous residence will also be broken if they are directed to be detained for immigration purposes in an institution other than a prison, for example, in immigration detention. Where an applicant is applying for settlement under Appendix Settlement Family life or Appendix Private Life has been directed to be detained in an institution other than a prison for example, immigration detention for less than 12 months, the period of detention itself will not break the applicant’s continuous residence but will not count towards the qualifying period for continuous residence.
+You must check the case-working system to see whether the applicant has a criminal history, and if so check whether they have been sentenced to a period of imprisonment and how long for (unless it is a suspended sentence) or have been directed to be detained, including in immigration detention.
+Deportation and exclusions
+An applicant’s continuous residence is broken if they are subject to any of the following:
+  a deportation order
+  an exclusion order
+  an exclusion direction
+You can check whether the applicant is subject to deportation or exclusion by checking for a Deportation Case Card or Exclusion Case Card on the Person Summary View on the casework system, or by checking their person history on Case Information Database (CID).
+Where a deportation or exclusion order or an exclusion decision is lifted, time spent in the UK before the order or decision, and while the order or decision was extant, do not count towards the qualifying period for continuous residence.
+Continuous residence is broken where an applicant is deported or removed from the UK, and the permission held at the time of leaving the UK has expired unless before 24 November 2016, the applicant made a successful application for entry clearance or permission (either in or outside the UK) within 28 days of the date their previous permission expired.
+Removal directions
+An applicant’s continuous residence is broken if they are subject to removal directions, or for applications under Appendix Long Residence they are removed from the UK, under section 10 of the Immigration and Asylum Act 1999.
+Time spent in the UK before the removal direction was made, and while the removal direction was extant, does not count towards the qualifying period for continuous residence unless they are being considered as part of an application under Appendix Long Residence.
+You can find out if the applicant has been served a removal direction notice and whether it expired by going to the Notice of Liability section of the Compliance and Enforcement Case Card. If the applicant has had removal directions set upon them or cancelled, you can go to the Arrange Travel Service on the Compliance and Enforcement Case Card.
+You can find out if the applicant has already been removed as a result of removal directions by going to the Compliance and Enforcement Case card in the Person Summary View.
+For cases not on Atlas, you should check the person record on CID.
+Overstaying exceptions
+Overstaying means remaining in the UK after a person’s permission has expired. Overstaying will break a person’s continuous residence unless certain circumstances apply:
+  see circumstances where SUI 13.1. and SUI 13.2. of Part Suitability of the rules (exceptions for overstayers) applies, which are explained in the Applications from overstayers guidance
+  see applications for permission made before 24 November 2016, which are explained in the Applications from outside the UK section of this guidance
+It is important to note that in the case of an application being made within 14 days of the applicant’s leave expiring, a good reason beyond the control of the applicant or their representative as to why the application could not be made in-time must be provided in order for SUI 13.1. to apply. Applicants are expected to make their applications in-time.
+Where an application is made and SUI 13.1. of the rules applies (or the applicant made a successful application before 24 November 2016 for permission within 28 days of the date of their previous permission), the period of time where the applicant did not have permission, will not break continuous residence but will not be counted towards the qualifying period as a period of lawful presence in the UK.
+For example, an applicant comes to the end of their 3 years permission but makes their next application 10 days after their previous permission ended and gives a good reason beyond their control for the late application. The application is within SUI 13.1., so the applicant is not refused as an overstayer and goes on to be granted a further 3 years permission. It takes 6 months for the application to be considered. The period between the expiry of the previous permission and the subsequent application being granted (that is, the 10 days and 6 months) does not break the applicant’s continuous residence but does not count towards the qualifying period. The applicant has 6 years continuous residence (3 years and 3 years), not 6 years, 6 months and 10 days.
+Overstaying during COVID-19 pandemic
+If the applicant’s permission to stay expired between 24 January 2020 and 31 August 2020, they may have overstayed. You do not have to seek evidence of the reason for any overstaying during this period. The Coronavirus Extension Concession (CEC) automatically extended the permission of people who were in the UK which would otherwise have expired during the period 24 January 2020 to 31 July 2020. Following the ending of the Coronavirus Extension Concession, the Home Office provided a grace period between 1 August to 31 August 2020 to allow individuals time to make arrangements to leave the UK.
+Any overstaying between 24 January 2020 and 31 August 2020 must be disregarded in line with SUI 13.1. of the Rules and will not break continuous residence. You should be alert to this, as time spent in the UK during the CEC and following grace period is to be regarded as lawful presence and must count towards the qualifying period for the purposes of settlement applications. For more information see the Coronavirus Extension Concession (CEC) and the Exceptional Assurance (EA) Concession guidance.
+Exceptional assurance
+Time spent in the UK during a grant of exceptional assurance between 1 September 2020 to 28 February 2023, does not break continuous residence. This time, however, does not count towards the qualifying period for continuous residence on any route. For more information see the Coronavirus Extension Concession (CEC) and the Exceptional Assurance (EA) Concession guidance on how to deal with overstaying during this period.
+For the purposes of paragraph CR 4.1(d)(ii) –(iii), a person should be considered as if they had permission (although they did not have permission) if they left the UK with exceptional assurance, if they had permission before they were given an exceptional assurance. None of the time (in or outside the UK) with exceptional assurance counts toward the qualifying period for continuous residence, and any time outside the UK (with or without exceptional assurance) is counted as an absence.
+How to identify overstaying
+You can find out if an applicant is currently an overstayer by checking the date their last permission expired on the case-working system. You must also check the application form to see if the applicant has provided reasons for overstaying. You must consider these in line with the overstayer guidance.
+You can find out if an applicant has overstayed in the past by looking at the Personal History section of their application form and their person record on the case-working system. If the overstaying was before a previous application, you should check their case history to confirm whether the previous caseworker decided the overstaying was within one of the overstaying exceptions.
+Applications from outside the UK
+In limited circumstances where a person had permission before leaving the UK and made a successful application from outside of the UK, it will not break continuous residence.
+Applications for permission that were made outside the UK on or after 24 November 2016 will not break continuous residence if:
+  the applicant had permission when they left the UK and made a successful application for entry clearance before that permission expired
+  the applicant had permission when they left the UK and made a successful application for entry clearance within 14 days of that permission expiring except for applicants applying under Appendix Long Residence
+  under Appendix Long Residence, where the applicant had permission when they left the UK, and returned to the UK with valid permission in the same or another route, provided the applicant was not absent for more than 184 days where the absence started before 11 April 2024, or 180 days for absences which started on or after 11 April 2024, continuous residence is not broken
+Applications for permission that were made outside the UK before 24 November 2016 will not break continuous residence if:
+  the applicant made a successful application for permission within 28 days of their previous permission expiring
+  the applicant had permission when they left the UK and made a successful application for entry clearance before that permission expired
+Assessing the evidence
+This section explains what to consider when assessing evidence.
+You must carefully consider the information on the application form and other available evidence before deciding whether you are satisfied that the continuous residence requirement is met.
+Although the burden of proof is on the applicant, if they have not yet provided you with sufficient evidence, you should consider whether you should ask them for further information, or you can seek to verify evidence before deciding the application.
+If the applicant provides evidence that shows the requirement is met and you do not accept that the evidence is genuine, the burden of proof is then on you to show that it is more likely than not that the evidence is not genuine. In such cases, you should also consider the guidance on false representations.
+Burden and standard of proof
+The applicant must show that they meet the continuous residence requirement. If you do not consider that a period in the UK counts as continuous residence or lawful presence the burden of proof is on the Home Office. The standard of proof is the balance of probabilities (it is more likely than not).
+If the applicant provides evidence which you do not accept is genuine, the burden of proof is then on you to show that it is more likely than not that the evidence is not genuine. In such cases, you should also consider the guidance on false representations.
+Format of evidence
+There is no specific format requirement for most documents. This doesn’t mean that format is irrelevant – it will help you assess if a piece of evidence is genuine and if it provides the information you need to be satisfied requirements are met - but it does mean you must not refuse an application because the evidence is not in a particular format.
+If evidence does not include the information that you would normally expect, you should consider whether to take further action to verify it.
+Where evidence is missing or inadequate
+The applicant will be told what evidence to provide as part of the application process. However, sometimes evidence is missing or inadequate.
+If evidence is missing or inadequate, but you do not need the information because you can get it elsewhere, for example, from a previous application, you do not need to contact the applicant.
+If evidence is missing or inadequate but receiving it would make no difference to your decision (for example because they would still be refused for other reasons), you do no need to contact the applicant).
+If the evidence is missing or inadequate, you should consider asking for further information or making verification checks, for example:
+  evidence is missing that you believe the applicant has or could obtain
+  evidence is inadequate but could be clarified
+You may decide to ask for further information from the applicant, sponsor or endorsing body, or make verification checks. For more information see the guidance for Evidential flexibility.
+Where the applicant cannot provide documentary evidence of reasons for a permitted absence, you must consider any explanation they have provided for the lack of documentary evidence. Where there are concerns about the nature or length of the absences you may wish to contact the applicant to seek further information about their circumstances. You should consider all evidence and explanations (where relevant) before making a decision.
+Refusals
+If you are not satisfied the continuous residence requirement is met and you are not exercising discretion, you must refuse the application.
+You must explain in the refusal decision why you are not satisfied the requirement is met. You should use plain and concise language and avoid jargon and acronyms.

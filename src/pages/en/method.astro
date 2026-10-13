@@ -1,0 +1,50 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { STATIONS, DATA_META, station } from '../../lib/stations';
+import { SOURCES, table } from '../../lib/helpers';
+import { ft } from '../../components/tide/fmt';
+import { fullDate } from '../../lib/engine/time';
+import VAL from '../../data/validation.json';
+import P from '../../data/params-2026.json';
+import { articleSchema, breadcrumbSchema } from '../../lib/seo';
+const lang = 'en';
+const path = route('method', lang);
+const title = 'Tide Chart Method 2026: how the curves and times are made';
+const description = 'How Tide Day builds each tide chart from NOAA predictions in 2026: the curve, the tide coefficient, solunar periods and the planner, tested against NOAA.';
+const R = STATIONS.filter((s) => s.curve === 'hourly').length, S = STATIONS.filter((s) => s.curve === 'shaped').length;
+const v = VAL.stations as Record<string, { max: number; rms: number; cosineMax: number; cosineRms: number }>;
+const names: Record<string, string> = { '9410170': 'San Diego (mixed tide)', '8661070': 'Myrtle Beach (semidiurnal)', '8729807': 'Pensacola Beach (diurnal)', '8443970': 'Boston (large range)', '9455920': 'Anchorage (very large range)' };
+const rows = Object.entries(v).map(([id, x]) => [names[id] ?? id, ft(x.max), ft(x.rms), ft(x.cosineMax)]);
+const sub = VAL.subordinate as { max: number; rms: number; cosineMax: number; cosineRms: number };
+const anc = station('alaska/anchorage');
+const src = (k: keyof typeof P.sources) => P.sources[k];
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[articleSchema({ title: 'How the tide charts are made', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Method', path }])]} breadcrumbs={[{ label: 'Method' }]}>
+  <article class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>How the tide charts are made</h1>
+    <p>Everything on a tide chart of this site starts from one source: the official predictions of NOAA's Center for Operational Oceanographic Products and Services (CO-OPS), downloaded through its <a href={src('coops_api').url} rel="nofollow noopener" target="_blank">public data API</a> on {fullDate(DATA_META.retrieved)} for {fullDate(DATA_META.begin)} to {fullDate(DATA_META.end)}, in feet above Mean Lower Low Water and in universal time. Below is what the site does with them, step by step, and what it cannot know.</p>
+    <h2>1. Highs and lows: NOAA's figures, unchanged</h2>
+    <p>For each of the {STATIONS.length} stations, the list of predicted high and low waters is used as published: time to the minute, height to the hundredth of a foot (shown to the tenth). Times are converted from universal time to the station's own zone, daylight saving time included, so that a visitor in another state reads local clock times.</p>
+    <h2>2. The curve between them</h2>
+    <p><strong>{R} reference stations</strong> have their tide computed by NOAA from harmonic constants measured on site. For them the site also downloads NOAA's hourly predicted heights and joins every hourly value and every high and low with a monotone cubic curve (Fritsch–Carlson): it passes through each NOAA value and never rises above a high or drops below a low.</p>
+    <p><strong>{S} subordinate stations</strong> are predicted by NOAA from a reference station, with time and height corrections, and NOAA publishes only their highs and lows. Between two of those, the site takes the matching rise or fall of the reference station's hourly curve, stretched to the subordinate times and rescaled to its heights. The station page names the reference and the corrections.</p>
+    <p>Test against NOAA's own six-minute predictions for {VAL.window.replace(', 6-minute NOAA predictions (GMT)', '')}, 1,680 points per station:</p>
+    <Fragment set:html={table(['Station', 'Largest gap', 'Typical gap (RMS)', 'Plain cosine, largest gap'], rows, `Curve of this site vs NOAA six-minute predictions, measured ${VAL.measured}`, ['l', 'r', 'r', 'r'])} />
+    <p>A plain cosine between highs and lows, which many tide sites draw, can be off by {ft(v['9455920'].cosineMax)} in {anc.place}, where the range averages {ft(anc.stats.meanRange)}, and by {ft(v['9410170'].cosineMax)} in San Diego, where the two daily tides are unequal. The method for subordinate stations was tested by rebuilding La Jolla, a reference station, from San Diego: largest gap {ft(sub.max)}, against {ft(sub.cosineMax)} with a cosine.</p>
+    <h2>3. The tide coefficient</h2>
+    <p>US tables have no coefficient, so the site defines its own and says so: the day's range (highest high minus lowest low of the local day) divided by the station's average daily range over the whole prediction period, times 100. 100 is an ordinary day, 115 or more a spring tide, under 85 a neap tide, 130 or more a very large range. It is computed the same way for every station, so it compares days and places; it is not a NOAA product.</p>
+    <h2>4. Sun, moon and solunar periods</h2>
+    <p>Sunrise, sunset, civil dawn and dusk, moonrise, moonset and the moon's upper and lower transits are computed for each station's latitude and longitude with <a href={src('astronomy_engine').url} rel="nofollow noopener" target="_blank">Astronomy Engine</a>. The tests compare sunrise and sunset with the independent formula of <a href={src('noaa_solar').url} rel="nofollow noopener" target="_blank">NOAA's Global Monitoring Laboratory</a> (within four minutes on every date tested, from Honolulu to Anchorage) and check the moon phase at the total lunar eclipse of March 3, 2026 and the total solar eclipse of August 12, 2026.</p>
+    <p>Solunar periods follow John Alden Knight's tables: a major period of {P.solunar.majorHalfMinutes * 2} minutes centred on each transit of the moon (overhead and underfoot), a minor period of {P.solunar.minorHalfMinutes * 2} minutes centred on moonrise and moonset. The daily rating, one to four stars, is this site's rule: one star for every day, two more within two days of a new or full moon (one more within four days), one more when a period overlaps the hour around sunrise or sunset. It summarizes the tradition; it does not predict fish.</p>
+    <h2>5. The planner</h2>
+    <p>The planner solves, segment by segment of the curve, the exact minutes when the water crosses the level you set, keeps the intervals below (beach walk) or above (boat launch) that level, cuts them to sunrise and sunset if you ask for daylight, and drops those shorter than the length you chose. The windows are checked in the tests against the curve sampled every minute.</p>
+    <h2>What the figures cannot know</h2>
+    <ul>
+      <li>Weather: wind, pressure, storm surge and river floods are not in the predictions. A strong onshore wind can add a foot or more; NOAA's real-time observations show it.</li>
+      <li>The ground: a height is not a depth or a beach width. Sand bars move, ramps silt up, and the same tide covers a steep and a flat beach differently.</li>
+      <li>Revisions: NOAA occasionally updates a station's constants or datums; the site follows at its next download.</li>
+    </ul>
+    <p>The data is public domain; NOAA's <a href={src('coops_disclaimer').url} rel="nofollow noopener" target="_blank">conditions</a> ask for credit and forbid presenting modified data as official, which is why every curve, coefficient and window here is labelled as this site's calculation. Never use these pages for navigation. Questions: <a href={route('contact', lang)}>contact</a>. Sources: <a href={SOURCES.coops_mdapi.url} rel="nofollow noopener" target="_blank">{SOURCES.coops_mdapi.label}</a>; <a href={SOURCES.datums.url} rel="nofollow noopener" target="_blank">{SOURCES.datums.label}</a>.</p>
+  </article>
+</PageLayout>

@@ -1,0 +1,91 @@
+# Immigration Rules Appendix Finance | updated 2025-04-09T07:55:00+01:00 | /guidance/immigration-rules/immigration-rules-appendix-finance
+This Appendix sets out how the financial requirement must be met.
+The routes set out the requirements for the amount of funds and length of time they must be held.
+    This Appendix applies to applications under these routes:
+        • Appendix Child Student
+        •	Appendix Domestic Worker in a Private Household
+        •	Appendix Global Business Mobility – Senior or Specialist
+        •	Appendix Global Business Mobility – Graduate Trainee
+        •	Appendix Global Business Mobility – UK Expansion Worker
+        •	Appendix Global Business Mobility – Service Supplier
+        •	Appendix Global Business Mobility – Secondment Worker
+        •	Appendix Global Talent
+        •	Appendix High Potential Individual
+        •	Appendix Hong Kong British National (Overseas)
+        •	Appendix Innovator Founder
+        •	Appendix International Sportsperson
+        •	Appendix Parent of a Child Student
+        •	Appendix Representative of an Overseas Business
+        •	Appendix Scale-up
+        •	Appendix Short-term Student
+        •	Appendix Skilled Worker
+        •	Appendix Start-up
+        •	Appendix Student
+        •	Appendix Temporary Work - Charity Worker
+        •	Appendix Temporary Work - Creative Worker
+        •	Appendix Temporary Work - International Agreement
+        •	Appendix Temporary Work - Government Authorised Exchange
+        •	Appendix Temporary Work - Religious Worker
+        •	Appendix Temporary Work - Seasonal Worker
+        •	Appendix T2 Minister of Religion
+        •	Appendix UK Ancestry
+        •	Appendix Visitor
+        •	Appendix Youth Mobility Scheme
+Currency
+    FIN 1.1. Where money is held in one or more foreign currencies, this will be converted into pound sterling (£) using the spot exchange rate which appears on www.oanda.com for the date of the application unless FIN 1.2. or FIN 1.3. applies.
+    FIN 1.2. Where money is held in one or more foreign currencies and the exchange rate for a foreign currency does not appear on www.oanda.com, this will be converted into pound sterling (£), using the monthly FCDO Consular Exchange Rate (“CER”) rate published at www.gov.uk/government/publications/fco-consular-services-abroad-exchange-rates on the date of application. The following currencies do not appear on www.oanda.com:
+        • Syrian Pounds
+        • Mongolian Tugrik
+    FIN 1.3. The following currencies will also be converted into pound sterling (£) using the monthly FCDO CER rate published at www.gov.uk/government/publications/fco-consular-services-abroad-exchange-rates applicable on the date of application:
+        • Iranian Rials.
+Financial institutions
+    FIN 2.1. Funds will not be considered if they are held in a financial institution where any of the following apply:
+        (a) the decision maker is unable to make satisfactory verification checks; or
+        (b) the financial institution is not regulated by the appropriate regulatory body for the country in which that institution is operating; or
+        (c) the financial institution does not use electronic record keeping.
+Overdrafts
+    FIN 3.1. Overdraft facilities will not be counted towards meeting financial requirements.
+Requirement to have legally earned or acquired funds, savings, or income
+    FIN 4.1. If funds, savings or income were earned or acquired when the applicant was in the UK, they must have been earned or acquired lawfully and while the applicant had permission and was not in breach of any conditions attached to that permission.
+Account holders
+    FIN 5.1. Accounts relied on must be in the name of the applicant (either alone or as a joint account holder), unless one of the following applies:
+        (a) the account is in the name of the applicant’s partner who is applying for entry clearance or permission to stay at the same time or has been granted permission; or
+        (b) the applicant is applying as a Child Student, Student, Short-Term Student (English language), or dependent child, and the account is in the name of their parent, or their legal guardian; or
+        (c) the applicant is applying as a Child Student and they are being cared for by a close relative, or a private foster care arrangement has been made which complies with the requirements in CS 9.3. to CS 9.5, and the account is in the name of the applicant’s close relative or private foster carer; or
+        (d) the requirements for the route under which the applicant is applying state that an account in the name of a third party may be relied upon and the account is in the name of that third party.
+    FIN 5.2. The applicant, or account holder in FIN.5.1, must have control of the funds.
+    FIN 5.3. If the applicant is applying as a Student, Short-Term Student (English language), or Child Student and they are relying on funds held in an account in the name of a parent or legal guardian as specified in FIN 5.1. they must provide proof of that relationship and written consent from the parent or legal guardian to use those funds.
+Third party support
+    FIN 6.1. Promises of future third-party support will not be accepted as evidence of funds, except where this is specified in the route under which the applicant is applying.
+Dates of financial evidence
+    FIN 7.1. The most recently dated piece of financial evidence must be dated within 31 days before the date of application.
+    FIN 7.2. The length of time for which funds are held will be calculated by counting back from the date of the closing balance on the most recently dated piece of financial evidence.
+    FIN 7.3. The financial evidence provided must cover the whole period of time for which the funds must be held.
+Accounts
+    FIN 8.1. Funds may be held in any form of personal bank or building society account (including current, deposit, savings, pension from which the funds can be withdrawn or investment account) provided the account allows the funds to be accessed immediately.
+    FIN 8.2. Funds held in other accounts or financial instruments such as shares, bonds, credit cards, pensions from which the funds cannot be withdrawn immediately, regardless of notice period, will not be accepted as evidence of funds.
+    FIN 8.3. An applicant applying as a Student or Child Student, will meet the financial requirements if they provide evidence of any of the following (or a combination of them):
+        (a) money held in an account that meets the requirements set out in FIN 5.1. and FIN 8.1; or
+        (b) funds provided by an official financial sponsor, which must be His Majesty’s Government, the applicant’s national government, the British Council or any international organisation, international company, university or Independent School; or
+        (c) a student loan provided by:
+            (i) a government; or
+            (ii) a government sponsored student loan company; or
+            (iii) an academic or educational loans scheme which is provided by a financial institution regulated for the purpose of issuing student loans by either the Financial Conduct Authority (FCA) or the Prudential Regulation Authority (PRA) or, in the case of an overseas loan, the official regulatory body for purpose of issuing student loans in the country the institution is in and where the money is held.
+    FIN 8.4. An applicant applying as a Short-Term Student will meet financial requirements if they provide evidence of any of the following (or a combination of them):
+        (a) money held in an account that meets the requirements set out in FIN 5.1. and FIN 8.1; or
+        (b) sufficient funds from an official financial sponsor, which must be His Majesty’s Government, the applicant’s national government, the British Council or any international organisation, international company, university or Independent School.
+Evidence of financial sponsorship or student loans for students
+    FIN 9.1. An applicant relying on funds provided by an official financial sponsor under FIN 8.3.(b) must provide evidence, either:
+        (a) where the student sponsor is providing financial sponsorship, the funds being provided must be stated in the Confirmation of Acceptance for Studies; or
+        (b) a letter of confirmation from the official financial sponsor.
+    FIN 9.2. An applicant relying on a student loan under FIN 8.3.(c), must show evidence of the student loan by providing a student loan letter from the lender which must:
+        (a) be dated no more than 6 months before the date of application; and
+        (b) confirm the loan is a student loan provided to the applicant by either the relevant government or a government sponsored student loan company or an academic or educational loans scheme; and
+        (c) confirm there are no conditions on release of the loan funds other than a successful application to study in the UK as a Student or Child Student; and
+        (d) confirm the amount of the loan; and
+        (e) confirm the loan is to the applicant; and
+        (f) confirm the funds will be:
+            (i) available to the applicant before they travel to the UK; or
+            (ii) paid directly to the student sponsor before the applicant travels to the UK, with any living cost portion of the loan being made available to the applicant by the time they arrive in the UK; or
+            (iii) available before the applicant begins their course if the loan is provided by the applicant’s national government; and
+        (g) confirm the lender meets the requirement at FIN 8.3(c).

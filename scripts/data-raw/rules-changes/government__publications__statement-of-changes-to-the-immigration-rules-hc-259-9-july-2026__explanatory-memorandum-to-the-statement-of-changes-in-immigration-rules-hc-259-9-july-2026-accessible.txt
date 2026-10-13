@@ -1,0 +1,136 @@
+# Explanatory memorandum to the statement of changes in Immigration Rules: HC 259, 9 July 2026 (accessible) | updated 2026-07-09T10:55:00+01:00 | /government/publications/statement-of-changes-to-the-immigration-rules-hc-259-9-july-2026/explanatory-memorandum-to-the-statement-of-changes-in-immigration-rules-hc-259-9-july-2026-accessible
+Explanatory memorandum to the statement of changes in Immigration Rules presented to Parliament on 9 July 2026 (HC 259)
+1. Introduction
+1.1 This Explanatory Memorandum has been prepared by the Home Office and is laid before Parliament by Command of His Majesty.
+1.2 This Explanatory Memorandum contains information for the Joint Committee on Statutory Instruments and the Secondary Legislation Scrutiny Committee.
+2. Declaration
+2.1 Mike Tapp MP, Minister for Migration and Citizenship at the Home Office, confirms that this Explanatory Memorandum meets the required standard.
+2.2 Kristian Armstrong, Director at the Home Office, confirms that this Explanatory Memorandum meets the required standard.
+3. Contact
+3.1. Specific written queries relating to this Statement of Changes should be directed to Robert Hayes-Walters at StateofChanges@homeoffice.gov.uk. Please note that this mailbox is only for parliamentary use in relation to specific technical queries regarding the drafting of this Statement of Changes. It is not a contact point for general enquiries. Queries to this e-mail address from outside Parliament about other immigration issues, including how these changes affect applications, will not receive a response.
+3.2. More general queries should be directed to the Home Office as per the ‘Contact UKVI’ section on the visas and immigration pages of GOV.UK website.[footnote 1]
+3.3. A copy of this Statement of Changes can be found on the visa and immigration pages of the GOV.UK website.[footnote 2]
+Part One: Explanation, and context, of the Instrument
+4. Overview of the Instrument
+What does the legislation do?
+4.1 This instrument amends the Immigration Rules, made under the provisions of section 1(4) and section 3(2) of the Immigration Act 1971, that are used to regulate people’s entry to, and stay in, the United Kingdom.
+4.2 The changes being made relate to:
+    Amendments to Appendix Graduate relating to UK-born children
+    Diplomatic Visa Arrangements: Extension to Indian Diplomatic Passport Holders
+    Part 8: Changes to provisions for children
+    Appendix FM: Amend duration of leave for partners of those with temporary protection status
+    Changes to Part Suitability requirements in regard to the effect of being on Immigration Bail on future applications
+    Appendix EU (Family Permit) – change to the EU Settlement Scheme travel permit requirements
+    Appendix EU – deadline clarification for family members of a qualifying British citizen
+    Applying the Care Requirement to Appendix FM
+    Changes to Appendix HM Armed Forces and Appendix International Armed Forces and International Civilian Employees.
+4.3 This instrument also makes minor changes to other policy areas, detailed in paragraphs 5.22 and 5.45 of section 5 of this Explanatory Memorandum.
+Where does the legislation extend to, and apply?
+4.4 The extent of this Statement of Changes in Immigration Rules (that is, the jurisdiction(s) which the statement forms part of the law of) is all of the United Kingdom.
+4.5 The territorial application of this Statement of Changes in Immigration Rules (that is, where the statement produces a practical effect) is all of the United Kingdom.
+5. Policy Context
+What is being done and why?
+Amendments to Appendix Graduate relating to UK-Born children
+5.1 This amendment will allow a child born in the UK during a parent’s current grant of Graduate route permission to apply as a dependant, and be granted permission in line with the parent.
+5.2 Under the current Rules, dependant eligibility on the Graduate route is limited to dependants who already held permission under the Student route. The Rules do not make provision for a child born in the UK during a parent’s Graduate permission, which has resulted in a small cohort of UK-born children having no clear,
+Rules-based route to regularise their status in line with their parent.
+5.3 The amendment addresses this gap through a change that aligns with the structure of the Graduate route, without expanding dependant eligibility from overseas or creating a route to settlement.
+Diplomatic Visa Arrangements: Extension to Indian Diplomatic Passport Holders
+5.4 This change will extend a “Diplomatic Visa Arrangement” (DVA) Visitor visa to India. In February 2025, the DVA visitor visa was introduced to replace the Diplomatic Visa Waivers (DVW). The rationale for this change was that the UK’s border is being transformed to include digital pre-travel checks.
+5.5 DVA is now being extended to India, providing a bespoke visitor visa for eligible diplomatic passport holders. Applications will be made through a light-touch application form, but application fees and the requirement to submit fingerprints will be waived. The extension of DVA to India aims to support and better facilitate diplomatic travel between India and the UK, and will also enable DVA visitors from India to undertake a range of standard visitor activities.
+5.6 These changes will not impact accredited diplomats who are free, or “exempt”, from immigration control. DVAs ensure diplomatic passport holders from eligible countries who are nominated by their governments through a Note Verbale will benefit from smooth and efficient access to the UK.
+5.7 The route aims to support and better facilitate official travel between India and the UK, but will also enable DVA visitors from India to undertake a range of standard visitor activities. DVA visa applications must be supported by the government of the applicant’s nationality though the inclusion of the applicant’s name in a Note Verbale provided by their government to the UK. The applicant must complete a DVA visitor visa light- touch application form, which does not incur a fee. There is no requirement to provide fingerprint biometrics.
+5.8 Applicants will normally be issued a two-year multi-entry visit visa, with a maximum stay of six months on each visit. Applicants must be over 18 years old. There will be ongoing engagement ahead of implementation to enable the UK and India to prepare effectively for the transition.
+Part 8: Changes to provisions for children
+5.9 The Immigration Rules currently allow a child to come to or stay in the United Kingdom to live with a relative in certain circumstances.
+5.10 Under Part 8 of the Immigration Rules, a child can join or stay with a relative who is settled in the United Kingdom where there are “serious and compelling circumstances”. The broad drafting creates a lack of clarity on when a child should join a relative in the UK, and is inconsistent with the approach on similar routes.
+5.11 Appendix Child Relative (Sponsors with Protection) allows a child to join a relative with protection status in the UK if the child has no parent or other family member who can reasonably care for them. This amendment aligns Part 8 with the clearer approach in Appendix Child Relative to provide consistency across the immigration system.
+5.12 In addition, we are making a minor change to clarify when a child can join a settled parent in the United Kingdom when their other parent is in the United Kingdom with limited leave (or being granted leave). This minor amendment aligns Paragraphs 297 and 298 with CHI 4.3.(b) of Appendix Children and provides consistency of approach across Part 8 and Appendix Children.
+Appendix FM: Amend duration of leave for partners of those with temporary protection status
+5.13 Partners granted leave under Appendix FM are ordinarily granted the maximum period of permission (leave to enter or remain). Since 2 March 2026, protection status has been granted in 30-month periods, creating a risk that a partner’s permission may extend beyond that of the protection sponsor.
+5.14 This misalignment risks undermining the coherence and integrity of the protection and family migration frameworks by creating scenarios in which a protection sponsor no longer holds lawful permission, or has been refused further permission, while their partner continues to hold dependent permission.
+5.15 To address these risks, the Rules will provide that, where a protection sponsor has been granted permission to stay for 30 months, a partner granted permission under Appendix FM will be granted permission in line with the remainder of the sponsor’s existing grant, matching the time the sponsor has left.
+Changes to Part Suitability requirements in regard to the effect of being on Immigration Bail on future applications
+5.16 This change ensures that, where an applicant is eligible to apply under the Exception for Overstayers (SUI13.1), their application is not refused solely on the basis that they are on immigration bail and can instead be considered on its merits.
+Appendix EU (Family Permit) – change to the EU Settlement Scheme travel permit requirements
+5.17 An EU Settlement Scheme (EUSS) travel permit enables an EUSS status holder to travel to the UK where they are currently unable to update their UK Visas and Immigration (UKVI) account from outside the UK, e.g. with details of a new travel document. The change in Appendix EU (Family Permit) removes the requirement for an applicant for an EUSS travel permit to provide fingerprint biometrics. This aligns the requirements, as far as is operationally possible, with those applicable to an EUSS status holder updating their UKVI account in country.
+Appendix EU – deadline clarification for family members of a qualifying British citizen
+5.18 The change made to the EU Settlement Scheme in Appendix EU confirms that, where pre-settled status under the scheme as a family member of a qualifying British citizen has been varied into another form of immigration permission, the person can still apply for settled status under the scheme. They can do so at any point before the date
+of expiry of that other permission or later where there are reasonable grounds for their delay in applying.
+Applying the Care Requirement to Appendix FM
+5.19 These changes amend the Appendix FM child route to apply the care requirement in Appendix Children. The care requirement is intended to ensure a child’s living and care arrangements in the UK are safe, suitable and compliant with UK legislation. This change will further align the requirements of the Appendix FM child route with the requirements of Appendix Children, ensuring all dependent children under these routes are assessed against the same safeguarding standard.
+Changes to Appendix HM Armed Forces and Appendix International Armed Forces and International Civilian Employees
+5.20 This change to Appendix HM Armed Forces will allow children of single serving personnel, whose parent is exempt from immigration control, to be granted permission under the Rules rather than relying on a discretionary grant of Leave Outside the Rules.
+5.21 A further change will amend Appendix International Armed Forces to clarify that dependants of exempt international service personnel are not automatically eligible to accompany them, and must apply for entry clearance.
+Other Minor Changes
+Asylum Interviews: Additional circumstances when interviews may be omitted
+5.22 As part of the Restoring Order and Control programme, we are exploring ways we can maintain integrity in the asylum system, whilst providing routes to casework claims, in the most efficient and appropriate manner to best benefit the Home Office and asylum seekers. This will look to reduce the numbers of individuals and families requiring support for lengthy periods of time, grant protection to those genuinely in need of protection, and swiftly remove those with no right to be here.
+5.23 The Restoring Order and Control Policy Statement published in November set out the policy intention of efficiently determining unmeritorious protection claims that are often lodged to frustrate removal. [footnote 3]
+5.24 This process will be known as ‘merged registration’ and will involve one interview, covering the registration of the asylum claim, screening of the individual, and the establishment and assessment of the basis of claim. The interviewing officer will ask relevant and appropriate questions to establish whether an individual has protection needs and, if not, whether they can be removed from the UK without the need for a further asylum interview. This will truncate the current process which involves a screening interview, followed by a separate asylum interview, which may be scheduled for weeks or months later. As part of the merged registration process, individuals will continue to have the opportunity to seek legal advice, provide relevant evidence, and raise all the reasons why they cannot be removed from the UK prior to their asylum decision. Claims will continue to be assessed on an individual, case by case basis.
+5.25 Asylum claims which cannot be assessed as part of the merged registration process will be triaged out and continue through the business-as-usual process. Where further information is required to make a decision, there is discretion for further interviews to be conducted.
+5.26 Published policy guidance will provide further detail on what claims are likely to be considered clearly unfounded, and which countries are likely to be considered as manifestly safe, such that claims are likely to be without merit. These may include Australia, Canada, New Zealand, Japan, South Korea, the USA, as well as countries currently designated as ‘safe’ under section 94 of the Nationality, Immigration and Asylum Act 2002.
+5.27 Paragraph 339NA already includes reference to EU nationals. We are also adding Switzerland and EEA nationals specifically to the list, as it is considered the vast majority of asylum claims from these nationals are likely to be considered clearly unfounded, without the need to conduct additional interviews.
+Appendix Global Talent: Prestigious Prizes
+5.28 Appendix Global Talent: Prestigious Prizes has been updated to reflect the new name for the W H Pierce Prize, previously awarded by the Society for Applied Microbiology, which is now known as the WH Pierce Global Impact in Microbiology Prize, awarded by Applied Microbiology International. In addition, various errors in prize names have been corrected.
+Electronic Travel Authorisation – amendment to criminality provisions
+5.29 Electronic Travel Authorisations (ETAs) were introduced by the Home Office in 2023 to enhance our ability to screen travellers upstream and stop those who pose a threat from travelling to the UK. An ETA is a permission to travel to the UK, not an entry clearance.
+5.30 Currently, paragraphs ETA 2.2(a) and ETA 5.2(a) of Appendix Electronic Travel Authorisation provide that an application for an ETA must be refused and an ETA held by a person must be cancelled, respectively, on criminality grounds where the applicant or the person granted an ETA has been convicted of a criminal offence in the UK or overseas for which they have received a custodial sentence of 12 months or more. These provisions do not include ‘suspended’ sentences.
+5.31 Recent changes to paragraphs SUI 5.1(a) and SUI 5.2(a) of the Immigration Rules: Part Suitability provide that an application for entry clearance or permission must also be refused (and an entry clearance or permission held by a person must be cancelled) on criminality grounds where the applicant or the holder of the entry clearance or permission has been handed a suspended sentence of 12 months or more.
+5.32 These changes to paragraphs ETA 2.2(a) and ETA 5.2(a) of Appendix Electronic Travel Authorisation reflect the recent amendments to the criminality provisions in paragraphs SUI 5.1(a) and SUI 5.2(a) of Part Suitability. By including ‘suspended’ sentences as criminality grounds for refusal and cancellation of ETAs, we will align the criminality provisions in Appendix Electronic Travel Authorisation with the rest of the Immigration Rules.
+Appendix Scale-up: inclusion of neonatal leave
+5.33 This change will add neonatal leave as an allowable period of absence for the purposes of meeting the earnings requirement on the Scale-up route for both permission to stay and settlement. This brings the route in line with the Skilled Worker route.
+Appendix Statelessness – simplification of the application process
+5.34 This minor change will update and simplify the application process for stateless people and their dependants who are applying for settlement in the UK.
+5.35 To date, there is no dedicated form for stateless settlement applications, and applicants must instead use the “Further Leave to Remain (Stateless)” form, also known as FLR(S). To provide a clearer and more appropriate route for these applications, Appendix Statelessness will now refer applicants to the “Settle in the UK (Other)” form, known as SET(O).
+5.36 This change ensures that people applying for settlement under Appendix Statelessness can use the correct form designed for applications for settlement, making the process simpler and more consistent with other routes.
+Appendix Child Student – Carer criminality restriction
+5.37 Most Child Students must have a carer in the UK. Where this applies, for Child Students applying for permission to enter the UK, their carer will be assessed against the criminality requirements in Appendix Child Student of the Immigration Rules.
+5.38 The Rules currently provide for the refusal of permission on the basis of a Child Student’s listed carer having received a custodial sentence of 12 months or more for offences committed in the UK and overseas, as well as mandatory grounds for refusal for persistent offenders and offenders who cause serious harm. There are also discretionary provisions for offending which results in a prison sentence of less than 12 months, a non-custodial sentence, or an out of court disposal recorded on a person’s criminal record.
+5.39 This Rules change seeks to make amendments to these existing criminality provisions in Appendix Child Student so that they align with those in Part Suitability (for main applicants), including refusing any applications where their listed carer has received a suspended sentence of 12 months or more.
+5.40 This is consistent with the criminality provisions in relation to the sentence based reforms in the Sentencing Act 2026. It also ensures the criminality rules are at a more appropriate level for carers, which will help safeguard international child students in the UK.
+Clarification to Appendix Administrative Review to include Appendix ECAA Settlement in the routes eligible for administrative review
+5.41 Appendix Administrative Review was restructured in 2024, and references to the UK’s previous commitments under the European Communities Association Agreement (ECAA) until the end of 2020 were replaced.
+5.42 Appendix ECAA: Settlement enables those with existing leave as an ECAA businessperson, worker or dependant to apply for indefinite leave to remain; however, this category was omitted in error during the restructure. This correction makes provision for applications to continue to be made for administrative review of decisions to refuse indefinite leave to remain under Appendix ECAA: Settlement.
+Minor amendment to Part 13
+5.43 There is currently a disconnect between Part 13 and Part 5A of the Nationality, Immigration and Asylum Act 2002. The 2002 Act (as amended by s45 of the Sentencing Act 2026) provides for deportation to be pursued and the Article 8 framework to be applied where a foreign national receives a suspended sentence of 12 months or more. The Sentencing Act 2026 (Commencement No. 2 and Transitional Provision) Regulations 2026 make provision for this to only apply to suspended sentences imposed following a conviction on or after 22 March 2026.
+5.44 Part 13 currently says deportation will be pursued and the Article 8 framework will apply where a suspended sentence is “given” on or after 22 March 2026. This suggests it is the sentencing date that brings them into scope of these provisions rather than the conviction, and so Part 13 needs to be amended to align it with the 2002 Act to make clear that the Article 8 framework only applies to periods of imprisonment imposed for offences for which a person is convicted after 22 March 2026.
+Other drafting changes
+5.45 The Statement of Changes also introduces minor drafting changes to correct incorrect paragraph references and minor errors.
+6. Legislative and Legal Context
+How has the law changed?
+6.1 The Immigration Rules, as laid before Parliament by the Secretary of State, constitute a statement of practice to be followed in the administration of the Immigration Act 1971 for regulating the entry into, and stay of, persons in the United Kingdom.
+6.2 This Statement of Changes in Immigration Rules will be incorporated into a consolidated version of the Immigration Rules. This can be found on the GOV.UK website, where all the Statements of Changes in Immigration Rules issued since May 1994 are published.[footnote 4]
+6.3 These changes will come into effect on various dates from 30 July 2026 and are detailed in the implementation section of the Statement of Changes.
+Why was this approach taken to change the law?
+6.4 This is the only possible approach to make the necessary changes.
+7. Consultation
+Summary of consultation outcome and methodology
+7.1 The specific changes in this Statement have not been the subject of a formal public consultation, as this would be disproportionate given the nature of the changes.
+8. Applicable Guidance
+8.1 Guidance relating to these Rules changes will be updated and placed on the GOV.UK website when these changes take effect.
+8.2 It is our practice to only publish guidance updates when Rules changes take effect to mitigate the high risk of users referring to the wrong version.
+Part Two: Impact and the Better Regulation Framework
+9. Impact Assessment
+9.1 A full Impact Assessment has not been prepared for this Statement of Changes because the level of impact and/or type of change being made does not warrant doing so.
+Impact on businesses, charities and voluntary bodies
+9.2 There is no, or no significant, impact on business, charities or voluntary bodies.
+9.3 The legislation does not impact small or micro businesses.
+9.4 There is no, or no significant, impact on the public sector.
+10. Monitoring and review
+What is the approach to monitoring and reviewing this legislation?
+10.1 The approach to the monitoring of these changes is to review the operation and effect of all the relevant Immigration Rules, including any Rules amended or added to by the changes in this Statement, and lay a report before Parliament within five years of 6 April 2017, and within every five years after that. Following each review, the Secretary of State will decide whether the relevant Immigration Rules should remain unchanged or be revoked or amended. A further Statement of Changes would be needed to revoke or amend the relevant Rules.
+10.2 A statutory review clause is included in the instrument.
+Part Three: Statements and Matters of Particular Interest to Parliament
+11. Matters of special interest to Parliament
+11.1 There are no matters of interest.
+12. European Convention on Human Rights
+12.1 As this Statement of Changes in Immigration Rules is subject to negative resolution procedure and does not amend primary legislation, no statement is required.
+13. The relevant European Union Acts
+13.1 This instrument is not being made under the European Union (Withdrawal) Act 2018 or the Retained EU Law (Revocation and Reform) Act 2023 (“relevant European Union Acts”). It does, however, relate to the withdrawal of the United Kingdom from the European Union because it supports further implementation of the EUSS.
+13.2 For all other changes, this instrument does not relate to withdrawal from the European Union or trigger the statement requirements under the European Union (Withdrawal) Act 2018.
+14. Consolidation
+14.1 The Government has committed to the consolidation of the Rules as part of its response to the Law Commission recommendations on simplifying the Immigration Rules.
+      Available at https://www.gov.uk/government/organisations/uk-visas-and-immigration ↩
+      Available at https://www.gov.uk/government/collections/immigration-rules-statement-of-changes ↩
+      Available at https://www.gov.uk/government/publications/asylum-and-returns-policy-statement/restoring-order-and-control-a-statement-on-the-governments-asylum-and-returns-policy ↩
+      https://www.gov.uk/guidance/immigration-rules ↩

@@ -1,0 +1,70 @@
+---
+/**
+ * Home, in its own order for this subject: the tide chart first (any of the 92 stations, or the
+ * nearest one), the folded answer, the stations by coast and state, a ranking of tide ranges
+ * along the US coasts, the long text in accordions, then the questions. Text: src/content/home.ts.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from './Clamp.astro';
+import TideTool from './tide/TideTool';
+import { HOME } from '../content/home';
+import { route } from '../i18n/routes';
+import { COASTS } from '../i18n/nav';
+import { helpers, SOURCES, table } from '../lib/helpers';
+import { PUBLISHED, stationId, stateId, statePage } from '../lib/pages';
+import { windowOf, ALL_LITE, BUILD_MIN, STATE_LIST, DATA_META, stationsIn } from '../lib/stations';
+import { ft } from './tide/fmt';
+import { fullDate } from '../lib/engine/time';
+import { faqSchema, organizationSchema, websiteSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
+const lang = 'en';
+const x = HOME;
+const path = route('home', lang);
+const h = helpers();
+const sources = x.sources.map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url }));
+const jsonLd = [websiteSchema(lang), organizationSchema(lang), webPageSchema({ name: x.h1, description: x.description, path, lang }), webApplicationSchema({ name: x.h1, description: x.description, path, lang }), faqSchema(x.faqs, lang)];
+const featured = 'california/san-diego';
+const ranked = [...PUBLISHED].sort((a, b) => b.stats.meanRange - a.stats.meanRange);
+const pickRows = [...ranked.slice(0, 5), ...ranked.slice(Math.floor(ranked.length / 2) - 1, Math.floor(ranked.length / 2) + 1), ...ranked.slice(-5)];
+const rangeRows = pickRows.map((s) => [`<a href="${route(stationId(s.key), lang)}">${s.place}</a>`, STATE_LIST.find((t) => t.slug === s.state)!.abbr, s.stats.tideType, ft(s.stats.meanRange), ft(s.stats.springRange)]);
+const sections = x.sections(h);
+const POPULAR = ['california/san-diego', 'south-carolina/myrtle-beach', 'texas/galveston', 'massachusetts/chatham', 'maryland/ocean-city', 'north-carolina/nags-head', 'florida/tampa', 'new-jersey/cape-may', 'washington/seattle'];
+---
+<PageLayout title={x.title} description={x.description} lang={lang} jsonLd={jsonLd} faqs={x.faqs} sources={sources}>
+  <header class="mb-4">
+    <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">{x.h1}</h1>
+    <p class="mt-2 text-lg text-navy-700">{x.intro}</p>
+    <p class="mt-1 text-sm text-navy-600">NOAA predictions updated <time datetime={DATA_META.retrieved}>{fullDate(DATA_META.retrieved)}</time>, valid to {fullDate(DATA_META.end)} · <a href={route('method', lang)} class="underline">How the tides are computed</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
+  </header>
+  <div data-outil data-chrome><TideTool client:load stations={ALL_LITE()} picker initialKey={featured} initialWin={windowOf(featured)} buildMin={BUILD_MIN} methodHref={route('method', lang)} idPrefix="home" planner={false} /></div>
+  <Clamp text={x.resume} lang={lang} id="clamp-home" class="my-8" />
+  <section class="mb-10" data-chrome>
+    <h2 class="font-serif text-2xl font-bold text-navy-900">Tide charts by state</h2>
+    <div class="mt-4 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
+      {COASTS.map((c) => (
+        <div>
+          <h3 class="font-serif text-lg font-bold text-navy-900">{c.label}</h3>
+          <ul class="mt-2 space-y-2 text-sm">
+            {STATE_LIST.filter((s) => s.coast === c.id && statePage(s.slug)).map((s) => (
+              <li><a href={route(stateId(s.slug), lang)} class="font-semibold text-accent-700 underline-offset-2 hover:underline">{s.name}</a>: {stationsIn(s.slug).filter((t) => PUBLISHED.some((p) => p.key === t.key)).map((t, i) => <>{i > 0 && ', '}<a href={route(stationId(t.key), lang)} class="text-navy-700 underline-offset-2 hover:underline">{t.place}</a></>)}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </section>
+  <aside data-chrome class="mb-10 border-l-4 border-accent-500 bg-accent-50 px-5 py-4">
+    <p class="font-serif text-lg font-bold text-navy-900">Most searched tide charts</p>
+    <ol class="mt-2 grid list-decimal gap-x-8 gap-y-1 pl-5 text-sm sm:grid-cols-3">
+      {POPULAR.map((k) => { const t = PUBLISHED.find((p) => p.key === k)!; return <li><a href={route(stationId(k), lang)} class="font-medium text-accent-700 underline-offset-2 hover:underline">{t.place}</a> <span class="text-navy-600">· average range {ft(t.stats.meanRange)}</span></li>; })}
+    </ol>
+  </aside>
+  <section class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h2>{x.tableTitle}</h2>
+    <Fragment set:html={x.tableIntro(h)} />
+    <figure class="not-prose"><Fragment set:html={table(['Station', 'State', 'Tide type', 'Average daily range', 'Spring range'], rangeRows, undefined, ['l', 'l', 'l', 'r', 'r'])} /><figcaption class="mt-1 text-sm text-navy-700">Average daily range and the range reached on one day in ten, predictions {fullDate(DATA_META.begin)} to {fullDate(DATA_META.end)}.</figcaption></figure>
+  </section>
+  <section class="mt-10">
+    <h2 class="font-serif text-2xl font-bold text-navy-900">{x.foldTitle}</h2>
+    {sections.map((s) => <details class="fold"><summary><span class="fold-h">{s.title}</span></summary><div class="prose prose-slate max-w-none pb-4"><Fragment set:html={s.html} /></div></details>)}
+  </section>
+</PageLayout>
