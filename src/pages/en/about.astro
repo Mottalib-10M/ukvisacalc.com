@@ -7,15 +7,15 @@ import { KIT as K } from '../../lib/kit';
 import { profilePageSchema, breadcrumbSchema } from '../../lib/seo';
 const lang = 'en';
 const path = route('about', lang);
-const title = 'VisaCalc 2026: who publishes these UK visa calculators';
-const description = 'VisaCalc is published by Radif Partners: free UK visa calculators built on the Home Office fee table, Immigration Rules and sponsor register. No account.';
+const title = 'Visa calculators 2026: who publishes UK VisaCalc and why';
+const description = 'UK VisaCalc is published by Radif Partners: free UK visa calculators built on the Home Office fee table, Immigration Rules and sponsor register. No account.';
 ---
 <PageLayout title={title} description={description} lang={lang} jsonLd={[profilePageSchema({ path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path }])]} breadcrumbs={[{ label: 'About' }]}>
   <article class="prose prose-slate max-w-none prose-headings:font-serif">
-    <h1>About VisaCalc</h1>
+    <h1>About UK VisaCalc</h1>
     <p>{AUTHOR_DESC.en}</p>
     <h2>Why this site exists</h2>
-    <p>Ask "how much will my visa cost" or "does my salary qualify" and the answers are spread across GOV.UK pages that each give one piece, tables of several hundred lines, law firm articles that end with a phone number, and a few calculators whose fees are a table or two out of date. VisaCalc does what the first Google result leaves to you: it crosses your occupation code, salary, hours and situation to give the exact Skilled Worker threshold and the gap in pounds, prices a visa for the whole family on the fee table of {K.date(K.FEE_DATE)}, and dates your ILR and citizenship with the rolling 180-day rule, where other calculators show stale fees or ask for your phone number.</p>
+    <p>Ask "how much will my visa cost" or "does my salary qualify" and the answers are spread across GOV.UK pages that each give one piece, tables of several hundred lines, law firm articles that end with a phone number, and a few calculators whose fees are a table or two out of date. UK VisaCalc does what the first Google result leaves to you: it crosses your occupation code, salary, hours and situation to give the exact Skilled Worker threshold and the gap in pounds, prices a visa for the whole family on the fee table of {K.date(K.FEE_DATE)}, and dates your ILR and citizenship with the rolling 180-day rule, where other calculators show stale fees or ask for your phone number.</p>
     <h2>Who publishes it</h2>
     <p>The site is published by {AUTHOR_NAME}, a company that builds free calculators and reference pages on public data. It is <strong>not legal advice</strong> and is <strong>not affiliated with the Home Office</strong>, UK Visas and Immigration or any government body. It sells no consultation, collects no contact details for law firms and receives nothing from employers or advisers.</p>
     <LegalIdentity lang={lang} />

@@ -1,6 +1,6 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://uk-visas.example";
-export const SITE_NAMES: Record<string, string> = {"en": "VisaCalc"};
+export const SITE_URL = "https://ukvisacalc.com";
+export const SITE_NAMES: Record<string, string> = {"en": "UK VisaCalc"};
 export const LANG_TAGS: Record<string, string> = {"en": "en-GB"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_GB"};
 export const LOCALE_TAG = 'en-GB';
@@ -11,12 +11,12 @@ export const SITE_FOUNDED = '2026';
 export const LAST_UPDATED = '2026-10-13';
 export const AUTHOR_NAME = 'Radif Partners';
 export const AUTHOR_ROLE: Record<string, string> = {"en": "Publisher of UK visa cost, salary threshold, settlement date and sponsor register calculators"};
-export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners publishes VisaCalc, free calculators for people applying for a UK visa and for the employers who sponsor them: the Skilled Worker salary threshold of every SOC 2020 occupation code, the total of Home Office fees and immigration health surcharge for a family, the dates of indefinite leave to remain and naturalisation with the rolling 180-day absence rule, the spouse visa income and savings test, decision dates and a daily copy of the register of licensed sponsors, all read on GOV.UK."};
+export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners publishes UK VisaCalc, free calculators for people applying for a UK visa and for the employers who sponsor them: the Skilled Worker salary threshold of every SOC 2020 occupation code, the total of Home Office fees and immigration health surcharge for a family, the dates of indefinite leave to remain and naturalisation with the rolling 180-day absence rule, the spouse visa income and savings test, decision dates and a daily copy of the register of licensed sponsors, all read on GOV.UK."};
 /** Sujets sur lesquels l'editeur est competent (schema.org knowsAbout). Ce sont les
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["Skilled Worker visa salary thresholds", "UK visa application fees", "Immigration health surcharge", "Spouse visa financial requirement", "Indefinite leave to remain", "British citizenship by naturalisation", "Register of licensed sponsors"]};
-export const CONTACT_EMAIL = "contact@uk-visas.example";
+export const CONTACT_EMAIL = "contact@ukvisacalc.com";
 export const THEME_COLOR = '#012169';
 export const LOGO_SYMBOL = 'VISA';
 export const BING_VERIFY_CODE = '';

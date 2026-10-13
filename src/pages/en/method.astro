@@ -7,7 +7,7 @@ import { articleSchema, breadcrumbSchema } from '../../lib/seo';
 const lang = 'en';
 const path = route('method', lang);
 const title = 'Visa Calculator Method 2026: how each result is worked out';
-const description = 'How VisaCalc computes the Skilled Worker threshold, visa fees and surcharge, spouse visa income, ILR and citizenship dates from GOV.UK sources, and its limits.';
+const description = 'How UK VisaCalc works out the Skilled Worker threshold, visa fees, surcharge, spouse visa income, ILR and citizenship dates from GOV.UK sources, and its limits.';
 const S = K.P.skilledWorker, ST = K.P.settlement, C = K.P.citizenship, F = K.P.family;
 const src = (k: string, t?: string) => `<a href="${SOURCES[k].url}" target="_blank" rel="nofollow noopener noreferrer">${t ?? SOURCES[k].label}</a>`;
 const tests = [
@@ -21,9 +21,9 @@ const tests = [
   ['Citizenship: back on 25 June 2017, first date to apply (GOV.UK)', '24 June 2022', K.date(K.citizenshipDate('2017-01-01', '2021-06-20', [{ out: '2017-06-10', back: '2017-06-25' }], false).earliest!)],
 ];
 ---
-<PageLayout title={title} description={description} lang={lang} jsonLd={[articleSchema({ title: 'How VisaCalc calculates', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'How we calculate', path }])]} breadcrumbs={[{ label: 'How we calculate' }]}>
+<PageLayout title={title} description={description} lang={lang} jsonLd={[articleSchema({ title: 'How UK VisaCalc calculates', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'How we calculate', path }])]} breadcrumbs={[{ label: 'How we calculate' }]}>
   <article class="prose prose-slate max-w-none prose-headings:font-serif">
-    <h1>How VisaCalc calculates</h1>
+    <h1>How UK VisaCalc calculates</h1>
     <p>Every result on this site is a published rule applied to the figures you enter. The rules come from GOV.UK only, are kept in dated parameter files, and each calculation is tested against the worked examples GOV.UK prints. Rules were last read on {K.date(K.P.retrieved_at)}; the fee table is the one in force from {K.date(K.FEE_DATE)}.</p>
     <h2>1. Fees</h2>
     <p>The Home Office publishes its fees as a spreadsheet, a new one with each change ({K.FEES.versions.length} since {K.date(K.FEES.versions[0].date)}). The site reads every version and keeps each line with its history; a calculator asks for "Skilled Worker, up to three years, outside the UK" and receives the amount of that line in the current table. If the Home Office renames a line, the lookup fails and the site is not rebuilt until it is fixed, so an old figure cannot stay online by accident. Source: <Fragment set:html={src('fees_table')} />.</p>
