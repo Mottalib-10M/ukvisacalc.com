@@ -30,18 +30,20 @@ export default function SkilledWorkerTool({ initialCode = '2136', initialSalary 
   const [trans, setTrans] = useState('no');
   const [where, setWhere] = useState('outside');
   const [pay, setPay] = useState(0);
+  const [nhs, setNhs] = useState('no');
+  const [crit, setCrit] = useState('no');
 
   useEffect(() => {
     const u = readParams(window.location.search);
-    setCode(str(u, 'soc', initialCode)); setSalary(num(u, 'sal', initialSalary)); setHours(num(u, 'h', 37.5));
+    setCrit(str(u, 'isl', 'no')); setCode(str(u, 'soc', initialCode)); setSalary(num(u, 'sal', initialSalary)); setHours(num(u, 'h', 37.5));
     setSit((str(u, 'sit', initialSituation) as Situation)); setNation((str(u, 'n', 'England') as Nation)); setTrans(str(u, 't', 'no')); setWhere(str(u, 'in', 'outside')); setPay(num(u, 'pay', 0));
   }, [initialCode, initialSalary, initialSituation]);
 
   const occ = OCCUPATIONS.find((o) => o.code === code);
   const scale = occ ? payOptions(occ, nation, area) : [];
   const payRate = scale.length ? (scale[Math.min(pay, scale.length - 1)]?.rate ?? scale[0].rate) : undefined;
-  const r = useMemo(() => checkSkilledWorker({ code, salary, hours, situation: sit, nation, transitional: trans === 'yes', mediumBefore2025: trans !== 'no', inside: where === 'inside', payRate }), [code, salary, hours, sit, nation, trans, where, payRate]);
-  useEffect(() => { updateURL({ soc: code, sal: salary, h: hours === 37.5 ? undefined : hours, sit: sit === 'standard' ? undefined : sit, n: nation === 'England' ? undefined : nation, t: trans === 'no' ? undefined : trans, in: where === 'inside' ? 'inside' : undefined, pay: pay || undefined }); }, [code, salary, hours, sit, nation, trans, where, pay]);
+  const r = useMemo(() => checkSkilledWorker({ code, salary, hours, situation: sit, nation, transitional: trans === 'yes', mediumBefore2025: trans !== 'no', inside: where === 'inside', payRate, healthEmployer: nhs === 'yes', islCriteria: crit === 'yes' }), [code, salary, hours, sit, nation, trans, where, payRate, nhs, crit]);
+  useEffect(() => { updateURL({ soc: code, sal: salary, h: hours === 37.5 ? undefined : hours, sit: sit === 'standard' ? undefined : sit, n: nation === 'England' ? undefined : nation, t: trans === 'no' ? undefined : trans, in: where === 'inside' ? 'inside' : undefined, pay: pay || undefined, isl: crit === 'yes' ? 'yes' : undefined }); }, [code, salary, hours, sit, nation, trans, where, pay, crit]);
 
   const ql = q.trim().toLowerCase();
   const list = OCCUPATIONS.filter((o) => !ql || o.code.startsWith(ql) || o.title.toLowerCase().includes(ql) || o.examples.some((e) => e.toLowerCase().includes(ql)));
@@ -82,6 +84,8 @@ export default function SkilledWorkerTool({ initialCode = '2136', initialSalary 
       <SelectField id={`${id}-n`} label="Where the job is" value={nation} onChange={(v) => setNation(v as Nation)} options={NATIONS.map((n) => ({ value: n, label: n }))} />
       {occ?.scale === 'table5' && nation === 'England' && <SelectField id={`${id}-area`} label="Pay area" value={area} onChange={(v) => setArea(v as (typeof LONDON)[number])} options={LONDON.map((a) => ({ value: a, label: a }))} />}
       {scale.length > 0 && <SelectField id={`${id}-pay`} label="Pay band or role" value={String(Math.min(pay, scale.length - 1))} onChange={(v) => setPay(Number(v))} options={scale.map((s, i) => ({ value: String(i), label: `${s.label}: ${gbp(s.rate)}` }))} />}
+      {['1171', '1231', '1232', '2113', '2114', '3111', '3211', '3212', '6135', '6136'].includes(code) && <Toggle id={`${id}-nhs`} label="Employer is NHS or regulated care" value={nhs} onChange={setNhs} options={[{ value: 'no', label: 'No' }, { value: 'yes', label: 'Yes' }]} />}
+      {occ?.isl && !occ.isl.all && occ.isl.nations.includes(nation) && <Toggle id={`${id}-crit`} label={`Salary List only for: ${short(occ.isl.criteria.replace(/^only\s*/i, ''))}`} value={crit} onChange={setCrit} options={[{ value: 'no', label: 'Not my job' }, { value: 'yes', label: 'My job' }]} className="sm:col-span-2" />}
       <Toggle id={`${id}-in`} label="Applying from" value={where} onChange={setWhere} options={[{ value: 'outside', label: 'Outside UK' }, { value: 'inside', label: 'Inside UK' }]} />
       <SelectField id={`${id}-t`} label="Already a Skilled Worker?" value={trans} onChange={setTrans} options={[{ value: 'no', label: 'No, first Skilled Worker visa' }, { value: '2025', label: 'Yes, in this job since before 22 July 2025' }, { value: 'yes', label: 'Yes, continuously since before 4 April 2024' }]} />
     </Shell>

@@ -160,6 +160,11 @@ describe('Skilled Worker salary test', () => {
     expect(payOptions(occupation('2212')!, 'Scotland').length).toBeGreaterThan(3);
     expect(payOptions(occupation('2313')!, 'England', 'Inner London').find((x) => x.label === 'Qualified teachers')!.rate).toBeGreaterThan(30000);
   });
+  it('uses options F to J for Health and Care ASHE jobs at an NHS or regulated care employer', () => {
+    const r = checkSkilledWorker({ code: '6135', salary: 0, hours: 37.5, situation: 'standard', nation: 'England', inside: true, healthEmployer: true });
+    expect(r.option).toBe('I'); expect(r.required).toBe(25000);
+    expect(checkSkilledWorker({ code: '6135', salary: 0, hours: 37.5, situation: 'standard', nation: 'England', inside: true }).required).toBe(33400);
+  });
   it('keeps the transitional rates for workers sponsored before 4 April 2024', () => {
     const r = checkSkilledWorker({ code: '1111', salary: 60000, hours: 37.5, situation: 'standard', nation: 'England', transitional: true });
     expect(r.required).toBe(60000); expect(r.option).toBe('F');
@@ -206,6 +211,10 @@ describe('settlement and absences', () => {
     const s = settlementDate('long-residence', '2016-01-01', [{ out: '2020-01-01', back: '2020-07-10' }]); // 190 days in one absence
     expect(s.breaches[0].reason).toMatch(/184/);
     expect(settlementDate('long-residence', '2016-01-01', []).qualifyingEnd).toBe('2026-01-01');
+  });
+  it('sets no day limit on the 5-year partner route (Appendix FM, not Continuous Residence)', () => {
+    const r = settlementDate('family', '2022-01-01', [{ out: '2023-01-01', back: '2023-09-01' }]);
+    expect(r.breaches.length).toBe(0); expect(r.qualifyingEnd).toBe('2027-01-01');
   });
   it('reports the days left in the last 12 months', () => {
     const r = settlementDate('skilled-worker', '2024-01-01', [{ out: '2026-02-01', back: '2026-03-03' }], '2026-10-13');

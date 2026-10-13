@@ -135,7 +135,7 @@ export function visaCost(inp: CostInput): CostResult {
   for (let i = 0; i < Math.max(0, Math.min(10, Math.floor(inp.children))); i++) add(`Child ${i + 1}`, depFee ?? feeEach, true);
   const fees = lines.reduce((a, l) => a + l.fee, 0), ihsTotal = lines.reduce((a, l) => a + l.ihs, 0);
   let priority = 0;
-  if (inp.priority === 'priority') priority = where === 'outside' ? FEE.priorityOutside() : FEE.priorityInside();
+  if (inp.priority === 'priority') priority = where === 'outside' ? (inp.route === 'partner' || inp.route === 'fiance' ? FEE.prioritySettlementOutside() : FEE.priorityOutside()) : FEE.priorityInside();
   if (inp.priority === 'super') priority = where === 'outside' ? FEE.superPriorityOutside() : FEE.superPriorityInside();
   if (priority) notes.push('Priority fees are charged per application where the service is offered; check availability when you apply.');
   return { lines, fees, ihsTotal, priority, total: fees + ihsTotal + priority, months, notes, people: lines.length, feeEach, feeLabel };

@@ -65,7 +65,7 @@ export default function SettlementTool({ mode = 'ilr', initialRoute = 'skilled-w
       result={<>
         <p className="text-sm font-medium text-navy-700">{head.label}</p>
         <p className="tabular-nums mt-1 text-3xl font-bold text-navy-900">{head.value}</p>
-        <div className="mt-3"><Verdict ok={ok}>{ok ? `No 12-month window holds more than 180 days: your ${years}-year period is unbroken.` : `Continuous residence broken (${res.breaches[0].reason}). The ${years} years restart on ${longDate(res.effectiveStart)}.`}</Verdict></div>
+        <div className="mt-3"><Verdict ok={route === 'family' ? null : ok}>{route === 'family' ? 'The 5-year partner route sets no fixed absence limit: you must have lived together in the UK, and long or frequent absences need a good reason. The 180-day figure below is shown as a guide only.' : ok ? `No 12-month window holds more than 180 days: your ${years}-year period is unbroken.` : `Continuous residence broken (${res.breaches[0].reason}). The ${years} years restart on ${longDate(res.effectiveStart)}.`}</Verdict></div>
         <table className="mt-3 w-full text-sm"><tbody className="divide-y divide-navy-200">
           <Row label={`${years} years completed`} value={longDate(res.qualifyingEnd)} />
           <Row label="Apply from (28 days early)" value={longDate(res.earliestApply)} />

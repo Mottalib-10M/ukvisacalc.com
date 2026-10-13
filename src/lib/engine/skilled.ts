@@ -51,6 +51,8 @@ export interface SwInput {
   payRate?: number;
   /** The job meets the further criteria of its ISL entry (when the entry is not "all jobs"). */
   islCriteria?: boolean;
+  /** Sponsored by the NHS, a listed health body or a regulated care provider (SW A1.1). */
+  healthEmployer?: boolean;
 }
 
 export interface SwResult {
@@ -134,8 +136,11 @@ export function checkSkilledWorker(inp: SwInput): SwResult {
   const counted = hours > S.maxCountedHours ? round(salary * S.maxCountedHours / hours) : salary;
   base.countedSalary = counted;
   if (hours > S.maxCountedHours) warnings.push(`Only the first ${S.maxCountedHours} hours a week count: your salary is assessed as £${Math.round(counted).toLocaleString('en-GB')}.`);
-  const transitional = !!inp.transitional;
-  const islApplies = islFor(o, inp.nation, inp.islCriteria !== false);
+  // Health and Care ASHE salary jobs (SW A1.1) use options F to J and the Table 2 rates (SW 4.2(b)(i)).
+  const ashe = S.asheCodes.includes(inp.code) && !!inp.healthEmployer;
+  const transitional = !!inp.transitional || ashe;
+  // An entry limited to some jobs ("only archaeologists") applies only when the visitor confirms it.
+  const islApplies = islFor(o, inp.nation, inp.islCriteria === true);
   base.islApplies = islApplies;
 
   // 1. Is the occupation code eligible?

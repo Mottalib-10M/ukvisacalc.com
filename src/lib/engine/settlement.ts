@@ -125,7 +125,9 @@ export function settlementDate(route: SettleRoute, start: ISO, tripsIn: Trip[], 
   const breaches: SettlementResult['breaches'] = [];
   for (let i = 0; i < 20; i++) {
     const end = addYears(s, years);
-    const b = firstBreach(route, trips, s, end);
+    // The 5-year partner route (Appendix FM, E-ILRP) has no day limit: Appendix Continuous Residence
+    // does not list it. Absences are reported, never treated as a breach.
+    const b = route === 'family' ? null : firstBreach(route, trips, s, end);
     if (!b) break;
     const restart = addDays(b.trip.back, 0);
     breaches.push({ ...b, restart });

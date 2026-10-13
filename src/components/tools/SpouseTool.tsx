@@ -47,7 +47,7 @@ export default function SpouseTool({ initialEmployment = 26000, initialStage = '
           <Row label="Your savings count as income of" value={gbp(r.savingsCountAsIncome)} />
           <Row label={`Fee + surcharge, ${stage === 'entry' ? 'first visa (33 months)' : 'extension (30 months)'}`} value={gbp(cost.total)} />
         </tbody></table>
-        <p className="mt-2 text-xs text-navy-700">Cash savings must have been held for 6 months. Income from employment is gross, before tax and National Insurance.</p>
+        <p className="mt-2 text-xs text-navy-700">Savings cannot be added to self-employment income, nor to a job held for less than 6 months (Appendix FM-SE). Cash savings must have been held for 6 months. Income from employment is gross, before tax and National Insurance.</p>
         {costHref && <p className="mt-2 text-sm"><a className="font-medium text-accent-700 underline" href={costHref}>Cost with children</a></p>}
       </>}>
       <NumberField id={`${id}-e`} label="Salary or self-employed income" value={emp} onChange={setEmp} unit="£/yr" max={1_000_000} help="Your partner’s UK income (and yours if you already work in the UK)." />

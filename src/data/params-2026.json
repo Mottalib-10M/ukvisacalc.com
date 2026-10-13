@@ -75,7 +75,20 @@
    "6135",
    "6136"
   ],
-  "careSwitchUntil": "2028-07-22"
+  "careSwitchUntil": "2028-07-22",
+  "asheCodes": [
+   "1171",
+   "1231",
+   "1232",
+   "2113",
+   "2114",
+   "3111",
+   "3211",
+   "3212",
+   "6135",
+   "6136"
+  ],
+  "_ashe": "SW A1.1: Health and Care ASHE salary jobs, sponsored by the NHS, a listed health body or a care provider regulated by the CQC (or the equivalent bodies elsewhere in the UK): options F to J and Table 2 going rates apply (SW 4.2(b)(i))."
  },
  "healthAndCare": {
   "_source": "hcw_visa",
@@ -336,7 +349,7 @@
   },
   "hc_1691": {
    "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-1619-5-march-2026",
-   "label": "Statement of Changes HC 1691 (5 March 2026): B2 English for settlement from 26 March 2027"
+   "label": "Statement of Changes HC 1691 (5 March 2026): pay-period salary rule from 8 April 2026, B2 English for settlement from 26 March 2027"
   },
   "hc_584": {
    "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026",
@@ -429,6 +442,22 @@
   "appendix_student": {
    "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student",
    "label": "Immigration Rules, Appendix Student"
+  },
+  "appendix_setf": {
+   "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-settlement-family-life",
+   "label": "Immigration Rules, Appendix Settlement Family Life (10-year partner and parent route)"
+  },
+  "appendix_uka": {
+   "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-uk-ancestry",
+   "label": "Immigration Rules, Appendix UK Ancestry"
+  },
+  "appendix_hpi": {
+   "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-high-potential-individual",
+   "label": "Immigration Rules, Appendix High Potential Individual"
+  },
+  "youth_mobility": {
+   "url": "https://www.gov.uk/youth-mobility",
+   "label": "GOV.UK: Youth Mobility Scheme visa"
   }
  }
 }

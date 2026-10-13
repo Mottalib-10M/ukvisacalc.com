@@ -7221,7 +7221,7 @@
 },
 {
 "code":"7131",
-"title":"Shopkeepers and owners - retail and wholesale",
+"title":"Shopkeepers and owners",
 "examples":[
 "Antique dealers",
 "Art dealers",
@@ -7234,6 +7234,7 @@
 ],
 "table":"Table 1a",
 "tier":"medium",
+"restriction":"retail and wholesale",
 "goingRate":33700.0,
 "r90":null,
 "r80":null,
@@ -7246,12 +7247,13 @@
 },
 {
 "code":"7132",
-"title":"Sales supervisors - retail and wholesale",
+"title":"Sales supervisors",
 "examples":[
 "Sales supervisors - retail and wholesale"
 ],
 "table":"Table 1a",
 "tier":"medium",
+"restriction":"retail and wholesale",
 "goingRate":33400.0,
 "r90":null,
 "r80":null,
@@ -7944,17 +7946,14 @@
 },
 {
 "code":"9119",
-"title":"Fishing and other elementary agriculture occupations not elsewhere classified - ONLY the listed job titles are eligible in this SOC 2020 occupation code and ONLY where the job requires the worker to have at least 3 years’ full-time experience in using their skills. This experience must not have been gained through working illegally.",
+"title":"Fishing and other elementary agriculture occupations not elsewhere classified",
 "examples":[
-"Grass cutter",
-"Hatchery worker (fishing)",
-"Horticultural worker",
-"Labourer (landscape gardening)",
-"Mushroom picker",
-"Nursery worker"
+"Vent chick sexer",
+"Deckhand on large fishing vessel (9 metres and above)"
 ],
-"table":"Table 6",
-"tier":"ineligible",
+"table":"Table 1a",
+"tier":"medium",
+"restriction":"ONLY the listed job titles are eligible in this SOC 2020 occupation code and ONLY where the job requires the worker to have at least 3 years’ full-time experience in using their skills. This experience must not have been gained through working illegally.",
 "goingRate":33400.0,
 "r90":null,
 "r80":null,
@@ -7964,6 +7963,14 @@
 "t90":null,
 "t80":null,
 "t70":25000.0,
+"ineligibleExamples":[
+"Grass cutter",
+"Hatchery worker (fishing)",
+"Horticultural worker",
+"Labourer (landscape gardening)",
+"Mushroom picker",
+"Nursery worker"
+],
 "isl":{
 "criteria":"only deckhands on large fishing vessels (9 metres and above) where the job requires the worker to have at least 3 years’ full-time experience in using their skills. This experience must not have been gained through working illegally.",
 "all":false,

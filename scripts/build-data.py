@@ -202,7 +202,8 @@ def build_soc():
             if not code: continue
             o = rec(code, title)
             o['table'], o['tier'] = tab, tier
-            if ' – ' in title: o['title'], o['restriction'] = title.split(' – ', 1)[0].strip(), clean(title.split(' – ', 1)[1])
+            for sep in (' – ', ' - '):
+                if sep in title: o['title'], o['restriction'] = title.split(sep, 1)[0].strip(), clean(title.split(sep, 1)[1]); break
             o['examples'] = examples(r[1])
             # The table prints each discounted rate (rounded by the Home Office): use them as printed.
             o['goingRate'] = money(r[2]); o['r90'] = money(r[3]); o['r80'] = money(r[4]); o['r70'] = money(r[5])
@@ -246,6 +247,10 @@ def build_soc():
     for r in by_title['Table 6']['rows'][1:]:
         code, title = split_code(r[0])
         if not code: continue
+        if code in occ and occ[code].get('table'):
+            # Partly eligible code (9119): listed jobs in Table 1a, every other job here.
+            occ[code]['ineligibleExamples'] = examples(r[1])
+            continue
         o = rec(code, title)
         o['table'], o['tier'] = 'Table 6', 'ineligible'
         o['examples'] = examples(r[1])
