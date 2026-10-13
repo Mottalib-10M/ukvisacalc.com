@@ -1,0 +1,322 @@
+# A Fairer Pathway to Settlement: statement and accompanying consultation on earned settlement (CP 1448, accessible) | updated 2025-11-28T16:28:45+00:00 | /government/consultations/earned-settlement/a-fairer-pathway-to-settlement-statement-and-accompanying-consultation-on-earned-settlement-accessible | consultation opened 2025-11-20, closed 2026-02-13 (parent page API: opening_date, closing_date) | extract: main text up to Annex A, read 2026-10-13
+ 
+ A statement and accompanying consultation on earned settlement
+November 2025
+CP 1448
+Presented to Parliament by the Secretary of State for the Home Department by Command of His Majesty
+ Any enquiries regarding this publication should be sent to us at:
+ Public.Enquiries@homeoffice.gov.uk or
+Home Office
+2 Marsham Street London
+SW1P 4DF
+ Foreword from the Home Secretary
+ The story of migration in Britain is the story of my family, and many others like us. My father came here in the early 1970s, and my mother a little less than a decade later. Both came to seek a better life, and they found one here in Britain. They became Brits themselves, and Brummies too.
+ They brought up four children just as proud to be a part of this country, and that great city, as them. This is not just my story. It is the story of many of my constituents in Birmingham Ladywood. It is the story of many millions more across this country.
+ I am a patriot. Mine is a love of this country: one that is forever changing, while something essential about it always endures. It is a patriotism that finds room for those who trace their roots back many generations, and those, like me, who do not.
+ But for some in our country today, this broad patriotism is narrowing. Divides are growing. The goal of building a greater Britain is giving way to the lure of a littler England.
+ Some will choose to scorn this analysis. They would rather we simply wished it away. But those who look like me do not have that luxury. Our lives – and the lives of our families – are more dangerous in a country that turns inwards. We have no choice but to ask: what is the cause of our division? And how might this country be united?
+ It is clear the pace and scale of migration in this country has not just been unprecedented but also destabilising. Between 2021 and 2024, we have seen net migration of an additional 2.6 million people. Around one in every 30 people in this country today arrived in these four years.
+ This extraordinary open border experiment was the legacy of the last Conservative government. The bar to entry was lowered significantly. This was most evident in the Health and Care visa. An attempt to fill between 6,000 and 40,000 jobs saw the arrival of 616,000 individuals from 2022 to 2024. Over half were not even arriving to work in that sector but were instead dependants of those who were. Fraud, as any constituency Member of Parliament can tell you, was rife.
+ The successful story of migration in Britain has always depended on two things. Firstly, that each wave of migrants becomes a part of our wider cultural life. And secondly, that they pay back to the country that has given them a home. This does not mean assimilation. We have built a multi-faith, multi-ethnic democracy that is pluralistic, grounded in tolerance towards difference. But it does demand contribution and integration.
+ To become a part of this country, permanently, is therefore not a right but a privilege – and one that must be earned. This government has already announced that we will lift the starting point at which most people can receive indefinite leave to remain to ten years. In this consultation, we set out the conditions by which settlement might then be earned.
+ Some of these conditions are required to qualify for settlement at any time. Today, settlement is near automatic. The only qualifications required are to have lived in this country for, in most cases, five years, and to have not received a prison sentence of over a year. Now, the qualifying bar will be set higher. Applicants must have a clean criminal record. They must speak English to a high standard. They must make a sustained and measurable economic contribution. Finally, they must have no debt in this country.
+ On top of that, we are consulting on a series of conditions that could either add to, or subtract from, the baseline 10-year qualifying period. An earlier settlement could be available to those who make an outsized contribution to our national life, such as high- talent, high taxpayers; those who have worked at a certain level of seniority in our public services; or those who have volunteered extensively in their local communities.
+ Separately, and not subject to consultation, settlement will be quicker for those who have a uniquely strong attachment to this country, including the spouses and dependants of British citizens and British Nationals (Overseas) (BN(O)s) from Hong Kong.
+ We propose that settlement is delayed for those who contribute less to our public life. This includes those who have claimed benefits payments. A long penalty would also be applied to those who have entered the country illegally – aiming to strongly discourage entering the country via these routes. This follows the announcement of a new, 20-year settlement path for refugees who remain on the new “core protection” support.
+ The consultation is open on some cohorts of special interest. This includes settlement rights for children, members of the armed forces, and victims of certain crimes.
+ As well as considering the responsibilities that are expected of those who seek a permanent life in this country, the consultation also raises the question of what rights are provided as a result. Specifically, it proposes that benefits should not be available to those who have settled status, and asks whether they should instead be reserved for those who have achieved British citizenship.
+ This consultation also addresses the specific question of low-skilled and low-wage migrants who arrived on the Health and Care visa. Migrants on lower wages who bring non-working dependants and children are likely to present significant fiscal costs to the UK. It is therefore right that we apply more stringent controls for this group before they qualify for settled status. Under our current rules, they will usually qualify for benefits payments and council housing five years after arrival. As the majority of this group began arriving from 2022 onwards, this is currently set to begin in 2027. We consult here on a separate baseline qualifying period, of 15 years, for this group.
+ Crucially, for these and every other group mentioned here, we propose to apply these changes to everyone in the country today who has not already received indefinite leave to remain. This would mean that those who are due to reach settlement in the coming months and years would be subject to the new requirements for earned settlement, as soon as our immigration rules have changed.
+ We will not, and would never, take away settled status from those who have already been granted it. These are people who have been in our country for years, even decades. They have families here. They have contributed to our society. Fairness is the most fundamental of British values. We made these people a promise when we gave them settlement. We welcomed them here permanently at that point, and we do not break our promises.
+ This document sets out how we will introduce a new model of settlement that is earned, not automatic. I invite all of those who have an interest in this matter to respond to this consultation with their views and recommendations.
+ Perhaps most importantly, I have set out here why we believe these changes are necessary. I love this country, which opened its arms to my parents around fifty years ago.
+ But I am profoundly concerned by the division I see in it now, which is fuelled by a pace and scale of migration that is placing immense pressure on local communities.
+ For those who believe that migration is part of modern Britain’s story, and must continue to be, we must prove that migration still works for this country. That means that those who come here must contribute, play their part, and enrich our national life. That is how we can retain our position as the greatest multi-ethnic, multi-faith democracy in the world.
+ Shabana Mahmood MP Home Secretary
+ Introduction
+ Settlement plays a vital role in fostering integration and cohesion, and this government is clear that these are not automatic entitlements but privileges that must be earned through meaningful contribution. This government proposes a revised framework, where individuals must demonstrate sustained compliance, economic activity, and alignment with British values.
+ This approach ensures that those granted settlement and citizenship are well-integrated, economically self-sufficient, and committed to the communities they join, thereby strengthening social cohesion and public confidence in the immigration system.
+ This paper sets out the details of a consultation on proposals to reform the current settlement rules in favour of an “earned settlement” model. This consultation is open to anyone who wishes to share their views, including individuals, organisations, and other stakeholders who may be affected by or have an interest in the proposed changes. It will run for 12 weeks. The consultation questionnaire can be found at Annex B of this paper.
+ A paper summarising the responses to this consultation, alongside economic and equality impact assessments, will be published in due course.
+ In line with the UK’s obligations under the Withdrawal Agreement, settled status under the EU Settlement Scheme (EUSS) is out of scope for both this consultation and the planned reforms. Grants of settlement related to the Windrush Scheme are also out of scope for both this consultation and the planned reforms. There will be no changes implemented for either scheme in relation to the settlement reforms.
+ Individuals who already hold settled status are also out of scope of measures to reform the granting of settlement and, therefore, this consultation.
+ The issue of providing a clear pathway to settlement for children in care and care leavers is also out of scope of this consultation
+ Approach
+ Settlement grants are expected to significantly increase over the next 5 years, around 1.6 million people are forecast to settle between 2026 and 2030, with a peak in annual volumes of around 450,000 in 2028. This expected increase is driven by increased immigration in 2022–2024, especially of those on Health and Care visas.
+ For migrants to make a positive fiscal contribution, they must contribute more through taxation than they cost by using public services. The fiscal contribution of migrants varies across different migrant cohorts, influenced by factors such as employment rate, income level, age, and their propensity to use different types of public services.
+ The consultation will seek views on options to reduce the current forecast volumes and associated impact over the coming years. We are consulting on a number of options to achieve this, namely
+ a) increasing the baseline qualifying period for settlement to 10 years
+ b) increasing the qualifying period for settlement to 15 years for those in the Skilled worker route in a role below RQF level 6 (equivalent to a bachelor’s degree), and
+ c) implementing a No Recourse to Public Funds (NRPF) condition at Settlement.
+ Following the consultation, the government will set out its preferred option, or combination of options, to achieve this.
+ Earned Settlement
+ ‘Earned settlement’ is a principle that recognises the value of long-term contribution to the UK. Rather than granting settlement after a fixed period, this approach ensures that individuals demonstrate sustained commitment through work, community involvement, or other meaningful contributions before being granted permanent status. It aims to reward those who actively support the country’s social and economic fabric, reinforcing fairness and public confidence in the immigration system.
+ The new model will increase the standard qualifying period for settlement to ten years. However, individuals will also have the opportunity to reduce this period based on their contributions to the UK economy and society.
+ It is proposed that the earned settlement system will be based on a ‘time adjustment’ model, built on four core pillars and designed to ensure that applicants make a meaningful contribution to UK society and meet clear, measurable standards. These four core pillars will be:
+ Character – This reformed system will, as now, provide for the refusal of applications where core requirements relating to their character and conduct (including criminal record, compliance with immigration requirements and considerations pertaining to the public good) are met. It will be mandatory to meet such requirements, and there will be no ability to trade with other considerations to determine the qualifying period. We will conduct a root and branch review of the criminality thresholds that apply across all immigration routes. Our expectation is that you should not be able to settle with a criminal record. Revised thresholds will be set out in due course.
+ Integration – The reformed system will ensure that applicants demonstrate meaningful engagement with British society.
+ Contribution – The reformed system will reward individuals who have made a sustained and measurable economic contribution to the UK, on the principle that any accelerated path to settlement should be earned through active participation in the economy.
+ Residence – The reformed system will recognise lawful, continuous residence in the UK. Individuals will not, however, normally qualify on the basis of residence alone.
+ The default qualifying period for settlement will be increased from the current 5 years to 10 years, with exceptions for certain groups or individuals.
+ In developing an earned settlement system, we will take full account of the appropriate pathways to settlement and citizenship for children either born in the UK or arriving here. This will include unaccompanied children and other vulnerable children or families. We will take account of their specific needs and vulnerabilities. We particularly welcome views on how the development of an earned settlement system should take account of children.
+ The current definition of settlement
+ Settlement in the UK is a prerequisite for becoming a British citizen and brings lifelong benefits. Settlement is also an important step in integrating and contributing to local communities and the wider country.
+ Settlement is defined as a person having no time limit on their stay in the UK and being ordinarily resident. Settlement is the right to live permanently in the UK without conditions in relation to accessing the labour market and public funds and so confers significant benefits. The holder can work, study and access public funds for which they qualify.
+ Settlement can only be revoked for reasons of criminality; deception or fraud in obtaining the status; or other significant non-conducive reasons. A person’s settled status is invalidated if they are deported. Settled status may also lapse if the holder remains outside the UK for more than 2 years.
+ Settlement is a prerequisite to being eligible for naturalisation as a British citizen.
+ Of the almost 70 different routes within the Immigration Rules, approximately 40 lead to settlement. The routes to settlement fall under one of four broad categories:
+ Work: for applicants who have completed a qualifying period on an unsponsored route (Innovator, Global Talent, Investor) or a sponsored work route (Skilled Worker/Minister of Religion/Sportsperson) or legacy unsponsored work routes (Representative of an Overseas Business/UK Ancestry and ECAA workers/business persons). Work routes leading to settlement generally allow for the worker to be accompanied or joined by their dependent partner and children.
+ Family: for a family member of a person who is British, settled in the UK, is an EU citizen with pre-settled status under the EUSS or has limited leave as a refugee or as a person granted humanitarian protection. Family applicants may be accompanied or joined by their dependent partner and children and some other dependent relatives are allowed - for example, adult dependant relatives.
+ Protection: currently for applicants who have completed a period of limited leave as a refugee or as a person granted humanitarian protection. These routes allow for the person to be accompanied or joined by dependent partners and children, and other family members in exceptional circumstances.
+ Other: includes applicants on the family route who are victims of domestic violence or bereaved partners, those who qualify on the basis of their long residence or private life, discharged members of HM Forces, stateless persons, adopted children, and those granted discretionary leave, leave outside the rules.
+ How does the system operate now?
+ The core requirements for settlement include that the applicant must have spent a qualifying period, which is usually 5 years, with a visa on a route to settlement. There are some routes that allow immediate settlement, and some which offer a shorter qualifying period of 3 years. These routes are detailed in the section below.
+ To qualify for settlement the person must have demonstrated integration (showing knowledge of English language and life in the UK) and not breached immigration law or committed criminal offences. In some cases, there are also route-specific requirements.
+ There are also longer routes to settlement (typically ten years) for individuals who have not met the core requirements of standard settlement pathways, have breached immigration laws, or would otherwise be refused on suitability grounds, but whose cases involve human rights considerations.
+ Of the 70 immigration routes, not all lead to settlement, these routes include for example as a visitor, student, or temporary worker.
+ Figure 1 provides a summary of routes leading to settlement (X represents requirements):
+ Route 
+ Time in UK prior to settlement (years) 
+ Continued Residence 
+ Knowledge of English language 
+ Life in the UK 
+ Skilled Worker 
+ 5 
+ X 
+ At entry clearance 
+ X 
+ T2 minister of religion 
+ 5 
+ X 
+ At entry clearance 
+ X 
+ Representative of an overseas business 
+ 5 
+ X 
+ X 
+ X 
+ UK Ancestry 
+ 5 
+ X 
+ X 
+ X 
+ Global Talent 
+ 3-5 
+ X 
+ X 
+ X 
+ Scale Up worker 
+ 5 
+ X 
+ At entry clearance 
+ X 
+ Innovator Founder 
+ 3 
+ X 
+ At entry clearance 
+ X 
+ International Sportsperson 
+ 5 
+ X 
+ X 
+ X 
+ Hong Kong BN(O) 
+ 5 
+ X 
+ X 
+ X 
+ Private Life (adult) 
+ 10 
+ X 
+ X 
+ X 
+ Family life (partner, parent) 
+ 5-10 
+ X 
+ X 
+ X 
+ Protection 
+ 5 
+ Long Residence 
+ 10 
+ X 
+ X 
+ X 
+ Discretionary leave 
+ 10 
+ Victims of Domestic Abuse 
+ Immediate 
+ Bereaved Partners 
+ Immediate 
+ Children of settled parents (UK-born, resided for 7 years) 
+ Immediate or 7 years 
+ Latest evidence on settlement
+ Historical settlement applications
+ The number of grants of settlement, also known as indefinite leave to remain (ILR), in a given year is a function of a combination of factors, including previous years’ immigration levels, changes in policy and operational priorities. [footnote 1] The number of people granted settlement peaked in 2010 at almost 250,000, but has remained below 200,000 in every subsequent year, averaging 111,000 per year from 2011 to 2024. [footnote 2] This document does not consider those granted settled or pre-settled status as part of the EUSS. [footnote 3] 
+ The spike in settlement in 2010 was due to a large number of grants on a discretionary basis (82,295 grants in 2010), mainly under measures aimed at clearing the backlog of outstanding unresolved cases. [footnote 4] The fall in settlement grants from 2010 to 2016 was in part due to a 2012 policy change that increased the residence requirement for Family visas from 2 to 5 years, delaying some grants that would otherwise have been made earlier. [footnote 5] 
+ Since 2017, settlement grants have been rising. In the year ending Q2 2025, there were 163,000 grants of settlement, up 18% from the previous year. [footnote 6] The overall rise in settlement grants since 2017 has been driven by a combination of factors. There has been a significant rise in entry clearance visas granted on most routes to settlement, excluding Covid impacted years. There has also been an increase in extensions of stay over the period on major routes to settlement. [footnote 7] Since 2017, settlement volumes from the Skilled Worker/Tier 2 route have risen considerably to levels comparable with the pre-2012 predecessor routes.
+ Figure 1: Settlement applications and grants, year ending 2004 to 2024 [footnote 8] (thousands)
+ The majority of people who went on to achieve settlement between 2021 and 2024 did so after initially coming to the UK on work routes (31% in 2024), family routes (30% in 2024), or to study (11% in 2024). [footnote 9] The number who came initially as Asylum claimants has fluctuated over the period, but has increased since 2021. [footnote 10] A significant proportion of those granted settlement since 2021 were dependants, typically the partners or children of those who came to work and study. Dependants made up 26% of total settlement grants between 2021 and 2024. [footnote 11] 
+ Figure 2.1: Routes to settlement by initial category of leave, 2021 to 2024 [footnote 12] (thousands)
+ Figure 2.2: Routes to settlement by prior category of leave, 2021 to 2024 [footnote 13] (thousands)
+ Not all visa routes provide a direct route to settlement. For example, migrants entering on study routes will typically need to switch onto routes such as Work or Family before applying for settlement. Between 2021 and 2024, Study made up 13% of Settlement volumes by initial category of leave (i.e. the route on which migrants arrived in the UK), compared to just 1% by prior category of leave (i.e. the route migrants were on at the point they applied for settlement). [footnote 14] In 2024, 37% of settlement grants had Family as their category of leave prior to settlement, compared to 33% who were on Work routes. [footnote 15] 
+ Future settlement forecast
+ In the next five years, settlement volumes are forecast to increase significantly, due to the unprecedented level of migration to the UK in recent years. Most of those forecast to settle arrived in the UK between 2021 and 2024, a period of record high net migration. [footnote 16] 
+ While significant uncertainty exists over the future behaviour of potential applicants, the Home Office estimates that between 1.3 million and 2.2 million people will settle in the UK between 2026 and 2030 (central estimate 1.6m), peaking at between 359,000 and 620,000 in 2028 (central estimate 450,000).
+ Figure 3: Settlement Forecast - actuals (2017-2024) and forecast (2025-2030) [footnote 17] - thousands
+ These estimates are based on published Home Office data on migrant inflows to the UK through to 2024, and a set of assumptions on the propensity of these individuals to choose to settle in the UK. In essence, the central scenario assumes settlement behaviour in line with historical patterns, with a range modelled around it to reflect uncertainty in the propensity to settle.
+ Three factors underlie this increase in settlement, over and above historical patterns:
+ First, the 154,000 people granted a Hong Kong BN(O) LTE or LTR visa in 2021 and 2022 will become eligible to settle in 2026 and 2027 [footnote 18] . The Home Office forecasts 92,000 additional settlement applications from this cohort in 2026 and 54,000 in 2027. [footnote 19] 
+ Second, the significant increase in people granted a Health and Care entry clearance visa, including a significant cohort working in the care sector, totalling 616,000 between 2022 and 2024 will become eligible for settlement between 2027 and 2029. [footnote 20] The Home Office estimates that the UK will see 384,000 additional settlement applications from this cohort over this period, with a peak at 210,000 in 2028.
+ Finally, the number of granted Skilled Worker entry clearance visas also spiked between 2022 and 2024, totalling 344,000. [footnote 21] These visas will also become eligible for settlement between 2027 and 2029, and the Home Office estimates that this cohort will account for around 222,000 settlement applications over this period.
+ Skilled Worker main applicants, both on Health and Care visas and other routes, have brought increased numbers of dependants since 2021. A significant proportion of the cohort expected to be granted settlement from these routes will be dependants, many of them children. Greater numbers of dependants could lead to an increased likelihood of applying for settlement, pushing up settlement numbers further.
+ Figure 4: Actual settlement grants [footnote 22] (2021-2024) and forecast settlement grants based on historical settlement behaviour (2025-30) by entrance route and year (thousands) [footnote 23] 
+ Characteristics of recent migrants on a path to settlement
+ There is uncertainty over the settlement behaviour of migrants based on individual characteristics beyond their initial visa category. However, as the makeup of migration has changed over the last five years, so will the characteristics of those claiming settlement over the next five years.
+ Changes in Work Migration
+ Between 2021 and 2024, there has been significant growth in lower-skilled migration on work routes, particularly on the Health and Care visa, which is estimated to make up nearly half (47%) of settlement grants in 2028.
+ The implementation of the Skilled Worker visa in December 2020, which replaced the previous Tier 2 visa, changed the skill composition of migrants coming to the UK under work routes. Under the Tier 2 system, eligibility was largely restricted to occupations at RQF Level 6 and above - typically graduate-level roles. [footnote 24] In contrast, the Skilled Worker route expanded eligibility to include RQF Level 3 to 5 roles, as well as removing previous numerical ceilings on admissions under the route, opening the door to medium and lower- skilled workers. In 2021, 13% of Skilled Worker main applicant visas issued were below RQF 6, rising to 53% in the year ending June 2024.
+ Changes to the Health and Care route also affected the skill mix. In February 2022, at the advice of the Migration Advisory Committee (MAC), Senior Care and Care Workers were made eligible for the Health and Care route. [footnote 25] Around half of Health and Care entry clearance visas issued to main applicants in 2022 were issued to Senior Care and Care Workers, rising to over 70% in 2023. [footnote 26] This led to a sharp increase in visa grants for below RQF 6 roles; 75% of Skilled Work visas on the Health and Care route were issued to occupations below RQF Level 6 in 2023, up from 11% in 2021. [footnote 27] 
+ Between 2021 and 2024, there was also a significant increase in the number of dependants being brought to the UK. Over 2016-2019 Tier 2 General visa holders brought 0.74 dependants per main applicant on average. [footnote 28] Over 2021 to 2024 Skilled Workers (including Health and Care) brought on average 1.14. [footnote 29] From 2022 to 2023 Health and Care visa holders brought significantly more dependants than other routes, 56% of visas issued to new entrants on the Health and Care visa were issued to dependants in this period compared to just 43% of Skilled Worker visas. [footnote 30] Research by the Migration Observatory indicates that main applicants who come with dependants are more likely to obtain settlement than those who come alone. [footnote 31] 
+ The Home Office’s settlement forecast, based on historical settlement behaviour, includes 462,000 individuals between 2026 and 2030 who arrived on the Health and Care route.
+ This represents a substantial new cohort, as there were no settlement grants from this route prior to 2025. Skilled Worker settlement volumes will also increase over this period; Home Office forecast that there will be 306,000 settlement grants from individuals who arrived on non-Health and Care Skilled Worker visas over the same period. This equates to 61,000 settlement grants per year, up from 39,000 settlement grants in 2024 for individuals who arrived on Worker visas. Given that most of the growth in entry clearance on these routes has been in lower skilled jobs, a large proportion of settlement grants to Skilled Workers from 2026 to 2030 will be to lower-skilled worker cohorts and their dependants.
+ Changes in Family Migration
+ Prior to April 2024, individuals sponsoring a Partner on the Family visa had to meet a minimum income requirement (MIR) of £18,600. This increased by 56% to £29,000 in April 2024. [footnote 32] This marked the first rise in the MIR since its introduction at £18,600 in 2012. The MIR declined significantly in real terms over this time due to inflation.
+ Based on historical settlement behaviour, the Home Office forecasts around 280,000 migrants could settle between 2026-2030 from Family and dependant routes. The majority of these will have arrived in the UK before the 2024 MIR increase.
+ Changes in Study Migration
+ The numbers of migrants arriving in the UK on the Study route increased substantially from 2021 to 2024 compared to previous years. From 2017 to 2019, an average of 238,000 student visas were issued per year under the previous Tier 4 – General Student route. [footnote 33] From 2021 to 2023, this increased to 532,000 per year. Student main applicants over this period brought significantly more dependants. [footnote 34] From 2017 to 2019, Students brought 0.06 dependants per main applicant on average, compared to 0.26 between 2021 and 2023. [footnote 35] 
+ Evidence from the MAC suggests that a significant proportion of international students who arrived since 2021 are switching into roles below RQF 6. In their 2024 ‘Rapid Review of the Graduate Route’, the MAC found that almost half (49%) of those who switched directly from the Student route into work routes switched into Senior Care worker and Care worker roles, while 20% of those who switched from the Graduate route also entered these occupations. [footnote 36] 
+ Individuals who arrived on the Study route are estimated to form only a small proportion of those reaching settlement between 2026 and 2030, despite a significant increase in student numbers. Home Office forecasting based on historical behaviour estimates that there will be 105,000 settlement grants over this period. Based on historical behaviour settlement volumes from the Study route appear low. However, it is likely that the introduction of the Graduate route in 2021 and higher dependency ratio of recent cohorts will lead to a higher proportion of international students remaining in the UK and eventually reaching settlement, compared to previous cohorts.
+ Economic and fiscal impacts
+ The changes set out above suggest that a significant proportion of migrants settling from 2026 to 2030 will have lower skill levels than previous cohorts of migrants. The high number of dependants connected with this cohort further suggests that they are more likely to obtain settlement and remain in the UK in the long-term. [footnote 37] 
+ Home Office analysis of internal management information shows that migrants working in below RQF 6 occupations typically have lower salaries than migrants working in occupations requiring higher skill levels. Internal data estimates that the median salary of migrants working in RQF 3-5 roles was around £12,000 lower than the overall route medians for Skilled Worker and Health and Care (excluding Care Work occupations) in 2024/25.
+ Home Office analysis [footnote 38] matching visas granted between April 2019 and March 2023 to PAYE data showed that median salaries for Senior Care and Care Workers were between £23,000 and £26,000 for financial year 2023/24. This is significantly below the median full- time salary in the UK - £37,000 as of April 2024. [footnote 39] 
+ Figure 5: Median annual adjusted earnings for granted Sponsored Work entry clearance visas [footnote 40] , financial year 2023 to 2024
+ Note: Senior Care Worker and Care Worker dependants are assumed to have the same median salary as general Health and Care dependants.
+ For migrants to make a positive fiscal contribution, they must contribute more through taxation than they cost by using public services. The fiscal contribution of migrants varies across different migrant cohorts, influenced by factors such as employment rate, income level, age, and their propensity to use different types of public services. As well as fiscal contributions, migrants contribute to the UK in a number of other ways; many migrants work in important roles providing vital services, such as supporting the NHS.
+ Fiscal impacts can also vary by time spent in the country. Both benefits and costs can vary over time. In the longer-term, costs can increase as migrants get older, have children and can increase again when migrants achieve settlement and become eligible to receive benefits, including Universal Credit and access to the state pension. In June 2025, the
+ Department for Work and Pensions (DWP) reported that 213,000 migrants with settlement were claiming Universal Credit. [footnote 41] 
+ In September 2024, the Office for Budget Responsibility (OBR) estimated the cumulative fiscal impact of a representative migrant coming to the UK at the age of 25. [footnote 42] This analysis was undertaken for an “average-wage” migrant, earning the same as the UK average (assumed to be £38,200 using ASHE 2024 data), a “high-wage” migrant earning 30 per cent more (£49,700) and a “low-wage” migrant earning 50 per cent less (£19,100).
+ It found that some cohorts of migrants such as those on the Skilled Worker visa in RQF 6+ roles and on “high-value” routes such as the Global Talent routes are likely to approximate “average-wage” or “high-wage” migrants. Those in RQF 3-5 roles, such as Senior Care and Care Workers and their dependants, who have lower skill-levels and lower earnings are likely to make less of a contribution than “average wage” migrants though still likely above the “low wage” migrant category, who never make a net positive fiscal contribution in the long run.
+ Many Skilled Workers who arrive in the UK are older than 25 at time of arrival - for these cohorts, their cumulative fiscal impact will be lower in each period when compared to a migrant who arrives closer to 25 with the same salary.
+ Figure 6, below, only considers adult migrants; migrant households with children, who incur significantly higher levels of public spending in the short term, must earn substantially more to make a net positive fiscal contribution. From 2021 to 2024, 27% of all applications [footnote 43] for Health and Care visas were under 16. Over the same period 18% of all applications for other Skilled Worker visas were under 16.
+ Figure 6: OBR cumulative fiscal impact of representative migrants [footnote 44] 
+ Further immigration rule changes
+ Due to recent rule changes the makeup of future cohorts of migrants to the UK will be different to the 2021 to 2024 cohort. In response to unprecedented levels of net migration, changes to the immigration rules came into effect from 2024 to restrict dependants for Senior Care and Care workers and on the Student route. [footnote 45] [footnote 46] The minimum salary threshold on the Skilled Worker visa was also raised to £38,700. [footnote 47] 
+ Further rule changes introduced under the Spring 2025 Immigration White Paper have tightened requirements, with a view to reducing net migration levels. [footnote 48] The skills threshold on the Skilled Worker route (including Skilled Worker – Health and Care) has been restored to RQF 6+, closing the Senior Care and Care worker route to new entrants, along with increases to minimum salary thresholds and dependant restrictions for migrants accessing the route via the Immigration Shortage Occupation List or the Temporary Shortage List.
+ Key requirements of an earned settlement system
+ Our working assumption is that the system should operate on a ‘time adjustment’ model, meaning that the qualifying period will be adjustable upwards or downwards from a baseline qualifying period, depending on the individual circumstances of the case.
+ As set out in the Immigration White Paper, we will move to a system in which the baseline qualifying period for settlement for most migrants is increased from 5 years to 10 years.
+ As set out in the Restoring Order and Control: A Statement on the government’s asylum and returns policy, we will introduce a starting point of a 20-year qualifying period of settlement for those recognised as refugees. Those who move from core protection onto the new core protection-work and study routes will be able to earn reductions. However, refugees will never be in a better position than those coming to the UK on recognised migration routes (such as workers), who are subject to the usual standard settlement qualifying period of 10 years.
+ Resettled refugees who have been granted protection and moved to the UK through official resettlement programmes are intended to start at 10 years, bringing them in line with other arrivals on planned migration routes. Individuals who arrive on these routes will have a quicker route to settlement than those who claim asylum in-country. This is justified on the basis that the caps for these routes will be devised to reflect local area capacity to absorb, so it is appropriate to grant them a shorter path to settlement.
+ The considerations informing the design will be based on four core pillars, designed to ensure that applicants make a meaningful contribution to UK society and meet clear, measurable standards. These four core pillars will be:
+ Character – This reformed system will, as now, provide for the refusal of applications where core requirements relating to their character and conduct (for example, having a criminal conviction, non-compliance with immigration requirements and considerations pertaining to the public good). It will be mandatory to meet such requirements, and there will be no ability to trade with other considerations to determine the qualifying period. We will conduct a root and branch review of the criminality thresholds that apply across all immigration routes. Our expectation is that you should not be able to settle with a criminal record. Revised thresholds will be set out in due course.
+ Integration – The reformed system will ensure that applicants demonstrate meaningful engagement with British society.
+ Contribution – The reformed system will reward individuals who have made a sustained and measurable economic contribution to the UK, on the principle that any accelerated path to settlement should be earned through active participation in the economy.
+ Residence – The reformed system will recognise lawful, continuous residence in the UK. Individuals will not, however, normally qualify on the basis of residence alone.
+ An outline of how the proposed earned settlement system would work is set out in the tables below. In these tables, criteria that applicants must meet to be considered, or that may increase or reduce the qualifying period for settlement, are linked to the four pillars set out above.
+ Eligibility for settlement: mandatory requirements
+ There will be minimum mandatory requirements that all applicants must meet in order to be granted settlement. These are set out in Table 1 below. We are not consulting on whether these should be included in the earned settlement model with the exception of “contribution”, where we are consulting on the length of time the requirement to have an earned income should apply to.
+ Table 1: Minimum requirements that an application for settlement must meet to qualify
+ Pillar 
+ Requirements 
+ Suitability 
+ The applicant must meet suitability requirements for an application, as set out in Part Suitability of the Immigration Rules) – for example, not having a criminal conviction. 
+ The applicant has no current litigation, NHS, tax or other government debt. 
+ Integration 
+ The applicant must be able to evidence that they meet English language requirements, which will be at B2 level under the Common European Framework of Reference for Languages. 
+ The applicant must be able to evidence that they have passed the Life in the UK test. 
+ Contribution 
+ Applicant has contributed to the Exchequer by having annual earnings above £12,570 for a minimum of 3 to 5 years (subject to consultation), in line with the current thresholds for paying income tax and National Insurance Contributions (NICs), or an alternative amount of income. 
+ Eligibility for settlement: the qualifying period under an earned settlement model
+ It is proposed that considerations causing the baseline qualifying period to be adjusted upwards or downwards should be those set out in Tables 2 and 3. For the purposes of any particular application, where more than one consideration in one of these tables applies, only one of them (i.e. the one that causes the largest adjustment) would be applied. But where a consideration in each table applies, the adjustments would be combined (for example, where the relevant adjustments for a particular applicant are that the applicant had been in receipt of public funds for less than 12 months but meets the C1 level English consideration, there would be an upward adjustment of 5 years and a downward adjustment of 1 year, resulting in an overall upward adjustment of 4 years, making the applicant’s total qualifying period 14 years). All measures in these tables are subject to consultation, except the reductions for dependants of British citizens and for British Nationals Overseas (BNOs).
+ Table 2: Considerations that will reduce the baseline qualifying period. Note: only one of the listed considerations (i.e. the one that causes the largest reduction) would be applied in the case of any single application, and additional years will take precedence over any reduction to the baseline.
+ Pillar 
+ Attribute 
+ Adjustment to baseline qualifying periods 
+ Integration 
+ Applicant has competency in English language at C1 Level under the Common European Framework of Reference for Languages 
+ Minus 1 year 
+ Contribution 
+ Applicant has earned a taxable income of £125,140 for 3 years immediately prior to applying for settlement 
+ Minus 7 years 
+ Contribution 
+ Applicant has earned a taxable income of £50,270 for 3 years immediately prior to applying for settlement 
+ Minus 5 years 
+ Contribution 
+ Applicant has been employed in a specified public service occupation for 5 years 
+ Minus 5 years 
+ Contribution 
+ Applicant has worked in the community (volunteering, etc) 
+ Minus 3-5 years 
+ Entry and residence 
+ Applicant holds a permission as the parent/partner/child of a British citizen and meets core family requirements Not subject to consultation 
+ Minus 5 years Not subject to consultation 
+ Entry and residence 
+ Applicant holds a permission granted under the British National Overseas route Not subject to consultation 
+ Minus 5 years Not subject to consultation 
+ Entry and residence 
+ Applicant has 3 years continuous residence as the holder of a permission as a Global Talent worker or Innovator Founder 
+ Minus 7 years 
+ Entry and residence 
+ Acknowledgement of specific and vulnerable groups having a reduction 
+ Subject to consultation 
+ Table 3: Considerations that will increase the baseline qualifying period. Note: only one of the listed considerations (i.e. the one that causes the largest increase) would be applied in the case of any single application. This will take precedence over any reduction to the baseline.
+ Pillar 
+ Attribute 
+ Adjustment to baseline qualifying periods 
+ Contribution 
+ Applicant has been in receipt of public funds for less than 12 months during route to settlement 
+ Plus 5 years 
+ Contribution 
+ Applicant has been in receipt of public funds for more than 12 months during route to settlement 
+ Plus 10 years 
+ Entry and residence 
+ Applicant arrived in the UK illegally e.g. via small boat/clandestine 
+ Plus up to 20 years 
+ Entry and residence 
+ Applicant entered the UK on a visit visa 
+ Plus up to 20 years 
+ Entry and residence 
+ Applicant has overstayed a permission for 6 months or more 
+ Plus up to 20 years 
+ This consultation includes questions intended to seek respondents’ views on the impacts of the proposed model. Further information on how the criteria are intended to work is set out below.
+ The tables above set out how the baseline qualifying period may be adjusted upwards or downwards. In order to meet the qualifying period requirement, the applicant will, as now, need to have spent the required period of time in the UK in a route, or routes, that leads to settlement. The Immigration Rules will specify which routes lead to settlement and which do not, and it is not intended that the position as to which routes fall into each category will change (Figure 1 above sets out those routes which currently lead to settlement).
+ A consequence of the proposed system is that there will no longer be a separate long residence route. The purpose of the existing long residence route will be superseded by arrangements in which the baseline qualifying period is adjustable for considerations relating to contribution and integration.
+ Contribution and Integration
+ Under these proposals, the qualifying period for settlement may be reduced where criteria relating to the applicant’s contribution and integration are met.
+ In the case of integration, it is proposed that the applicant may qualify for a reduction in the qualifying period on the basis of working in the community or having proficiency in English that is higher (at C1 level or above) than the minimum level of proficiency (B2 level) required to qualify for settlement.
+ In the case of economic contribution, the government’s view is that arrangements for settlement should reward those who are making the greatest contribution, and that earnings are the best means of objectively measuring economic contribution. This consultation therefore seeks views on linking earned reductions to earnings and specifically a proposal that applicants should attract a shorter qualifying period for settlement if they have, in the 3 years immediately prior to applying, earned a taxable annual income of above £50,270 (earning a reduction of 5 years) or £125,140 (earning a reduction of 7 years). These thresholds have been selected as they equate to the current thresholds for payment of Income Tax at the higher and additional rate respectively. (Note: it is not, however, the proposal that these income-related thresholds would track future changes to the tax system.)
+ These proposals would mean that the income threshold at which an applicant might earn an income-based reduction in the qualifying period for settlement is higher than the salary threshold that may apply to an overseas national initially seeking entry under the Skilled Worker route. The government’s view is that it is reasonable to reserve a shorter pathway to settlement to those who achieve some progression in their earnings and economic contribution post-entry.
+ In addition, this consultation also seeks views on the proposal that that there should be a similarly shorter pathway to settlement for those who are working in vital public services, particularly where earnings are based on national pay scales and may not meet the proposed threshold for an income-based reduction in the qualifying period. This might include, for example, medical and teaching professionals working in public services. It is, however, envisaged that the above reduction in the qualifying period for public service roles would apply only to those working in skilled occupations (i.e. at RQF Level 6 or above).
+ This consultation also seeks views on how far contribution-based criteria for reducing the qualifying period should reward those who have demonstrated a commitment to contributing to their community through, for example, volunteering. This government recognises the vital role that volunteers have in communities throughout the country. They contribute to the very fabric of British life, and everyone who takes part should be celebrated for their efforts to deliver change.
+ Volunteering is any activity that involves spending time, unpaid, doing something that aims to benefit someone else (other than close friends or relatives), the community or the environment. Volunteering can be formal and organised by organisations or informal within communities. It should always be a free choice made by the person giving up their time. It often has benefits for both the wider community and the individual taking part.
+ Volunteering and employment are fundamentally different. There is no legal definition of what constitutes a volunteer or the act of volunteering in the UK, but there is for employment. Volunteers give their time without obligation and can stop volunteering when they choose to.
+ Specific routes of entry and residence (including those admitted as the partner, parent or child of a British citizen and have held that status for the duration of their qualifying period or as a holder of Hong Kong British National (Overseas) status) will attract a reduction in the qualifying period. These groups will therefore be able to settle after 5 years, as they can now, subject to the mandatory requirements.
+ Individuals on high-skilled routes make an important contribution to the economy through the skills they bring. In recognition of that, it is proposed that those with 3 years of continuous residence as a Global Talent worker or Innovator Founder will benefit from a reduction of up to 7 years. It is therefore expected that most individuals who hold either visa should continue to benefit from an accelerated route to settlement after 3 years, subject to the mandatory requirements. Furthermore, we are consulting on whether family members of this group should benefit from a 5-year reduction.
+ This means, however, that with the exception of the above categories, those routes (for example, the Skilled Worker route) that currently lead to settlement after 5 years continuous stay will cease to do so and will default to a qualifying period of 10 years, except where an earned reduction on the basis of contribution or integration applies.
+ Non-compliance and negative contributions
+ Under earned settlement, a person’s pathway to settlement will also depend on their history of compliance with immigration laws. This may affect both their qualifying period for settlement and whether an application for settlement will be considered at all. The government believes it is right that those who do not comply with immigration laws should expect this to impact on their pathway to settlement and that, even where breaches do not have the consequence of resulting in outright refusal of an application, they should result in their qualifying period being extended.
+ In the case of those who overstay their leave, the Immigration Rules already provide that an application for permission to stay (including settlement) may be refused if the applicant has breached immigration laws by overstaying their leave. Under these proposals, it would additionally be the case that, where it was judged that an overstaying breach should not lead to outright refusal, it would nevertheless cause the qualifying period for settlement to be increased. We are consulting on whether this should be 5, 10, 15 or as high as 20 years.
+ It is proposed that an increase in the qualifying period should similarly apply where the applicant originally entered the UK illegally, or where the applicant originally entered as a visitor. This would mean, for example, that a person who entered the UK illegally could have a route to settlement as high as 30 years.
+ This consultation also seeks views on whether the qualifying period should be increased by five or ten years if the applicant has claimed public funds. It should be noted that recourse to public funds may constitute a breach of conditions and therefore result in outright refusal of an application on general grounds. The proposal here is that even where there has not been a breach of conditions (for example, where the Home Office waived an individual’s no recourse to public funds condition), or there has been a breach but it does not warrant refusal of the application, it should nevertheless give rise to an increase in the required qualifying period.
+ Settlement and public funds
+ In reforming settlement arrangements, the government wishes to address the concern that increasing volumes of settlement grants are not subject to restrictions on access to public funds.
+ This might be addressed by increasing the pathway to settlement for groups less likely to make a net fiscal contribution over the long-term – for example workers in lower wage occupations. We are therefore consulting on whether a contribution-based approach should mean that the existing pathway for settlement is increased (beyond the standard baseline of 10 years) for those admitted to the UK specifically to work in occupations skilled below RQF Level 6. This might involve increasing the baseline qualifying period to 15 years where the worker has been sponsored for a role skilled below RQF Level 6 (for example, under the Skilled Worker and Health and Care routes).
+ The consultation seeks views on whether the law should be changed so that it would be possible to make settlement subject to a “no recourse to public funds” condition. The government believes that the development of an earned settlement system should include a reassessment of the benefits accruing to settlement and where the accrual of those benefits might in future sit in the journey to settlement and citizenship respectively. Under this option, new migrants granted settlement would continue to be unable to access specified benefits in line with existing visa conditions. This would have the effect of shifting the default position on access to benefits to citizenship rather than settlement.
+ Dependants and children
+ Under the existing system, dependants of those who enter and stay in, for example, economic routes are able to qualify for settlement at the point that the principal applicant is granted settlement and without having to meet any additional conditions. We anticipate that this will substantially change under the earned settlement system. We expect it to become the position that the qualifying period for settlement for a person granted entry and stay as the adult dependants of an economic migrant will be separately determined according to their own attributes and circumstances. This will mean that a person admitted as the dependant of an economic migrant will not necessarily enjoy the same qualifying period for settlement as their partner. It may be shorter or longer, according to their particular circumstances.
+ It would, however, remain the position that a person whose basis of stay has been as a dependant will only have a pathway to settlement where the main applicant is able to qualify. For example, in the case of an economic migrant whose application fails under grounds for mandatory refusal, their dependants will not (as now) have a pathway to settlement independently of the main applicant.
+ In the case of children, it is acknowledged that many of the requirements in the earned reduction model outlined above – such as making NICs or meeting an income threshold – cannot be met by those who may still be children at the point that their parents become eligible for settlement. At the same time, however, the introduction of an earned settlement system with a longer baseline qualifying period does bring into focus whether and how those who turn 18 during their parents’ qualifying period should be brought within earned settlement principles and be expected to qualify for settlement in their own right.
+ The consultation questionnaire therefore includes questions seeking views on how dependants should be accommodated within an earned settlement system. The Home Office considers that the system should continue to provide a window during which those who were originally given a permission as a dependent child when they are under 18 can be granted settlement (or a limited permission to extend their stay) at the same time as their parents, even if they are over 18 at that point. The Home Office will, however, develop proposals under which a cut-off point, linked to age, may operate, and at which point such a person will transition to an immigration pathway under which they progress to settled status in their own right. This could, for example, involve specifying an age limit below which some mandatory requirements (i.e. the requirement to have paid NICs in the 3 years prior to applying) are waived.
+ We intend to adhere to commitments laid out in the 2025 UK Immigration White Paper, titled Restoring Control over the Immigration System, to ensure children who have been in the UK for most of their life, turn 18 and discover they do not have status, are fully supported and able to regularise their status and settle. We plan to put in place appropriate safeguards for children who were not aware they were here unlawfully and who have not previously been involved with their immigration status.
+ Vulnerable groups and compassionate circumstances
+ There are existing arrangements under which settlement may be granted, without being subject to a minimum qualifying period of residence, to adult family members needing long-term care from a UK-based relative; to individuals whose relationship (on a partner visa) has broken down due to domestic abuse; those entering the UK on resettlement schemes; and to partners of UK citizens or settled persons who have died. We will continue to have pathways to settlement for these groups. We are consulting on whether and how an earned settlement system may be tailored for these groups and other groups that may require such treatment in the light of their vulnerability or compassionate circumstances.
+ HM Armed Forces
+ The Armed Forces Covenant is a national commitment that those who serve or have served in HM Armed Forces should not face disadvantage due to their service. The government recognises the sacrifices made by service personnel and their families — including the loss of civilian freedoms — in defence of the UK. The government is committed to upholding the Covenant by ensuring fair treatment for all who serve or have served, including non-UK personnel. The consultation will seek views on the treatment of armed forces members under the earned settlement system, but we are not proposing that HM Armed Forces and their family members should have a different pathway to settlement than they do today.
+ Transitional Arrangements
+ This consultation includes questions intended to seek respondents’ views on how far the implementation of the earned settlement model should be accompanied by transitional measures.
+ Transitional arrangements refer to temporary measures or rules put in place to manage the shift from one system, or policy framework, to another. Without any transitional arrangements, the earned settlement policy will affect people already in the system, who are not already settled when relevant Immigration Rules come into force. Transitional arrangements may be designed to ease the impact of policy change, especially for individuals or groups already afforded permissions by the previous system. The consultation seeks views on whether there should be transitional arrangements for those already on a pathway to settlement.
+ Citizenship
+ The Immigration White Paper also stated that reforms to citizenship will be introduced, and that these would build on any changes made to settlement through the earned settlement approach. These would aim to reflect similar principles for extending qualifying periods, while allowing those who have made greater contributions to qualify sooner.
+ We recognise both that primary legislation will be required to make any changes to the British Nationality Act 1981 and that any recommendations should understandably await this consultation process for settlement and subsequent decisions on approaches to be taken. The processes for applicants to reach settlement and then move on to citizenship will need to work together and make sense, for both the applicant and the system.

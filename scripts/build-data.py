@@ -310,7 +310,7 @@ def build_sponsors():
     shards = {}
     for o in orgs.values():
         a = unicodedata.normalize('NFKD', o['n']).lower()
-        a = re.sub(r'^(the|\W)+\s*', '', a)
+        a = re.sub(r'^(?:the\s+|\W+)+', '', a)  # same rule as shardOf() in SponsorSearch.tsx
         c = a[:1] if a[:1].isalpha() else '0'
         shards.setdefault(c, []).append([o['n'], o['t'], o['c'], sorted(o['r']), sorted(o['g'])])
     outdir = os.path.join(ROOT, 'public', 'data', 'sponsors')

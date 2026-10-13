@@ -6,3 +6,8 @@ Settlement will no longer be granted automatically after a fixed period. Instead
   Contact us if you need this document in a different format.
   We cannot answer any other questions through this form.
   Read our accessible documents policy.
+## Page metadata (GOV.UK content API, read 2026-10-13)
+first_public_at: 2025-11-20T12:14:00 (change history: "First published.")
+2025-11-28T16:28:45: "Accessible version of consultation document added." (no later entry: no government response listed on this page on 2026-10-13)
+opening_date: 2025-11-20 | closing_date: 2026-02-13
+Attachments: "A Fairer Pathway to Settlement: statement and accompanying consultation on earned settlement" (CP 1448, PDF and accessible HTML). Extract of the accessible version: government__consultations__earned-settlement__a-fairer-pathway-to-settlement-statement-and-accompanying-consultation-on-earned-settlement-accessible.txt

@@ -29,7 +29,7 @@ if (page.faqs.length) jsonLd.push(faqSchema(page.faqs, lang));
 const related = page.related.filter((id) => ROUTES.some((r) => r.id === id) && id !== page.id).map((id) => ({ href: route(id, lang), name: label(id), description: pageById(id)?.card ?? '' }));
 const sources = page.sources.map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url }));
 const sp = KIT.SPONSORS;
-const sponsorMeta = { routes: sp.routes, ratings: sp.ratings, date: sp.date, organisations: sp.organisations };
+const sponsorMeta = { routes: sp.routes, ratings: sp.ratings, date: sp.date, organisations: sp.organisations, shards: sp.shards };
 const r = (id: string) => (ROUTES.some((x) => x.id === id) ? route(id, lang) : undefined);
 const links = { cost: r('uk-visa-cost-calculator') ?? '', rates: r('skilled-worker-going-rates') ?? '' };
 ---
@@ -45,7 +45,7 @@ const links = { cost: r('uk-visa-cost-calculator') ?? '', rates: r('skilled-work
     <p class="mb-6 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a> · Home Office fees of {KIT.date(KIT.FEE_DATE)}, rules checked {KIT.date(KIT.P.retrieved_at)}</p>
     <Clamp text={page.resume} lang={lang} id={`clamp-${page.id}`} class="mb-8" />
     <div class="prose prose-slate max-w-none prose-headings:font-serif">
-      {parts.map((p, i) => i % 2 === 0 ? <Fragment set:html={p ?? ''} /> : <div data-simulateur-secondaire data-chrome class="not-prose my-8"><Tool client:visible {...decode(p)} sponsorMeta={sponsorMeta} links={links} uid={`t${i + 1}`} /></div>)}
+      {parts.map((p, i) => i % 2 === 0 ? <Fragment set:html={p ?? ''} /> : <div data-simulateur-secondaire data-chrome class="not-prose my-8"><Tool client:load {...decode(p)} sponsorMeta={sponsorMeta} links={links} uid={`t${i + 1}`} /></div>)}
     </div>
   </article>
 </PageLayout>

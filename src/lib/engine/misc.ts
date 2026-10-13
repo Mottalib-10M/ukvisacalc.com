@@ -28,7 +28,9 @@ export function decisionDate(route: TimeRoute, where: 'outside' | 'inside', from
   const weeks = (T[where] as Record<string, number | null>)[route] ?? null;
   if (weeks == null) return { available: false, standard: where === 'outside' ? 'apply from inside the UK' : 'no published standard', expected: null, priority: null, superPriority: null, chaseFrom: null };
   const expected = addDays(from, weeks * 7);
-  return { available: true, standard: `${weeks} weeks`, expected, priority: addWorkingDays(from, T.priorityWorkingDays), superPriority: addWorkingDays(from, T.superPriorityWorkingDays), chaseFrom: addDays(expected, 1) };
+  // Priority timings are published for in-UK applications only; abroad they depend on the visa centre.
+  const inUk = where === 'inside';
+  return { available: true, standard: `${weeks} weeks`, expected, priority: inUk ? addWorkingDays(from, T.priorityWorkingDays) : null, superPriority: inUk ? addWorkingDays(from, T.superPriorityWorkingDays) : null, chaseFrom: addDays(expected, 1) };
 }
 
 /** Immigration skills charge for one worker: first 12 months, then each further 6 months (rounded up). */

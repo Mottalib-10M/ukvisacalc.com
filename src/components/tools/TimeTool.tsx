@@ -32,7 +32,7 @@ export default function TimeTool({ initialRoute = 'skilled-worker', initialWhere
           {r.superPriority && <Row label={route === 'ilr' ? 'With super priority (2 working days)' : 'With super priority (next working day)'} value={longDate(r.superPriority)} />}
           {r.chaseFrom && <Row label="Contact UKVI if no news after" value={longDate(r.chaseFrom)} />}
         </tbody></table>
-        <p className="mt-2 text-xs text-navy-700">Counted from the day you prove your identity (app or appointment), not the day you pay. Working days skip weekends and bank holidays in England and Wales. Priority is not offered in every country.</p>
+        <p className="mt-2 text-xs text-navy-700">Counted from the day you prove your identity (app or appointment), not the day you pay. Working days skip weekends and bank holidays in England and Wales. Abroad, faster services depend on the visa centre: their timing is given when you book.</p>
       </>}>
       <SelectField id={`${id}-r`} label="Application" value={route} onChange={(v) => setRoute(v as TimeRoute)} options={Object.entries(TIME_LABELS).map(([value, label]) => ({ value, label }))} />
       <Toggle id={`${id}-w`} label="Applying from" value={where} onChange={(v) => setWhere(v as 'outside')} options={[{ value: 'outside', label: 'Outside UK' }, { value: 'inside', label: 'Inside UK' }]} />

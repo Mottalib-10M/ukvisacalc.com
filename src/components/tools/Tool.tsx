@@ -10,7 +10,7 @@ import StudentTool from './StudentTool';
 import SponsorCostTool from './SponsorCostTool';
 import type { ToolSpec } from '../../lib/page-types';
 
-interface Props extends ToolSpec { sponsorMeta?: { routes: string[]; ratings: string[]; date: string; organisations: number }; links?: Record<string, string>; uid?: string }
+interface Props extends ToolSpec { sponsorMeta?: { routes: string[]; ratings: string[]; date: string; organisations: number; shards: string[] }; links?: Record<string, string>; uid?: string }
 export default function Tool({ kind, props = {}, sponsorMeta, links = {}, uid }: Props) {
   const p = { ...props, ...(uid ? { id: uid } : {}) } as Record<string, never>;
   switch (kind) {

@@ -18,9 +18,9 @@ export default function HomeTools({ links = {} }: { links?: Record<string, strin
   useEffect(() => { const t = str(readParams(window.location.search), 'tool', 'sw'); if (TABS.some((x) => x.id === t)) setTab(t as Tab); }, []);
   return (
     <div>
-      <div role="tablist" aria-label="Choose a calculator" className="-mx-4 mb-3 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:px-0">
+      <div role="tablist" aria-label="Choose a calculator" className="-mx-4 mb-2 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:px-0">
         {TABS.map((t) => <button key={t.id} type="button" role="tab" aria-selected={tab === t.id} onClick={() => setTab(t.id)}
-          className={`h-10 shrink-0 whitespace-nowrap rounded-full border px-4 text-sm font-medium ${tab === t.id ? 'border-accent-600 bg-accent-600 text-white' : 'border-navy-300 bg-white text-navy-700 hover:bg-navy-50'}`}>{t.label}</button>)}
+          className={`h-9 shrink-0 whitespace-nowrap rounded-full border px-4 text-sm font-medium ${tab === t.id ? 'border-accent-600 bg-accent-600 text-white' : 'border-navy-300 bg-white text-navy-700 hover:bg-navy-50'}`}>{t.label}</button>)}
       </div>
       {tab === 'sw' && <SkilledWorkerTool id="home-sw" costHref={links.cost} ratesHref={links.rates} title="Does your job meet the Skilled Worker salary threshold?" />}
       {tab === 'cost' && <CostTool id="home-cost" title="Total cost of a UK visa, family included" />}

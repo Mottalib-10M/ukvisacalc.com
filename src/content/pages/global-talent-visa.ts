@@ -1,0 +1,42 @@
+import { definePage } from '../../lib/page-types';
+import { KIT as K } from '../../lib/kit';
+
+const F = K.FEE;
+const ST = K.P.settlement;
+const endorse = F.globalTalentEndorsement(), visa = F.globalTalentVisaAfterEndorsement('outside'), prize = F.globalTalentTotal();
+const solo = K.visaCost({ route: 'global-talent', where: 'outside', months: 60, partner: false, children: 0 });
+const short = K.visaCost({ route: 'global-talent', where: 'outside', months: 12, partner: false, children: 0 });
+const couple = K.visaCost({ route: 'global-talent', where: 'outside', months: 36, partner: true, children: 1 });
+
+export default definePage({
+  id: 'global-talent-visa',
+  group: 'work',
+  order: 160,
+  nav: 'Global Talent visa',
+  card: 'No sponsor and no salary floor: endorsement or prize, fees, length of stay and the three or five-year route to settlement.',
+  title: 'Global Talent Visa 2026: Endorsement, Fees and Settlement',
+  description: `Global Talent visa: ${K.gbp(endorse)} endorsement plus ${K.gbp(visa)} visa fee, or ${K.gbp(prize)} with a listed prize, 1 to 5 years per grant, no sponsor, settlement after 3 or 5 years.`,
+  h1: 'Global Talent visa: endorsement, cost and settlement',
+  intro: `The fee is ${K.gbp(prize)} in total: ${K.gbp(endorse)} for the endorsement and ${K.gbp(visa)} for the visa, or the whole sum at once if a listed prize replaces the endorsement. The health surcharge comes on top.`,
+  resume: `The Global Talent visa is for leaders and potential leaders in academia or research, arts and culture (including architecture, fashion, film and television, and since HC 1691 a wider design pathway) and digital technology. There is no job offer, no sponsor and no minimum salary: you can work for any employer, change jobs freely or be self-employed. Most applicants first ask an endorsing body to confirm "exceptional talent" or "exceptional promise", paying ${K.gbp(endorse)}, then apply for the visa within three months and pay ${K.gbp(visa)}. A named winner of a prize on the Home Office list skips the endorsement and pays ${K.gbp(prize)} with the visa. Partners and children pay ${K.gbp(F.globalTalentDependant('outside'))} each. You choose the length of each grant, from one to five years, and pay the health surcharge for it, ${K.gbp(K.P.ihs.standard)} a year per adult. Settlement follows after ${ST.globalTalentFastYears} years for research endorsements, exceptional talent and prize winners, and after ${ST.globalTalentYears} years for exceptional promise in arts or digital technology.`,
+  tool: { kind: 'cost', props: { initialRoute: 'global-talent', initialMonths: 60, title: 'Global Talent visa: fee and surcharge for your stay' } },
+  body: (h) => `
+<h2>Endorsement or prize</h2>
+<p>The two-stage route is the usual one. Stage one is the endorsement application, judged by the body for your field against the evidence listed in Appendix Global Talent: a CV, three dated letters of recommendation from well-established organisations or experts (at least one of them based in the UK for arts, architecture, design and fashion), and proof such as international awards, significant media coverage or work exhibited, published or distributed in more than one country. Stage two is the visa application itself, which must follow within three months of the endorsement letter. You can also file both at the same time.</p>
+<p>The shortcut is a prestigious prize. The Home Office publishes a list in Appendix Global Talent: Prestigious Prizes; only the named prizes count, not other awards from the same institution, and you must be the named winner. Caseworkers check public sources and only ask you for proof if they cannot confirm the win. The fee is the same ${K.gbp(prize)}, paid in one go.</p>
+<h2>Fields and who judges them</h2>
+<p>Academia and research endorsements come from the Royal Society, the British Academy, the Royal Academy of Engineering or UKRI. Some candidates qualify by fast track: a peer-reviewed fellowship on the published list, a qualifying appointment, or critical work on a grant from an endorsed funder. HC 1691 (5 March 2026) simplified the appointments track to cover PhD-level posts at approved higher education or research institutions with research or innovation as a primary function or leadership duties. Arts and culture has a general track and separate tracks for architecture, fashion design and film and television; in film, a BAFTA or at least two main-award nominations in the last 15 years can carry an application. The design pathway added by the same Statement of Changes covers design roles that previously had no home on the route. Digital technology applicants show recognition in the last five years and three letters from experts who have known their work for at least 12 months.</p>
+<h2>What it costs for one year or five</h2>
+<p>Because the surcharge is charged per year of the grant, the length you pick drives the bill. A single applicant from abroad pays ${K.gbp(short.total)} for one year and ${K.gbp(solo.total)} for five, of which ${K.gbp(solo.ihsTotal)} is surcharge. A couple with one child taking three years pays ${K.gbp(couple.fees)} in fees and ${K.gbp(couple.ihsTotal)} in surcharge, ${K.gbp(couple.total)} in total, the child at the reduced ${K.gbp(K.P.ihs.reduced)} a year. There is no maintenance requirement to show and no English test for the visa itself.</p>
+<p>Every extension costs ${K.gbp(prize)} again, inside or outside the country, for one to five more years, and has one condition of its own: payslips or other evidence that you earned money in your endorsed field (or the field of your prize) during the last grant. An endorsement withdrawn by the endorsing body ends the possibility of extending on it.</p>
+<h2>Settling after three or five years</h2>
+<p>Under GT 11.1 and 11.2 of the rules, the qualifying period is ${ST.globalTalentFastYears} years if you were endorsed by the Royal Society, the British Academy, the Royal Academy of Engineering or UKRI, endorsed for exceptional talent in arts and culture or digital technology, or admitted on a prize; it is ${ST.globalTalentYears} years for exceptional promise. Time as a Skilled Worker, Innovator Founder, Scale-up or several other routes counts towards it, but not time as a dependant. You also need continuous residence (no more than ${ST.maxAbsenceDays} days abroad in any 12 months), English at B1 before 26 March 2027 and B2 from that date, the Life in the UK test and the ILR fee of ${K.gbp(F.ilr())}. The ${h.a('indefinite-leave-to-remain', 'ILR calculator')} has a three-year and a five-year Global Talent setting.</p>`,
+  faqs: [
+    { q: 'Do I need a job offer for the Global Talent visa?', a: 'No. Nobody sponsors you and no salary is tested, so you can arrive without a job, work for several employers, freelance or start a company. The only work-related test comes at extension and settlement: you must show you earned money in the field you were endorsed in, or the field of your prize.' },
+    { q: 'Can I switch to Global Talent without leaving the country?', a: `Yes, once you hold an endorsement or a listed prize, unless you are here as a visitor, short-term student, seasonal worker, domestic worker in a private household or on immigration bail. A student must have completed the course or spent at least 24 months on a full-time PhD. The decision usually takes ${K.P.processing.inside['global-talent']} weeks.` },
+    { q: 'Can my partner work on a Global Talent dependant visa?', a: 'Yes. A partner or child on this route can work in any job except as a sportsperson or sports coach, and can study. They can settle after five years in the country with you, and each pays the same visa fee as you plus the surcharge for the years of the grant.' },
+    { q: 'How long should I ask for on my first Global Talent grant?', a: `You choose any period up to five years, and the surcharge is the main variable. On a three-year route to settlement, a three-year grant lines up with the qualifying period and avoids surcharge for years you may not use; if settlement has to wait, a further grant of one year or more is possible. The ${K.gbp(prize)} fee is the same whatever length you choose.` },
+  ],
+  related: ['high-potential-individual-visa', 'skilled-worker-visa', 'indefinite-leave-to-remain', 'immigration-health-surcharge', 'uk-visa-cost-calculator'],
+  sources: ['global_talent', 'appendix_gt', 'hc_1691', 'fees_table', 'ihs'],
+});

@@ -11,8 +11,8 @@ const ilrHist = K.feeHistory(K.HISTORY_SERIES.find((s) => s.id === 'ilr')!.line(
 export const HOME = {
   title: 'Visa Calculator UK 2026: Skilled Worker, Spouse, ILR, Fees',
   description: `UK visa calculator: Skilled Worker threshold by SOC code, Home Office fees and health surcharge for a family, spouse visa income, ILR and citizenship dates.`,
-  h1: 'UK visa calculators: salary threshold, cost, ILR and citizenship dates',
-  intro: `The figures GOV.UK publishes, worked out for your case: the Home Office fee table of 8 October 2026, ${K.int(K.OCCUPATIONS.length)} occupation codes and a sponsor register refreshed every working day.`,
+  h1: 'UK visa calculators: salary, cost, ILR and citizenship',
+  intro: `GOV.UK’s figures worked out for your case: the Home Office fee table, ${K.int(K.OCCUPATIONS.length)} occupation codes and the sponsor register of the day.`,
   resume: `VisaCalc does what the first Google result leaves to you: it crosses your occupation code, salary, hours and situation to give the exact Skilled Worker threshold and the gap in pounds, prices a visa for the whole family on the Home Office fee table of 8 October 2026, and dates your indefinite leave to remain and your citizenship with the rolling 180-day rule, where other calculators show stale fees or ask for your phone number. The main numbers in force: a Skilled Worker job must pay at least ${K.gbp(S.general)} or the going rate of its code; the health surcharge is ${K.gbp(K.P.ihs.standard)} a year per person (${K.gbp(K.P.ihs.reduced)} for students and children); a partner visa needs ${K.gbp(F.minimumIncome)} of income or the savings that replace it; settlement costs ${K.gbp(K.FEE.ilr())} a person and naturalisation ${K.gbp(K.FEE.naturalisation() + K.FEE.ceremony())} with the ceremony. Every result is calculated in your browser from those official figures, with the source and the date printed under it.`,
   sources: ['fees_table', 'appendix_sw', 'appendix_aso', 'ihs', 'family_income', 'continuous_residence', 'citizenship', 'sponsor_register', 'times_outside', 'ogl'],
   feesTitle: 'What the main visas cost one adult in 2026',
