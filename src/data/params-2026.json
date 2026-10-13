@@ -425,6 +425,10 @@
   "cr_guidance": {
    "url": "https://www.gov.uk/government/publications/continuous-residence-caseworker-guidance",
    "label": "Home Office: continuous residence caseworker guidance, version 10.0 (whole days, rolling 12 months)"
+  },
+  "appendix_student": {
+   "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student",
+   "label": "Immigration Rules, Appendix Student"
   }
  }
 }

@@ -3,8 +3,8 @@ import { KIT as K } from '../../lib/kit';
 
 const S = K.P.skilledWorker;
 const NE = S.newEntrant;
-const at = (code: string, situation: 'standard' | 'new-entrant') => K.checkSkilledWorker({ code, salary: 0, hours: 37.5, situation, nation: 'England' }).required;
-const rows = ['2433', '1131', '2136', '2115', '2471'].map((c) => ({ o: K.occ(c), std: at(c, 'standard'), ne: at(c, 'new-entrant') }));
+const at = (code: string, situation: 'standard' | 'new-entrant') => K.checkSkilledWorker({ code, salary: 0, hours: 37.5, situation, nation: 'England', islCriteria: false }).required;
+const rows = ['2433', '1131', '2136', '2115', '2124'].map((c) => ({ o: K.occ(c), std: at(c, 'standard'), ne: at(c, 'new-entrant') }));
 const stat = rows[0];
 const stat30 = K.checkSkilledWorker({ code: '2433', salary: 0, hours: 30, situation: 'new-entrant', nation: 'England' }).required;
 
@@ -15,10 +15,10 @@ export default definePage({
   nav: 'New entrant rate',
   card: `Who counts as a new entrant, the ${K.pct(NE.share)} going rate, the ${K.gbp(NE.floor)} floor and the four-year limit.`,
   title: `New Entrant Salary for Skilled Worker: ${K.pct(NE.share)} Rate and Rules`,
-  description: `New entrant salary for the Skilled Worker visa: ${K.pct(NE.share)} of the going rate with a ${K.gbp(NE.floor)} floor if you are under ${NE.underAge}, a recent graduate or in training, for ${NE.maxStayYears} years at most.`,
+  description: `New entrant salary for the Skilled Worker visa: ${K.pct(NE.share)} of the going rate and a ${K.gbp(NE.floor)} floor for under-${NE.underAge}s, recent UK graduates and trainees, ${NE.maxStayYears} years at most.`,
   h1: 'New entrant salary rate on the Skilled Worker visa',
   intro: `New entrants can be paid ${K.pct(NE.share)} of the going rate, never below ${K.gbp(NE.floor)}, instead of the usual ${K.gbp(S.general)}. Pick "new entrant" in the checker to see your lower threshold.`,
-  resume: `The new entrant rate is option E of Appendix Skilled Worker. It lets an employer sponsor you at ${K.pct(NE.share)} of the going rate for your occupation code, pro-rated to your hours, as long as the salary is at least ${K.gbp(NE.floor)} a year. The general ${K.gbp(S.general)} floor does not apply. You qualify if one condition is met on the date you apply: you are under ${NE.underAge}; your most recent permission was as a Student on a UK bachelor's, master's or doctoral course (or PGCE or PGDE) that you have finished or are about to finish, or expired less than two years ago; your most recent permission was a Graduate visa, current or expired less than two years ago; or the job is in a regulated profession or leads to full registration or chartered status that you are working towards. The catch is time. Your combined permission as a Skilled Worker, Graduate and Tier 2 migrant cannot exceed ${NE.maxStayYears} years when granted this way. For a statistician (code ${stat.o.code}) the threshold drops from ${K.gbp(stat.std)} to ${K.gbp(stat.ne)}.`,
+  resume: `The new entrant rate is option E of Appendix Skilled Worker. It lets an employer sponsor you at ${K.pct(NE.share)} of the going rate for your occupation code, pro-rated to your hours, as long as the salary is at least ${K.gbp(NE.floor)} a year. You qualify if one condition is met on the date you apply: you are under ${NE.underAge}; your most recent permission was as a Student on a UK bachelor's, master's or doctoral course (or PGCE or PGDE) that you have finished or are about to finish, or expired less than two years ago; your most recent permission was a Graduate visa, current or expired less than two years ago; or the job is in a regulated profession or leads to full registration or chartered status that you are working towards. Your combined permission as a Skilled Worker, Graduate and Tier 2 migrant cannot exceed ${NE.maxStayYears} years when granted this way. For a statistician (code ${stat.o.code}) the threshold drops from ${K.gbp(stat.std)} to ${K.gbp(stat.ne)}.`,
   tool: { kind: 'sw', props: { initialCode: '2433', initialSalary: 39000, initialSituation: 'new-entrant', title: 'New entrant threshold for your code and hours' } },
   body: (h) => `
 <h2>Six ways to count as a new entrant</h2>
@@ -33,7 +33,7 @@ export default definePage({
 </ul>
 <p>The Student and Graduate conditions look at your most recent permission. If you moved from a Graduate visa to another route in between, the link is broken, even if you studied in the UK.</p>
 <h2>What the threshold becomes</h2>
-<p>The going rate for your code is multiplied by ${K.pct(NE.share)} and compared with the ${K.gbp(NE.floor)} floor; the higher figure is your threshold. Appendix Skilled Occupations prints the ${K.pct(NE.share)} column for every code, already rounded and lifted to the floor where needed. For codes with modest going rates the floor decides, which is why several rows below show the same figure.</p>
+<p>The going rate for your code is multiplied by ${K.pct(NE.share)} and compared with the ${K.gbp(NE.floor)} floor; the higher figure is your threshold. Appendix Skilled Occupations prints the ${K.pct(NE.share)} column for every code, already rounded and lifted to the floor where needed. For codes with modest going rates the floor decides, which is why two rows below land on the same figure.</p>
 ${h.table(['Code and occupation', 'Standard threshold', 'New entrant threshold', 'Difference'],
     rows.map((r) => [`${r.o.code} ${r.o.title}`, K.gbp(r.std), K.gbp(r.ne), K.gbp(r.std - r.ne)]),
     `Full-time (${S.goingRateHours} hours), first application, England. Computed by this site's engine from Table 1 of Appendix Skilled Occupations.`, ['l', 'r', 'r', 'r'])}
