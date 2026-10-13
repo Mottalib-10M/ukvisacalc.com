@@ -78,17 +78,17 @@ export default function SettlementTool({ mode = 'ilr', initialRoute = 'skilled-w
         <p className="mt-2 text-xs text-navy-700">Whole days only: the day you leave and the day you come back are not counted. {isIso(ilrDate) ? '' : 'Citizenship assumes ILR granted on the first application date; enter the real date when you have it.'}</p>
       </>}>
       <SelectField id={`${id}-r`} label="Route to settlement" value={route} onChange={(v) => setRoute(v as SettleRoute)} options={ROUTES} className="sm:col-span-2" />
-      <DateField id={`${id}-s`} label="Start of the qualifying period" value={start} onChange={setStart} help="Date you entered the UK on the visa, or the grant date if you were already here." />
+      <DateField id={`${id}-s`} label="Qualifying period starts (entry or grant date)" value={start} onChange={setStart} />
       <DateField id={`${id}-ilr`} label="ILR granted on (if known)" value={ilrDate} onChange={setIlrDate} />
       <Toggle id={`${id}-sp`} label="Married to a British citizen" value={spouse} onChange={setSpouse} options={[{ value: 'no', label: 'No' }, { value: 'yes', label: 'Yes' }]} className="sm:col-span-2" />
       <fieldset className="sm:col-span-2">
         <legend className="mb-1 text-sm font-medium text-navy-700">Trips outside the UK</legend>
         <div className="space-y-2">
           {trips.map((t, i) => (
-            <div key={i} className="grid grid-cols-[1fr_1fr_auto] items-end gap-2">
+            <div key={i} className="grid min-w-0 grid-cols-2 items-end gap-2 sm:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_auto]">
               <DateField id={`${id}-o${i}`} label={`Left on`} value={t.out} onChange={(v) => setTrip(i, 'out', v)} />
               <DateField id={`${id}-b${i}`} label={`Back on`} value={t.back} onChange={(v) => setTrip(i, 'back', v)} />
-              <button type="button" onClick={() => setTrips((ts) => ts.filter((_, j) => j !== i))} className="h-12 rounded-lg border border-navy-300 px-3 text-sm text-navy-700 hover:bg-navy-50" aria-label={`Remove trip ${i + 1}`}>Remove</button>
+              <button type="button" onClick={() => setTrips((ts) => ts.filter((_, j) => j !== i))} className="col-span-2 h-12 rounded-lg border border-navy-300 px-3 text-sm text-navy-700 hover:bg-navy-50 sm:col-span-1" aria-label={`Remove trip ${i + 1}`}>Remove</button>
             </div>
           ))}
         </div>

@@ -50,7 +50,7 @@ export default function SpouseTool({ initialEmployment = 26000, initialStage = '
         <p className="mt-2 text-xs text-navy-700">Savings cannot be added to self-employment income, nor to a job held for less than 6 months (Appendix FM-SE). Cash savings must have been held for 6 months. Income from employment is gross, before tax and National Insurance.</p>
         {costHref && <p className="mt-2 text-sm"><a className="font-medium text-accent-700 underline" href={costHref}>Cost with children</a></p>}
       </>}>
-      <NumberField id={`${id}-e`} label="Salary or self-employed income" value={emp} onChange={setEmp} unit="£/yr" max={1_000_000} help="Your partner’s UK income (and yours if you already work in the UK)." />
+      <NumberField id={`${id}-e`} label="Gross UK salary or self-employed income" value={emp} onChange={setEmp} unit="£/yr" max={1_000_000} />
       <NumberField id={`${id}-o`} label="Other income (pension, rent, dividends)" value={other} onChange={setOther} unit="£/yr" max={1_000_000} />
       <NumberField id={`${id}-s`} label="Cash savings of the couple" value={savings} onChange={setSavings} unit="£" max={5_000_000} />
       <SelectField id={`${id}-st`} label="Application" value={stage} onChange={(v) => setStage(v as Stage)} options={[{ value: 'entry', label: 'First visa from abroad' }, { value: 'extension', label: 'Extension in the UK' }, { value: 'settlement', label: 'Settlement (ILR)' }]} />

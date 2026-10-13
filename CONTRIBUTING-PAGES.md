@@ -129,3 +129,12 @@ Serveur local : port **4591** (`npm run preview`). Pour l'arrêter : `lsof -ti t
 Pas de dépôt GitHub, pas de push, pas de DNS. Ne toucher ni à `_trame` ni à la RECETTE. `CLARITY_ID` reste vide jusqu'à
 l'achat du domaine. Pas de page Life in the UK test (hors périmètre), pas de page ETA en tête (navigation) : la page
 Standard Visitor cite l'ETA.
+
+## Limites connues (2026-10-13)
+
+- `spouseTest` ne bloque pas l'épargne combinée à un revenu d'indépendant ou à un emploi de moins de 6 mois
+  (FM-SE 13(f), 15(b)) : l'outil l'écrit sous le résultat.
+- Route partenaire 5 ans : aucune limite de jours (Appendix FM) ; l'outil affiche les 180 jours comme simple repère.
+- Le chiffre de la surcharge Graduate 18 mois imprimé par GOV.UK (1 152,50 £) contredit la règle de l'IHS ; le site suit la règle.
+- `check-unique.py` et `check-layout.mjs` se lancent sur le build ; les rédacteurs ont mesuré la similarité en local (≤ 5,3 %).
+- Les propositions d'earned settlement (CP 1448) sont dans une constante de `earned-settlement.ts`, pas dans params.
