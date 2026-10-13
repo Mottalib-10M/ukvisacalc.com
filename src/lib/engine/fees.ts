@@ -64,6 +64,7 @@ export const FEE = {
   cosWorker: () => fee(11, [/^Certificate of Sponsorship.*Skilled Worker/i]),
   cosTemporary: () => fee(11, [/^Certificate of Sponsorship.*Temporary Worker/i]),
   cas: () => fee(11, [/^Confirmation of Acceptance for Study/i]),
+  smsPriority: () => fee(11, [/^The expedited processing of a sponsorship management request/i]),
   actionPlan: () => fee(11, [/^Sponsor action plan/i]),
   adminReview: () => fee(9, [/^Administrative Review/i]),
 };
