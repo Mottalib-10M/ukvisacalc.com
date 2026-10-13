@@ -6,20 +6,20 @@ import { route } from '../../i18n/routes';
 import { contactPageSchema } from '../../lib/seo';
 const lang = 'en';
 const path = route('contact', lang);
-const description = 'Write to the publisher of Tide Day about a station, a tide time that looks wrong, a missing beach or embedding a tide chart. We answer data questions, not navigation ones.';
+const description = 'Write to the publisher of VisaCalc about a fee, threshold or date that looks wrong, a visa route you would like covered, or embedding the cost calculator on your site.';
 ---
-<PageLayout title="Contact Tide Day: stations, corrections and embedding a tide chart" description={description} lang={lang} noindex={true} jsonLd={[contactPageSchema({ name: 'Contact', description, path, lang })]} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+<PageLayout title="Contact VisaCalc: corrections, missing routes and the widget" description={description} lang={lang} noindex={true} jsonLd={[contactPageSchema({ name: 'Contact', description, path, lang })]} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
   <div class="prose prose-slate max-w-none prose-headings:font-serif">
     <h1>Contact</h1>
-    <p>E-mail: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. There is no form and no account: write to us like you would to a harbor office.</p>
+    <p>E-mail: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. There is no form and no account: write to us with the page and the figure concerned.</p>
     <h2>Useful messages</h2>
     <ul>
-      <li>A tide time that does not match the NOAA prediction for the same station and day: tell us the page and the date, we compare it with the NOAA download.</li>
-      <li>A beach, inlet or harbor you would like to see: name the place and, if you know it, the NOAA station number.</li>
-      <li>Embedding the tide chart on a marina, club or rental site: start with the <a href={route('widget', lang)}>embed page</a>.</li>
+      <li>A fee, salary threshold or date that does not match GOV.UK: give the page and, if you can, the GOV.UK link; we check it against the fee table and the Immigration Rules in force.</li>
+      <li>An employer missing from the sponsor search: tell us its legal name; the register is copied from the Home Office file of the day and we can check whether the name is written differently there.</li>
+      <li>Embedding the cost calculator on a university, employer or community site: start with the <a href={route('widget', lang)}>embed page</a>.</li>
     </ul>
     <h2>What we cannot answer</h2>
-    <p>We cannot tell you whether a passage, a bar or a channel is safe to cross: that depends on the boat, the weather and local knowledge, and predictions are not observations. Ask the harbormaster, the Coast Guard or a local captain. The <a href={route('method', lang)}>method page</a> explains what the figures can and cannot know.</p>
+    <p>We do not give immigration advice and cannot say whether an application will succeed: only the Home Office decides, and advice on a case may only be given by a solicitor or an adviser registered with the Immigration Advice Authority. We are not affiliated with the Home Office and cannot chase an application. The <a href={route('method', lang)}>method page</a> explains what the calculators can and cannot know.</p>
     <h2>Publisher</h2>
     <LegalIdentity lang={lang} />
   </div>

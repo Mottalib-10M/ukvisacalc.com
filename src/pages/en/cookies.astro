@@ -4,14 +4,14 @@ import { LAST_UPDATED, CLARITY_ID } from '../../data/site-config';
 import { route } from '../../i18n/routes';
 const lang = 'en';
 ---
-<PageLayout title="Cookies on Tide Day: none set, and how to check it in your browser" description="Tide Day sets no cookie and stores nothing on your device: no account, no tracking, and your location never leaves the browser. How to verify it yourself in a few clicks." lang={lang} noindex={true} breadcrumbs={[{ label: 'Cookies' }]} showAuthor={false}>
+<PageLayout title="Cookies on VisaCalc: none set, and how to check it yourself" description="VisaCalc sets no cookie and stores nothing on your device: no account, no tracking, and the figures you type never leave your browser. How to verify it yourself in a few clicks." lang={lang} noindex={true} breadcrumbs={[{ label: 'Cookies' }]} showAuthor={false}>
   <div class="prose prose-slate max-w-none prose-headings:font-serif">
     <h1>Cookies</h1>
-    <p>This site sets no cookie and uses no local storage. The station, the day and the planner settings you choose live only in the page you are looking at.</p>
+    <p>This site sets no cookie and uses no local storage. The salaries, dates and options you enter live only in the page you are looking at and, if you wish, in its address.</p>
     <h2>Why there is no banner</h2>
     <p>A consent banner is needed when a site stores or reads something on your device that is not strictly necessary. Nothing of the kind happens here. {CLARITY_ID ? 'The stability monitoring described in the privacy policy runs in a cookie-free mode.' : 'No analytics or advertising script is loaded.'}</p>
     <h2>Check it yourself</h2>
-    <p>Open the developer tools of your browser (F12 on most computers), then the Application or Storage tab: under Cookies and Local Storage for this site, nothing appears while you use the tide chart. In the Network tab, choosing another station loads only that station's prediction file from this site.</p>
+    <p>Open the developer tools of your browser (F12 on most computers), then the Application or Storage tab: under Cookies and Local Storage for this site, nothing appears while you use the calculators. In the Network tab, a sponsor search loads only one file of the public register from this site.</p>
     <p>More in the <a href={route('privacy', lang)}>privacy policy</a>. Updated: {LAST_UPDATED}.</p>
   </div>
 </PageLayout>

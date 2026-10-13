@@ -1,16 +1,8 @@
 ---
-/** Guides and tools (src/content/pages/), state pages (src/content/states/), station pages (src/content/stations/). */
+/** Every page of src/content/pages/. */
 import ContentPage from '../../components/ContentPage.astro';
-import StatePage from '../../components/StatePage.astro';
-import StationPage from '../../components/StationPage.astro';
-import { PAGES, STATE_PAGES, PUBLISHED } from '../../lib/pages';
-export function getStaticPaths() {
-  return [
-    ...PAGES.map((page) => ({ params: { slug: page.slug }, props: { kind: 'page', page } })),
-    ...STATE_PAGES.map((def) => ({ params: { slug: def.state }, props: { kind: 'state', def } })),
-    ...PUBLISHED.map((s) => ({ params: { slug: s.key }, props: { kind: 'station', s } })),
-  ];
-}
-const p = Astro.props as any;
+import { PAGES, slugOf } from '../../lib/pages';
+export function getStaticPaths() { return PAGES.map((page) => ({ params: { slug: slugOf(page) }, props: { page } })); }
+const { page } = Astro.props;
 ---
-{p.kind === 'page' ? <ContentPage page={p.page} /> : p.kind === 'state' ? <StatePage def={p.def} /> : <StationPage s={p.s} />}
+<ContentPage page={page} />

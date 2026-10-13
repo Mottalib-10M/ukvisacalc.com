@@ -141,3 +141,22 @@ export function visaCost(inp: CostInput): CostResult {
 
 /** History of one fee line across every table since January 2024 (date → £), for the charts. */
 export const feeHistory = (l: FeeLine) => Object.entries(l.amounts).sort(([a], [b]) => (a < b ? -1 : 1)).map(([date, amount]) => ({ date, amount }));
+
+/** Fee lines followed over time on the fee history tool (Home Office tables since 31 January 2024). */
+export const HISTORY_SERIES: Array<{ id: string; label: string; line: () => FeeLine }> = [
+  { id: 'sw-out-3', label: 'Skilled Worker, up to 3 years, outside the UK', line: () => feeLine(2, [SW, LE3], [HC, ISL]) },
+  { id: 'sw-out-5', label: 'Skilled Worker, over 3 years, outside the UK', line: () => feeLine(2, [SW, GT3], [HC, ISL]) },
+  { id: 'sw-in-3', label: 'Skilled Worker, up to 3 years, inside the UK', line: () => feeLine(7, [SW, LE3], [HC, ISL]) },
+  { id: 'hc-3', label: 'Health and Care Worker, up to 3 years', line: () => feeLine(2, [SW, HC, LE3], [ISL]) },
+  { id: 'partner-out', label: 'Spouse or partner visa, outside the UK', line: () => feeLine(1, [/^Route to Settlement$/i]) },
+  { id: 'partner-in', label: 'Spouse or partner extension, inside the UK', line: () => feeLine(9, [/^Leave to remain - Other/i]) },
+  { id: 'ilr', label: 'Indefinite leave to remain', line: () => feeLine(9, [/^Indefinite leave to remain - main applicant/i]) },
+  { id: 'citizenship', label: 'Naturalisation as a British citizen', line: () => feeLine(10, [/^Naturalisation \(British citizenship\)/i]) },
+  { id: 'student', label: 'Student, outside the UK', line: () => feeLine(3, [/^Student - main applicant/i]) },
+  { id: 'graduate', label: 'Graduate', line: () => feeLine(7, [/^Graduate Route/i]) },
+  { id: 'visitor', label: 'Standard Visitor, up to 6 months', line: () => feeLine(1, [/^Visit visa – short up to 6 months/i]) },
+  { id: 'gt', label: 'Global Talent (prize route)', line: () => feeLine(2, [/^Global Talent - main applicant - where Approval Letter is not required/i]) },
+  { id: 'hpi', label: 'High Potential Individual', line: () => feeLine(2, [/^High Potential Individual/i]) },
+  { id: 'cos', label: 'Certificate of sponsorship (Skilled Worker)', line: () => feeLine(11, [/^Certificate of Sponsorship.*Skilled Worker/i]) },
+  { id: 'licence-large', label: 'Sponsor licence, medium or large employer', line: () => feeLine(11, [/^Worker sponsor licence \(large sponsor\s*\)$/i]) },
+];

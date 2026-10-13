@@ -5,17 +5,17 @@ import { CONTACT_EMAIL, LAST_UPDATED, LEGAL, SITE_URL, CLARITY_ID } from '../../
 import { route } from '../../i18n/routes';
 const lang = 'en';
 ---
-<PageLayout title="Privacy policy of Tide Day: your location stays on your device" description="What the tide charts process: no cookie, no account, and the position used by Use my location never leaves your browser. Your rights under US state privacy laws and the GDPR." lang={lang} noindex={true} breadcrumbs={[{ label: 'Privacy' }]} showAuthor={false}>
+<PageLayout title="Privacy policy of VisaCalc: what you type stays in your browser" description="What the UK visa calculators process: no cookie, no account, no form; salaries, dates and trips you type never leave your browser. Your rights under the UK and EU GDPR." lang={lang} noindex={true} breadcrumbs={[{ label: 'Privacy' }]} showAuthor={false}>
   <div class="prose prose-slate max-w-none prose-headings:font-serif">
     <h1>Privacy policy</h1>
-    <p>This policy covers {SITE_URL}. The publisher is established in France: the EU General Data Protection Regulation applies to everything the site does, for every visitor, and residents of US states with a consumer privacy law, California among them, keep at least the rights listed here.</p>
+    <p>This policy covers {SITE_URL}. The publisher is established in France: the EU General Data Protection Regulation applies to everything the site does, for every visitor, and visitors in the United Kingdom keep the rights of the UK GDPR, which are the same in substance.</p>
     <p>This site sets no cookie and stores nothing on your device: no account, no tracking identifier, no saved settings.</p>
     <h2>1. Who is responsible</h2>
     <LegalIdentity lang={lang} />
-    <h2>2. Your location</h2>
-    <p>"Use my location" asks your browser for your position. If you accept, the position is compared with the list of stations inside the page to find the nearest ones, and that is all: it is not sent to us or to anyone, not stored, and forgotten when you close the page. You can refuse and pick a station from the list instead.</p>
+    <h2>2. What you type</h2>
+    <p>Salaries, savings, dates of trips, occupation codes and family details are used by the calculators inside the page and nowhere else. They can appear in the address bar so that you can bookmark or share a result; that address stays on your device unless you send it to someone. Nothing is sent to us, and there is no form that collects contact details.</p>
     <h2>3. What your browser downloads</h2>
-    <p>When you choose a station or a distant date, your browser downloads that station's prediction file from this site. Like every web host, GitHub records the IP address, time, page requested and browser type of each request to keep the service secure. Legal basis: legitimate interest. Retention follows GitHub's policy.</p>
+    <p>When you search the sponsor register, your browser downloads the file of the first letter you typed from this site. Like every web host, GitHub records the IP address, time, page requested and browser type of each request to keep the service secure. Legal basis: legitimate interest. Retention follows GitHub's policy.</p>
     {CLARITY_ID
       ? <><h3>Anonymous stability monitoring, without cookies</h3><p>To find broken pages and scripts, the site loads Microsoft Clarity (Microsoft Ireland Operations Limited, Dublin) in its cookie-free mode: errors, loading times, clicks that lead nowhere and scrolling are measured per page view, without cookies and without linking visits; page content and inputs are masked. Microsoft receives the technical data of the request, including the IP address. Legal basis: legitimate interest in a working site (Article 6(1)(f) GDPR). You can object by blocking clarity.ms or by writing to us.</p></>
       : <><h3>No analytics</h3><p>No audience measurement, analytics, advertising or social media tool is loaded today. If a stability monitoring tool is added, this page will name it before it is switched on.</p></>}
@@ -23,7 +23,7 @@ const lang = 'en';
     <h2>4. No sale, no sharing</h2><p>We do not sell or share personal information and build no profiles. There is no advertising on the site.</p>
     <h2>5. Transfers</h2><p>The host, GitHub, Inc., is in the United States; request data may be processed there under the EU–US Data Privacy Framework.</p>
     <h2>6. Your rights</h2><p>You may ask for access, correction, deletion, restriction or portability, or object to processing, by writing to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>; we answer within one month. You may also complain to the {LEGAL.supervisoryAuthority} (<a href={LEGAL.supervisoryAuthorityUrl} rel="nofollow noopener" target="_blank">{LEGAL.supervisoryAuthorityUrl}</a>).</p>
-    <h2>7. Children</h2><p>The site is not directed at children under 13 and collects nothing from them.</p>
+    <h2>7. Children</h2><p>The site is not directed at children and collects nothing from them.</p>
     <p>See also the <a href={route('cookies', lang)}>cookies page</a> and the <a href={route('terms', lang)}>legal notice</a>. Updated: {LAST_UPDATED}.</p>
   </div>
 </PageLayout>

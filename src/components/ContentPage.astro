@@ -1,74 +1,51 @@
 ---
 /**
- * A guide or tool page of `src/content/pages/`. Tool pages put their tool first (the answer is
- * the tool), then the folded answer and the text. Guides put the folded answer first, then their
- * mini-simulator, then the text; a body may carry more minis with `h.mini(kind)`. FAQ (shown and
- * marked up from one list), related pages, sources and publisher: PageLayout.
+ * A page of `src/content/pages/`: H1, one-line answer, the simulator in the first screen, the folded
+ * citable answer, then the text. A body may carry a second simulator with `h.tool(...)`, rendered as
+ * an island marked data-simulateur-secondaire. FAQ, related pages, sources, publisher: PageLayout.
  */
 import PageLayout from '../layouts/PageLayout.astro';
 import Clamp from './Clamp.astro';
-import TideTool from './tide/TideTool';
-import PlannerTool from './tide/PlannerTool';
-import SolunarTool from './tide/SolunarTool';
-import NearTool from './tide/NearTool';
-import CompareTool from './tide/CompareTool';
-import Mini from './tide/Mini';
+import Tool from './tools/Tool';
 import { route, ROUTES } from '../i18n/routes';
 import { label, GROUPS } from '../i18n/nav';
 import { t } from '../i18n/ui';
 import { pageById } from '../lib/pages';
 import { helpers, SOURCES } from '../lib/helpers';
-import { windowOf, ALL_LITE, BUILD_MIN, STATIONS, STATE_LIST, DATA_META, full, lite, station } from '../lib/stations';
-import { fullDate } from '../lib/engine/time';
+import { KIT } from '../lib/kit';
 import { articleSchema, faqSchema, breadcrumbSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
 import { AUTHOR_NAME } from '../data/site-config';
-import type { PageDef } from '../lib/page-types';
+import type { PageDef, ToolSpec } from '../lib/page-types';
 interface Props { page: PageDef }
 const { page } = Astro.props;
 const lang = 'en';
 const ui = t(lang);
 const path = route(page.id, lang);
 const group = GROUPS.find((g) => g.id === page.group)!;
-const parts = page.body(helpers()).split(/<!--mini:([A-Za-z0-9_-]+)(?:\|([A-Za-z0-9+/=]+))?-->/);
-const decode = (b?: string) => (b ? JSON.parse(Buffer.from(b, 'base64').toString('utf8')) : undefined);
-const jsonLd = [...(page.tool ? [webApplicationSchema({ name: page.h1, description: page.description, path, lang })] : []), articleSchema({ title: page.h1, description: page.description, path, lang }), webPageSchema({ name: page.h1, description: page.description, path, lang }), breadcrumbSchema([{ name: ui.breadcrumbHome, path: route('home', lang) }, { name: page.nav, path }])];
+const parts = page.body(helpers()).split(/<!--tool:([A-Za-z0-9+/=]+)-->/);
+const decode = (b: string) => JSON.parse(Buffer.from(b, 'base64').toString('utf8')) as ToolSpec;
+const jsonLd = [webApplicationSchema({ name: page.h1, description: page.description, path, lang }), articleSchema({ title: page.h1, description: page.description, path, lang }), webPageSchema({ name: page.h1, description: page.description, path, lang }), breadcrumbSchema([{ name: ui.breadcrumbHome, path: route('home', lang) }, { name: page.nav, path }])];
 if (page.faqs.length) jsonLd.push(faqSchema(page.faqs, lang));
-const related = page.related.filter((id) => ROUTES.some((r) => r.id === id)).map((id) => ({ href: route(id, lang), name: label(id), description: pageById(id)?.card ?? '' }));
+const related = page.related.filter((id) => ROUTES.some((r) => r.id === id) && id !== page.id).map((id) => ({ href: route(id, lang), name: label(id), description: pageById(id)?.card ?? '' }));
 const sources = page.sources.map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url }));
-const DEFAULT = 'south-carolina/myrtle-beach';
-const all = ALL_LITE();
-const ext = Object.fromEntries(STATIONS.map((s) => [s.key, { highs: s.stats.topHighs.map((e) => [e.t, e.h]), lows: s.stats.topLows.map((e) => [e.t, e.h]), negDays: s.stats.negativeLowDays, mhhw: s.datums?.MHHW ?? null }]));
-const miniProps = (kind: string, arg?: { station?: string }) => { const k = arg?.station ?? DEFAULT; return { kind, stations: all, initialKey: k, initialWin: windowOf(k), buildMin: BUILD_MIN, extremes: kind === 'kings' || kind === 'lows' ? ext : undefined }; };
-const toolKey = (page.mini as { arg?: { station?: string } } | undefined)?.arg?.station ?? DEFAULT;
-const next = page.tool === 'near' ? Object.fromEntries(STATIONS.map((s) => { const w = windowOf(s.key, 3); return [s.key, w.events]; })) : {};
-const states = STATE_LIST.map((s) => ({ value: s.slug, label: s.name }));
-const cmp = page.tool === 'compare' ? (page.stations ?? []).map((k) => lite(station(k))) : [];
-const cmpWins = Object.fromEntries(cmp.map((s) => [s.key, windowOf(s.key)]));
-void full;
+const sp = KIT.SPONSORS;
+const sponsorMeta = { routes: sp.routes, ratings: sp.ratings, date: sp.date, organisations: sp.organisations };
+const r = (id: string) => (ROUTES.some((x) => x.id === id) ? route(id, lang) : undefined);
+const links = { cost: r('uk-visa-cost-calculator') ?? '', rates: r('skilled-worker-going-rates') ?? '' };
 ---
 <PageLayout title={page.title} description={page.description} lang={lang} jsonLd={jsonLd} faqs={page.faqs} related={related} sources={sources} breadcrumbs={[{ label: group.label }, { label: page.nav }]}>
   <article>
     <header class="mb-4">
-      <p class="text-xs font-semibold uppercase tracking-wide text-accent-700 sm:text-sm">{group.label}</p>
-      <h1 class="mt-1 font-serif text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{page.h1}</h1>
-      <p class={`mt-2 text-base text-navy-700 ${page.tool ? 'sm:text-lg' : ''}`}>{page.intro}</p>
+      <h1 class="font-serif text-[1.7rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{page.h1}</h1>
+      <p class="mt-2 text-base text-navy-700 sm:text-lg">{page.intro}</p>
     </header>
-    {page.tool && (
-      <div data-outil data-chrome class="mb-4">
-        {page.tool === 'picker' && <TideTool client:load stations={all} picker initialKey={toolKey} initialWin={windowOf(toolKey)} buildMin={BUILD_MIN} methodHref={route('method', lang)} idPrefix="pk" />}
-        {page.tool === 'planner-beach' && <PlannerTool client:load stations={all} initialKey={toolKey} initialWin={windowOf(toolKey)} buildMin={BUILD_MIN} mode="below" methodHref={route('method', lang)} />}
-        {page.tool === 'planner-boat' && <PlannerTool client:load stations={all} initialKey={toolKey} initialWin={windowOf(toolKey)} buildMin={BUILD_MIN} mode="above" methodHref={route('method', lang)} />}
-        {page.tool === 'solunar' && <SolunarTool client:load stations={all} initialKey={toolKey} initialWin={windowOf(toolKey)} buildMin={BUILD_MIN} methodHref={route('method', lang)} />}
-        {page.tool === 'near' && <NearTool client:load stations={all} next={next} buildMin={BUILD_MIN} states={states} initialState="florida" />}
-        {page.tool === 'compare' && <CompareTool client:load stations={cmp} wins={cmpWins} buildMin={BUILD_MIN} />}
-      </div>
-    )}
-    {page.tool && <p class="mb-6 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a> · predictions downloaded {fullDate(DATA_META.retrieved)}</p>}
-    <Clamp text={page.resume} lang={lang} id={`clamp-${page.id}`} class={page.tool ? 'mb-8' : 'mb-3'} />
-    {!page.tool && page.mini && <Mini client:load primary {...miniProps(page.mini.kind, page.mini.arg as { station?: string })} href={route('home', lang)} />}
-    {!page.tool && <p class="mb-6 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a> · predictions downloaded {fullDate(DATA_META.retrieved)}</p>}
+    <div data-outil data-chrome class="mb-4">
+      <Tool client:load {...page.tool} sponsorMeta={page.tool.kind === 'sponsor' ? sponsorMeta : undefined} links={links} uid="t1" />
+    </div>
+    <p class="mb-6 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a> · Home Office fees of {KIT.date(KIT.FEE_DATE)}, rules checked {KIT.date(KIT.P.retrieved_at)}</p>
+    <Clamp text={page.resume} lang={lang} id={`clamp-${page.id}`} class="mb-8" />
     <div class="prose prose-slate max-w-none prose-headings:font-serif">
-      {parts.map((p, i) => i % 3 === 0 ? <Fragment set:html={p ?? ''} /> : i % 3 === 1 ? <Mini client:load {...miniProps(p, decode(parts[i + 1]))} /> : null)}
+      {parts.map((p, i) => i % 2 === 0 ? <Fragment set:html={p ?? ''} /> : <div data-simulateur-secondaire data-chrome class="not-prose my-8"><Tool client:visible {...decode(p)} sponsorMeta={sponsorMeta} links={links} uid={`t${i + 1}`} /></div>)}
     </div>
   </article>
 </PageLayout>

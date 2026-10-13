@@ -1,6 +1,6 @@
 /** Writing tools (`Helpers`) passed to the body of every page. */
 import { route, ROUTES } from '../i18n/routes';
-import type { Helpers } from './page-types';
+import type { Helpers, ToolSpec } from './page-types';
 import { formatNumber } from './format';
 import { KIT } from './kit';
 
@@ -17,11 +17,11 @@ export function link(id: string, text: string) {
   return `<a href="${route(id, 'en')}">${text}</a>`;
 }
 export const box = (title: string, html: string) => `<aside class="boxnote not-prose"><p class="boxnote-title">${title}</p><div class="text-navy-800">${html}</div></aside>`;
-export const mini = (kind: string, arg?: unknown) => `<!--mini:${kind}${arg === undefined ? '' : `|${Buffer.from(JSON.stringify(arg)).toString('base64')}`}-->`;
+export const toolMark = (t: ToolSpec) => `<!--tool:${Buffer.from(JSON.stringify(t)).toString('base64')}-->`;
 export function helpers(): Helpers {
   return {
     ...KIT, a: link, table,
     src: (key: string, text?: string) => { const s = SOURCES[key]; if (!s) throw new Error(`Unknown source ${key}`); return ext(s.url, text ?? s.label); },
-    ext, box, mini,
+    ext, box, tool: toolMark,
   };
 }

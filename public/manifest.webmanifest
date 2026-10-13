@@ -1,7 +1,7 @@
 {
  "name": "VisaCalc",
  "short_name": "VisaCalc",
- "description": "À RÉÉCRIRE",
+ "description": "UK visa calculators: Skilled Worker salary threshold by SOC code, visa fees and health surcharge for a family, ILR and citizenship dates, spouse visa income, sponsor register.",
  "start_url": "/en/",
  "display": "standalone",
  "background_color": "#ffffff",

@@ -1,29 +1,36 @@
 /**
- * Writing kit: every figure a page writes comes from here (station registry, prediction files,
- * params), never typed by hand (RECETTE §17.4 point 7). Server side only.
+ * Writing kit: every figure a page writes comes from here (params, fee table, occupation table,
+ * sponsor register), never typed by hand (RECETTE §17.4 point 7). Server side only.
  */
-import { listOf } from './fmt';
-import { ft, ft1, int } from '../components/tide/fmt';
-import { fullDate, monthName, clock, shortDate, localDate } from './engine/time';
-import { STATIONS, STATE_INFO, STATE_LIST, station, stationsIn, DATA_META, lite } from './stations';
 import P from '../data/params-2026.json';
-import VAL from '../data/validation.json';
+import SOC from '../data/soc.json';
+import SPONSORS from '../data/sponsors-meta.json';
+import FEES from '../data/fees.json';
+import { FEE, ihs, visaCost, feeLine, HISTORY_SERIES, feeHistory, FEE_DATE } from './engine/fees';
+import { checkSkilledWorker, occupation, payOptions, OCCUPATIONS, BANDS, TEACHERS } from './engine/skilled';
+import { requiredIncome, spouseTest } from './engine/family';
+import { settlementDate, citizenshipDate } from './engine/settlement';
+import { decisionDate, skillsCharge, sponsorCost, studentFunds } from './engine/misc';
+import { longDate, monthYear, addDays, addMonths, addYears } from './engine/dates';
+import { formatMoney, formatNumber, formatPercent } from './format';
 
-const typeWords = { semidiurnal: 'two highs and two lows of similar size each day', mixed: 'two highs and two lows of unequal size each day', diurnal: 'often a single high and a single low a day' } as const;
+/** £41,700 · £517.50 (pence only when there are some). */
+const gbp = (x: number) => formatMoney(x, Math.round(x * 100) % 100 === 0 ? 0 : 2);
+const int = (x: number) => formatNumber(Math.round(x), 0);
+const pct = (x: number, d = 0) => formatPercent(x, d);
+/** "a, b and c" */
+const listOf = (xs: string[]) => (xs.length <= 1 ? xs.join('') : `${xs.slice(0, -1).join(', ')} and ${xs[xs.length - 1]}`);
+/** Occupation by code, failing loudly on an unknown code. */
+const occ = (code: string) => { const o = occupation(code); if (!o) throw new Error(`Unknown SOC code ${code}`); return o; };
 
 export const KIT = {
-  P, VAL, DATA: DATA_META,
-  ft, ft1, int, listOf, date: fullDate, month: monthName, clock, shortDate, localDate,
-  stations: STATIONS, states: STATE_LIST, stateInfo: STATE_INFO,
-  st: station, inState: stationsIn, lite,
-  stateName: (s: string) => STATE_INFO[s].name,
-  /** "two highs and two lows of unequal size each day" */
-  typeWords: (key: string) => typeWords[station(key).stats.tideType],
-  /** Station by place name inside a state, e.g. K.find('florida', 'key-west'). */
-  find: (state: string, slug: string) => station(`${state}/${slug}`),
-  /** Largest and smallest average range among a set of stations. */
-  extremesOf: (keys: string[]) => { const xs = keys.map(station).sort((a, b) => b.stats.meanRange - a.stats.meanRange); return { max: xs[0], min: xs[xs.length - 1] }; },
-  /** Date and time of a station extreme: "December 24, 2026 at 7:42 AM". */
-  when: (key: string, t: number) => { const s = station(key); return `${fullDate(localDate(t, s.tz))} at ${clock(t, s.tz)}`; },
+  P, SOC, SPONSORS, FEES, FEE, FEE_DATE, ihs, visaCost, feeLine, HISTORY_SERIES, feeHistory,
+  checkSkilledWorker, occ, payOptions, OCCUPATIONS, BANDS, TEACHERS,
+  requiredIncome, spouseTest, settlementDate, citizenshipDate, decisionDate, skillsCharge, sponsorCost, studentFunds,
+  date: longDate, monthYear, addDays, addMonths, addYears, gbp, int, pct, listOf,
+  /** Number of occupations by table of Appendix Skilled Occupations. */
+  count: (table: string) => OCCUPATIONS.filter((o) => o.table === table).length,
+  isl: () => OCCUPATIONS.filter((o) => o.isl),
+  tsl: () => OCCUPATIONS.filter((o) => o.tsl),
 };
 export type Kit = typeof KIT;
