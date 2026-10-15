@@ -27,7 +27,7 @@ const links = { cost: r('uk-visa-cost-calculator'), rates: r('skilled-worker-goi
   <header class="mb-4">
     <h1 class="font-serif text-[1.7rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{x.h1}</h1>
     <p class="mt-2 text-base text-navy-700 sm:text-lg">{x.intro}</p>
-    <p class="mt-1 text-xs text-navy-600 sm:text-sm">Home Office fee table of <time datetime={KIT.FEE_DATE}>{KIT.date(KIT.FEE_DATE)}</time> · rules checked <time datetime={KIT.P.retrieved_at}>{KIT.date(KIT.P.retrieved_at)}</time> · sponsor register of {KIT.date(KIT.SPONSORS.date)} · <a href={route('method', lang)} class="underline">How we calculate</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
+    <p class="mt-1 text-xs text-navy-600 sm:text-sm">Home Office fee table of {KIT.date(KIT.FEE_DATE)} · sponsor register of {KIT.date(KIT.SPONSORS.date)} · <a href={route('method', lang)} class="underline">How we calculate</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
   </header>
   <div data-outil data-chrome><HomeTools client:load links={links} /></div>
   <Clamp text={x.resume} lang={lang} id="clamp-home" class="my-8" />
