@@ -1,10 +1,10 @@
 {
 "source":"https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers",
-"file":"https://assets.publishing.service.gov.uk/media/6ad1d58449ba86d6c953ca9d/SP_-_Worker_and_Temporary_Worker_Web_Register_-_2026-10-16.csv",
+"file":"https://assets.publishing.service.gov.uk/media/6ad5d304a89985bb9702682e/SP_-_Worker_and_Temporary_Worker_Web_Register_-_2026-10-19.csv",
 "licence":"Open Government Licence v3.0",
-"date":"2026-10-16",
-"rows":143211,
-"organisations":127807,
+"date":"2026-10-19",
+"rows":143180,
+"organisations":127789,
 "routes":[
 "Skilled Worker",
 "Tier 2 Ministers of Religion",
@@ -37,18 +37,18 @@
 "Temporary Worker (A (Premium))"
 ],
 "byRoute":{
-"Skilled Worker":123185,
-"Tier 2 Ministers of Religion":1960,
+"Skilled Worker":123163,
+"Tier 2 Ministers of Religion":1961,
 "Global Business Mobility: UK Expansion Worker":435,
 "Creative Worker":1583,
-"Global Business Mobility: Senior or Specialist Worker":10439,
+"Global Business Mobility: Senior or Specialist Worker":10426,
 "International Agreement":134,
 "Scale-up":93,
 "Global Business Mobility: Graduate Trainee":622,
 "Global Business Mobility: Service Supplier":56,
 "Charity Worker":1531,
-"Religious Worker":1433,
-"International Sportsperson":1473,
+"Religious Worker":1435,
+"International Sportsperson":1474,
 "Government Authorised Exchange":248,
 "Seasonal Worker":6,
 "Global Business Mobility: Secondment Worker":6,
@@ -57,9 +57,9 @@
 "Tier 2 General":5
 },
 "byRating":{
-"Worker (A rating)":137397,
-"Temporary Worker (A rating)":5610,
-"Worker (UK Expansion Worker: Provisional )":97,
+"Worker (A rating)":137366,
+"Temporary Worker (A rating)":5612,
+"Worker (UK Expansion Worker: Provisional )":95,
 "Worker (B rating)":99,
 "Temporary Worker (B rating)":1,
 "Worker (A (SME+))":1,
@@ -67,7 +67,7 @@
 "Worker (A (Premium))":4,
 "Temporary Worker (A (Premium))":1
 },
-"skilledWorkerOrgs":122420,
+"skilledWorkerOrgs":122402,
 "bRatedOrgs":100,
 "shards":[
 "0",
@@ -101,14 +101,14 @@
 "topTowns":[
 {
 "town":"London",
-"orgs":36671,
-"skilled":35313,
+"orgs":36661,
+"skilled":35303,
 "b":13
 },
 {
 "town":"Birmingham",
-"orgs":3091,
-"skilled":2962,
+"orgs":3094,
+"skilled":2964,
 "b":2
 },
 {
@@ -119,8 +119,8 @@
 },
 {
 "town":"Leicester",
-"orgs":1426,
-"skilled":1381,
+"orgs":1427,
+"skilled":1382,
 "b":3
 },
 {
@@ -131,50 +131,50 @@
 },
 {
 "town":"Bristol",
-"orgs":1292,
-"skilled":1229,
+"orgs":1290,
+"skilled":1227,
 "b":0
 },
 {
 "town":"Edinburgh",
-"orgs":1181,
-"skilled":1113,
+"orgs":1180,
+"skilled":1112,
 "b":0
 },
 {
 "town":"Leeds",
-"orgs":1085,
-"skilled":1038,
+"orgs":1087,
+"skilled":1040,
 "b":0
 },
 {
 "town":"Nottingham",
-"orgs":1050,
-"skilled":1004,
+"orgs":1051,
+"skilled":1005,
 "b":3
 },
 {
 "town":"Ilford",
-"orgs":939,
-"skilled":922,
+"orgs":940,
+"skilled":923,
 "b":0
 },
 {
 "town":"Coventry",
-"orgs":915,
-"skilled":874,
+"orgs":914,
+"skilled":873,
 "b":0
 },
 {
 "town":"Reading",
-"orgs":913,
-"skilled":883,
+"orgs":911,
+"skilled":881,
 "b":0
 },
 {
 "town":"Slough",
 "orgs":864,
-"skilled":846,
+"skilled":845,
 "b":3
 },
 {
@@ -191,14 +191,14 @@
 },
 {
 "town":"Harrow",
-"orgs":818,
-"skilled":799,
+"orgs":816,
+"skilled":797,
 "b":0
 },
 {
 "town":"Bradford",
-"orgs":741,
-"skilled":707,
+"orgs":740,
+"skilled":706,
 "b":1
 },
 {
@@ -209,20 +209,20 @@
 },
 {
 "town":"Luton",
-"orgs":710,
-"skilled":690,
+"orgs":709,
+"skilled":689,
 "b":0
 },
 {
 "town":"Sheffield",
-"orgs":693,
-"skilled":656,
+"orgs":694,
+"skilled":657,
 "b":0
 },
 {
 "town":"Oxford",
-"orgs":628,
-"skilled":600,
+"orgs":627,
+"skilled":599,
 "b":0
 },
 {
@@ -268,16 +268,16 @@
 "b":0
 },
 {
-"town":"Wolverhampton",
+"town":"Aberdeen",
 "orgs":499,
-"skilled":475,
-"b":0
+"skilled":480,
+"b":1
 },
 {
-"town":"Aberdeen",
+"town":"Wolverhampton",
 "orgs":498,
-"skilled":479,
-"b":1
+"skilled":474,
+"b":0
 },
 {
 "town":"Hounslow",
@@ -299,14 +299,14 @@
 },
 {
 "town":"Romford",
-"orgs":444,
-"skilled":429,
+"orgs":445,
+"skilled":430,
 "b":0
 },
 {
 "town":"Southall",
-"orgs":424,
-"skilled":410,
+"orgs":423,
+"skilled":409,
 "b":0
 },
 {
