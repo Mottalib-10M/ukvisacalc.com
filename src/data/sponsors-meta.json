@@ -1,10 +1,10 @@
 {
 "source":"https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers",
-"file":"https://assets.publishing.service.gov.uk/media/6adf10d9d798ae11e9bc5c97/SP_-_Worker_and_Temporary_Worker_Web_Register_-_2026-10-26.csv",
+"file":"https://assets.publishing.service.gov.uk/media/6ae067cd7b7111c482d809be/SP_-_Worker_and_Temporary_Worker_Web_Register_-_2026-10-27.csv",
 "licence":"Open Government Licence v3.0",
-"date":"2026-10-26",
-"rows":143177,
-"organisations":127810,
+"date":"2026-10-27",
+"rows":143175,
+"organisations":127811,
 "routes":[
 "Skilled Worker",
 "Tier 2 Ministers of Religion",
@@ -37,11 +37,11 @@
 "Temporary Worker (A (Premium))"
 ],
 "byRoute":{
-"Skilled Worker":123174,
+"Skilled Worker":123170,
 "Tier 2 Ministers of Religion":1961,
 "Global Business Mobility: UK Expansion Worker":439,
 "Creative Worker":1579,
-"Global Business Mobility: Senior or Specialist Worker":10416,
+"Global Business Mobility: Senior or Specialist Worker":10418,
 "International Agreement":134,
 "Scale-up":93,
 "Global Business Mobility: Graduate Trainee":623,
@@ -57,7 +57,7 @@
 "Tier 2 General":5
 },
 "byRating":{
-"Worker (A rating)":137361,
+"Worker (A rating)":137359,
 "Temporary Worker (A rating)":5610,
 "Worker (UK Expansion Worker: Provisional )":97,
 "Worker (B rating)":101,
@@ -67,7 +67,7 @@
 "Worker (A (Premium))":4,
 "Temporary Worker (A (Premium))":1
 },
-"skilledWorkerOrgs":122430,
+"skilledWorkerOrgs":122431,
 "bRatedOrgs":102,
 "shards":[
 "0",
@@ -101,26 +101,26 @@
 "topTowns":[
 {
 "town":"London",
-"orgs":36665,
-"skilled":35308,
+"orgs":36670,
+"skilled":35312,
 "b":13
 },
 {
 "town":"Birmingham",
-"orgs":3088,
-"skilled":2958,
+"orgs":3087,
+"skilled":2957,
 "b":2
 },
 {
 "town":"Manchester",
-"orgs":2880,
-"skilled":2761,
+"orgs":2879,
+"skilled":2760,
 "b":2
 },
 {
 "town":"Leicester",
-"orgs":1422,
-"skilled":1377,
+"orgs":1421,
+"skilled":1376,
 "b":3
 },
 {
@@ -131,14 +131,14 @@
 },
 {
 "town":"Bristol",
-"orgs":1295,
-"skilled":1232,
+"orgs":1294,
+"skilled":1231,
 "b":0
 },
 {
 "town":"Edinburgh",
-"orgs":1178,
-"skilled":1110,
+"orgs":1179,
+"skilled":1111,
 "b":0
 },
 {
@@ -149,8 +149,8 @@
 },
 {
 "town":"Nottingham",
-"orgs":1054,
-"skilled":1008,
+"orgs":1055,
+"skilled":1009,
 "b":3
 },
 {
@@ -161,8 +161,8 @@
 },
 {
 "town":"Coventry",
-"orgs":913,
-"skilled":872,
+"orgs":912,
+"skilled":871,
 "b":0
 },
 {
@@ -173,20 +173,20 @@
 },
 {
 "town":"Slough",
-"orgs":863,
-"skilled":844,
+"orgs":862,
+"skilled":843,
 "b":3
 },
 {
 "town":"Cambridge",
-"orgs":843,
-"skilled":812,
+"orgs":842,
+"skilled":811,
 "b":0
 },
 {
 "town":"Milton Keynes",
-"orgs":838,
-"skilled":806,
+"orgs":837,
+"skilled":805,
 "b":1
 },
 {
@@ -203,8 +203,8 @@
 },
 {
 "town":"Liverpool",
-"orgs":738,
-"skilled":708,
+"orgs":737,
+"skilled":707,
 "b":0
 },
 {
@@ -233,8 +233,8 @@
 },
 {
 "town":"Bolton",
-"orgs":592,
-"skilled":558,
+"orgs":591,
+"skilled":557,
 "b":1
 },
 {
@@ -245,8 +245,8 @@
 },
 {
 "town":"Belfast",
-"orgs":537,
-"skilled":480,
+"orgs":538,
+"skilled":481,
 "b":1
 },
 {
@@ -329,8 +329,8 @@
 },
 {
 "town":"Brighton",
-"orgs":399,
-"skilled":382,
+"orgs":398,
+"skilled":381,
 "b":0
 },
 {
