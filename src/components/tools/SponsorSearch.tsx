@@ -62,7 +62,7 @@ export default function SponsorSearch({ routes, ratings, date, organisations, sh
         {ready && complete && hits.length === 0 && <p className="mt-2 text-sm text-navy-700">No licensed sponsor with that name. Check the spelling, try the legal name (often ending in “Ltd” or “Limited”), or remove the town.</p>}
       </>}>
       <TextField id={`${id}-q`} label="Employer name" value={q} onChange={(v) => { setQ(v); setEverywhere(true); }} placeholder="e.g. Deloitte, NHS, Tesco" className="sm:col-span-2" />
-      <TextField id={`${id}-t`} label="Town or county (optional)" value={town} onChange={setTown} placeholder="e.g. Manchester" />
+      <TextField id={`${id}-town`} label="Town or county (optional)" value={town} onChange={setTown} placeholder="e.g. Manchester" />
       <SelectField id={`${id}-r`} label="Visa route" value={route} onChange={setRoute} options={[{ value: '', label: 'Any route' }, ...routes.map((r) => ({ value: r, label: r }))]} />
     </Shell>
   );

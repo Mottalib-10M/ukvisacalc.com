@@ -24,9 +24,15 @@ export const TEACHERS = SOC.teachers as unknown as Array<Record<string, string |
 const S = P.skilledWorker;
 
 /** Pay-scale options (Table 3 occupations) for one nation: NHS bands, teacher roles or listed rates. */
-export function payOptions(o: Occupation, nation: Nation, london: 'England (excluding London / Fringe)' | 'London Fringe' | 'Outer London' | 'Inner London' = 'England (excluding London / Fringe)'): PayRate[] {
+/** Table 4 (Appendix Skilled Occupations, read 2026-10-31): "Except for 6131 Nursing auxiliaries and
+ *  assistants, sponsors may ONLY sponsor Skilled Worker applicants in band 3 and band 4 jobs if the
+ *  applicant was granted permission as a Skilled Worker under the rules in place before 22 July 2025,
+ *  and they have had continuous permission as a Skilled Worker since then." Pass `before2025` false
+ *  for a first Skilled Worker visa: bands 3 and 4 are then left out. */
+export function payOptions(o: Occupation, nation: Nation, london: 'England (excluding London / Fringe)' | 'London Fringe' | 'Outer London' | 'Inner London' = 'England (excluding London / Fringe)', before2025 = true): PayRate[] {
   if (!o.payScale) return [];
-  if (o.scale === 'table4') return BANDS.map((b) => ({ label: String(b.band), rate: Number(b[nation]) })).filter((r) => r.rate > 0);
+  if (o.scale === 'table4') return BANDS.filter((b) => before2025 || o.code === '6131' || Number(String(b.band).replace(/\D/g, '')) >= 5)
+    .map((b) => ({ label: String(b.band), rate: Number(b[nation]) })).filter((r) => r.rate > 0);
   if (o.scale === 'table5') {
     const col = nation === 'England' ? london : nation;
     return TEACHERS.map((t) => ({ label: String(t.role), rate: Number(t[col] ?? 0) })).filter((r) => r.rate > 0);
@@ -165,7 +171,7 @@ export function checkSkilledWorker(inp: SwInput): SwResult {
   const islNote = islApplies && route !== 'isl' ? ` Also on the Immigration Salary List in ${inp.nation} until ${o.isl!.until} (lower fee, £${S.isl.floor.toLocaleString('en-GB')} floor).` : '';
   base.codeNote = route === 'isl' ? `On the Immigration Salary List in ${inp.nation} until ${o.isl!.until}.`
     : route === 'tsl' ? `On the Temporary Shortage List: certificate of sponsorship must be issued before ${SOC.tslUntil}.${o.tsl!.jobs.length ? ` Only: ${o.tsl!.jobs.join(', ')}.` : ''}`
-    : route === 'health-education' ? 'Health or education occupation: going rate from the national pay scale (Table 3).'
+    : route === 'health-education' ? (o.scale === 'table4' ? 'Health occupation: going rate from the NHS pay band of the job (Table 4); bands 3 and 4 only for workers sponsored since before 22 July 2025.' : 'Health or education occupation: going rate from the national pay scale (Table 3).')
     : route === 'transitional-medium' ? 'Medium skilled occupation, open to you only under the transitional rules (continuous Skilled Worker permission).'
     : 'Higher skilled occupation (Table 1): eligible.';
   base.codeNote += islNote;

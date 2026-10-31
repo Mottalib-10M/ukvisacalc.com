@@ -293,3 +293,16 @@ describe('dates, processing times, sponsors and students', () => {
     expect(studentFunds(false, 6, 5000, 1, '2026-10-13').total).toBe(1171 * 6 + 680 * 6 + 5000);
   });
 });
+
+describe('Table 4 pay bands (audit of 2026-10-28)', () => {
+  // Appendix Skilled Occupations, Table 4, read 2026-10-31: bands 3 and 4 only for Skilled Workers
+  // with permission from before 22 July 2025 (except 6131); band 5 England £29,970.
+  it('first Skilled Worker visa: 2231 starts at band 5', () => {
+    const o = occupation('2231')!;
+    expect(payOptions(o, 'England', undefined, false)[0]).toEqual({ label: 'Band 5', rate: 29970 });
+    expect(payOptions(o, 'England', undefined, true)[0].label).toBe('Band 3');
+  });
+  it('6131 keeps bands 3 and 4', () => {
+    expect(payOptions(occupation('6131')!, 'England', undefined, false)[0].label).toBe('Band 3');
+  });
+});

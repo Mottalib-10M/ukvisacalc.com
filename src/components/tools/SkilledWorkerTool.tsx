@@ -40,7 +40,7 @@ export default function SkilledWorkerTool({ initialCode = '2136', initialSalary 
   }, [initialCode, initialSalary, initialSituation]);
 
   const occ = OCCUPATIONS.find((o) => o.code === code);
-  const scale = occ ? payOptions(occ, nation, area) : [];
+  const scale = occ ? payOptions(occ, nation, area, trans !== 'no') : [];
   const payRate = scale.length ? (scale[Math.min(pay, scale.length - 1)]?.rate ?? scale[0].rate) : undefined;
   const r = useMemo(() => checkSkilledWorker({ code, salary, hours, situation: sit, nation, transitional: trans === 'yes', mediumBefore2025: trans !== 'no', inside: where === 'inside', payRate, healthEmployer: nhs === 'yes', islCriteria: crit === 'yes' }), [code, salary, hours, sit, nation, trans, where, payRate, nhs, crit]);
   useEffect(() => { updateURL({ soc: code, sal: salary, h: hours === 37.5 ? undefined : hours, sit: sit === 'standard' ? undefined : sit, n: nation === 'England' ? undefined : nation, t: trans === 'no' ? undefined : trans, in: where === 'inside' ? 'inside' : undefined, pay: pay || undefined, isl: crit === 'yes' ? 'yes' : undefined }); }, [code, salary, hours, sit, nation, trans, where, pay, crit]);
@@ -51,6 +51,7 @@ export default function SkilledWorkerTool({ initialCode = '2136', initialSalary 
   const isl = r.islApplies;
   const healthFee = occ && (occ.table === 'Table 3' || occ.table === 'Table 3a' || ['6135', '6136'].includes(occ.code));
   const fee3 = FEE.skilledWorker(where as 'outside' | 'inside', 3, isl);
+  const feeHc = FEE.healthCare(where as 'outside' | 'inside', 3);
   const summary = r.eligibleCode ? (r.passes ? `Meets the threshold: ${gbp(r.required)}` : `Short by ${gbp(-r.gap)} (needs ${gbp(r.required)})`) : 'Occupation code not eligible';
 
   return (
@@ -67,7 +68,7 @@ export default function SkilledWorkerTool({ initialCode = '2136', initialSalary 
           {r.goingRateProRata != null && hours !== 37.5 && <Row label={`Going rate for ${hours} h a week`} value={gbp(r.goingRateProRata)} />}
           {r.goingRateHourly != null && <Row label="Going rate per hour" value={gbp(r.goingRateHourly)} />}
           <Row label="Your pay per hour" value={gbp(r.hourlyPay)} />
-          <Row label={`Visa fee, up to 3 years (${where} the UK)`} value={gbp(fee3)} />
+          <Row label={`Visa fee, up to 3 years (${where} the UK)`} value={healthFee ? `${gbp(feeHc)} on the Health and Care visa, else ${gbp(fee3)}` : gbp(fee3)} />
           <Row label="Health surcharge, 3 years" value={healthFee ? 'none if Health and Care visa' : gbp(ihs(36, where as 'outside', false))} />
         </tbody></table>
         <p className="mt-3 text-xs text-navy-700">{r.codeNote}</p>
@@ -87,7 +88,7 @@ export default function SkilledWorkerTool({ initialCode = '2136', initialSalary 
       {['1171', '1231', '1232', '2113', '2114', '3111', '3211', '3212', '6135', '6136'].includes(code) && <Toggle id={`${id}-nhs`} label="Employer is NHS or regulated care" value={nhs} onChange={setNhs} options={[{ value: 'no', label: 'No' }, { value: 'yes', label: 'Yes' }]} />}
       {occ?.isl && !occ.isl.all && occ.isl.nations.includes(nation) && <Toggle id={`${id}-crit`} label={`Salary List only for: ${short(occ.isl.criteria.replace(/^only\s*/i, ''))}`} value={crit} onChange={setCrit} options={[{ value: 'no', label: 'Not my job' }, { value: 'yes', label: 'My job' }]} className="sm:col-span-2" />}
       <Toggle id={`${id}-in`} label="Applying from" value={where} onChange={setWhere} options={[{ value: 'outside', label: 'Outside UK' }, { value: 'inside', label: 'Inside UK' }]} />
-      <SelectField id={`${id}-t`} label="Already a Skilled Worker?" value={trans} onChange={setTrans} options={[{ value: 'no', label: 'No, first Skilled Worker visa' }, { value: '2025', label: 'Yes, in this job since before 22 July 2025' }, { value: 'yes', label: 'Yes, continuously since before 4 April 2024' }]} />
+      <SelectField id={`${id}-trans`} label="Already a Skilled Worker?" value={trans} onChange={setTrans} options={[{ value: 'no', label: 'No, first Skilled Worker visa' }, { value: '2025', label: 'Yes, in this job since before 22 July 2025' }, { value: 'yes', label: 'Yes, continuously since before 4 April 2024' }]} />
     </Shell>
   );
 }
