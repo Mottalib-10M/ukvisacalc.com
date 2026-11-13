@@ -17,7 +17,7 @@ export default definePage({
   title: `Skilled Worker Visa Processing Time: ${wOut} or ${wIn} Weeks in 2026`,
   description: `Skilled Worker visa processing time: ${wOut} weeks from outside the UK, ${wIn} weeks inside, when the clock starts, priority and super priority fees, and what slows it.`,
   h1: 'Skilled Worker visa processing time and your decision date',
-  intro: `UKVI aims to decide a Skilled Worker application in ${wOut} weeks from abroad and ${wIn} weeks from inside the UK, counted from your identity check. Enter that date to get yours.`,
+  intro: `UKVI aims to decide a Skilled Worker visa application in ${wOut} weeks from abroad and ${wIn} weeks from inside the UK, counted from your identity check. Enter that date to get yours.`,
   resume: `Processing time for a Skilled Worker visa is a service standard, not a promise. UKVI's tables updated on ${K.date(T.updated)} give ${wOut} weeks for applications from outside the UK and ${wIn} weeks for extensions, switches and changes of employer made inside it. The clock does not start when you pay: it starts once you have proved your identity, either by scanning your passport with the UK Immigration: ID Check app or by giving fingerprints and a photo at a visa application centre or UKVCAS service point. Weeks are UK working weeks and include UK public holidays. Where the service is offered you can pay for a faster decision, ${K.gbp(F.priorityOutside())} for priority or ${K.gbp(F.superPriorityOutside())} for super priority from abroad, aimed at ${T.priorityWorkingDays} working days and ${T.superPriorityWorkingDays} working day respectively. Cases that need document checks, an interview or a closer look at a criminal record can take longer. The date tool above turns your appointment date into an expected decision date.`,
   tool: { kind: 'time', props: { initialRoute: 'skilled-worker', initialWhere: 'outside', title: 'Expected decision date for your application' } },
   body: (h) => `
@@ -28,7 +28,7 @@ ${h.table(['Where you apply', 'Standard', 'Priority', 'Super priority'], [
     ['Outside the UK', `${wOut} weeks`, `${K.gbp(F.priorityOutside())}, about ${T.priorityWorkingDays} working days`, `${K.gbp(F.superPriorityOutside())}, about ${T.superPriorityWorkingDays} working day`],
     ['Inside the UK (extend, switch, update)', `${wIn} weeks`, `${K.gbp(F.priorityInside())}, about ${T.priorityWorkingDays} working days`, `${K.gbp(F.superPriorityInside())}, about ${T.superPriorityWorkingDays} working day`],
   ], `UKVI processing times updated ${K.date(T.updated)}; priority fees from the Home Office fee table of ${K.date(K.FEE_DATE)}. Faster services are not always offered; you are told when you apply.`, ['l', 'l', 'l', 'l'])}
-<h2>What makes a Skilled Worker case take longer</h2>
+<h2>What makes a Skilled Worker visa take longer</h2>
 <p>UKVI lists the usual reasons a decision runs past the standard:</p>
 <ul>
 <li>information in the application is inaccurate or needs further consideration;</li>

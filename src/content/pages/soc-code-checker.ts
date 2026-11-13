@@ -42,7 +42,7 @@ ${h.table(['Table', 'Codes', 'What it means for a new applicant'], [
 <li>is not eligible for PhD points, while the application claims them.</li>
 </ul>
 <p>To test this, SW 6.3 lets the caseworker look at whether the sponsor has shown a genuine need for the job as described, whether you have the skills and experience for it, the sponsor's record of paying sponsored workers properly, and any extra information. In practice the job description on the certificate has to read like the code it claims. A shortfall on the code is a refusal, not a correction, and the certificate cannot be reused after a refusal.</p>
-<h2>Codes that cannot be sponsored</h2>
+<h2>SOC codes that cannot be sponsored on the Skilled Worker visa</h2>
 <p>Table 6 holds ${c('Table 6')} codes. Among them: ${K.listOf(no.map((o) => `${o.title.toLowerCase()} (${o.code})`))}. If your work honestly fits one of these, no salary changes the answer on this route; the ${h.a('skilled-worker-visa', 'Skilled Worker overview')} lists the routes that do not need an eligible occupation. Once you have a code, the ${h.a('skilled-worker-going-rates', 'going rates table')} gives its rate and the ${h.a('skilled-worker-visa-salary-threshold', 'threshold page')} adjusts it to your hours.</p>`,
   faqs: [
     { q: 'Who chooses the SOC code on a certificate of sponsorship?', a: 'The sponsor does, when it assigns the certificate, and you will see the code in the details it gives you. You can and should check that it fits your duties, because the application is yours. If the code looks wrong, raise it with the employer before applying: a refusal under SW 6.2 costs the fee and the certificate.' },

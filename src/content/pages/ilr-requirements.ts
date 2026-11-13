@@ -17,11 +17,11 @@ export default definePage({
   title: 'ILR Requirements 2026: Checklist by Route and Evidence',
   description: `ILR requirements route by route: qualifying period, unbroken residence, Life in the UK, English, Skilled Worker salary, time that does not count and documents.`,
   h1: 'Requirements for indefinite leave to remain, route by route',
-  intro: `Every settlement application passes the same five gates: suitability, a qualifying period, unbroken residence, Life in the UK and, depending on the route and date, English. Then each route adds its own condition. Check your dates first with the calculator.`,
+  intro: `Every ILR application passes the same five gates: suitability, a qualifying period, unbroken residence, Life in the UK and, depending on the route and date, English. Then each route adds its own condition. Check your dates first with the calculator.`,
   resume: `Indefinite leave to remain has a shared core and route-specific extras. The core: you must not fall for refusal under Part Suitability; you must have completed the qualifying period of your route (${S.skilledWorkerYears} years for most, ${S.globalTalentFastYears} on the fast Global Talent path, ${S.longResidenceYears} for long residence) with permission throughout; you must have stayed within ${S.maxAbsenceDays} days abroad in any 12 months; and, aged 18 to 64, you must pass the Life in the UK test. English depends on the route until ${b2}, when B2 becomes the standard on most of them. On top of that, a Skilled Worker needs a sponsor still licensed and a salary at the settlement threshold, a Global Talent holder needs earnings in their field, a UK Ancestry holder must still be able and willing to work, and a long residence applicant must usually have held the current permission for 12 months. Time as a dependant or as a fiancé does not count where the rules exclude it.`,
   tool: { kind: 'ilr', props: { initialRoute: 'global-talent-3', title: 'Qualifying date for your route and trips' } },
   body: (h) => `
-<h2>The extra condition each route adds</h2>
+<h2>The extra ILR requirement each route adds</h2>
 ${h.table(['Route', 'Period', 'Route-specific condition', 'English at settlement'], [
     ['Skilled Worker', `${S.skilledWorkerYears} years`, `sponsor licensed on the decision date; still needed; salary of ${K.gbp(W.general)} and the going rate (lower rows for some)`, `none before ${b2}, then B2`],
     ['Global Talent', `${S.globalTalentFastYears} or ${S.globalTalentYears} years`, 'money earned in the endorsed or prize field; endorsement not withdrawn', 'yes; B2 from ' + b2],

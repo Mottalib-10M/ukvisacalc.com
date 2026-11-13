@@ -24,7 +24,7 @@ export default definePage({
   title: 'ILR Absence Calculator: the 180-Day Rolling Rule Explained',
   description: `ILR absence calculator: count whole days abroad, test every rolling 12 months against the ${S.maxAbsenceDays}-day limit, see allowed absences and your new date after a breach.`,
   h1: 'ILR absences: the 180 days in any 12 months, counted day by day',
-  intro: `For settlement you can spend no more than ${S.maxAbsenceDays} whole days outside the UK in any 12-month window. Add your trips to see your worst window, the days you have left and whether any trip restarts the clock.`,
+  intro: `For settlement you can spend no more than ${S.maxAbsenceDays} whole days outside the UK in any 12-month window. Add your trips to this ILR absence calculator to see your worst window, the days you have left and whether any trip restarts the clock.`,
   resume: `The absence rule for indefinite leave to remain sits in Appendix Continuous Residence, paragraph CR 3.1: you must not have been outside the UK for more than ${S.maxAbsenceDays} days in any 12-month period. Two details decide most cases. First, only whole days count; the Home Office guidance (version 10.0) tells caseworkers to ignore part days, so the day you fly out and the day you land do not add to the total, and a trip from 1 July to 10 August is ${summerDays} days, not 41. Second, for permission granted on or after 11 January 2018 the window rolls: the Home Office can test any 12 consecutive months inside your qualifying period, not only calendar years. Trips for listed reasons, such as a life-threatening illness in the family or travel disruption caused by conflict or a pandemic, are left out of the count. A breach breaks continuous residence; the calculator then restarts your period from the date you came back and shows the new earliest date to apply.`,
   tool: { kind: 'absence', props: { initialRoute: 'skilled-worker', title: 'Days abroad, worst 12 months and days left' } },
   body: (h) => `
@@ -39,7 +39,7 @@ ${h.table(['Way of counting', 'Days found', 'Result'], [
     ['Rolling 12 months from August 2024', tripDays(autumn) + tripDays(winter), `over ${S.maxAbsenceDays}`],
   ], 'Same two trips, three ways of counting. Whole days only.', ['l', 'r', 'l'])}
 <p>Without the trips this worker could apply from ${K.date(clean.earliestApply)}. With them, the calculator restarts the five years on ${K.date(broken.effectiveStart)} and the earliest application moves to ${K.date(broken.earliestApply)}, almost three years later. Permission granted before 11 January 2018 is the exception: absences in that period are tested in fixed 12-month blocks ending on the anniversary of the application date (CR 3.2), which the guidance illustrates with a permission from 2015 to 2018.</p>
-<h2>Absences the Home Office leaves out</h2>
+<h2>ILR absences the Home Office leaves out</h2>
 <p>CR 3.4 lists absences that are not counted at all, whatever their length:</p>
 <ul>
 <li>helping with a national or international humanitarian or environmental crisis overseas (with the sponsor's agreement on a sponsored route);</li>

@@ -13,11 +13,11 @@ export default definePage({
   title: 'Skilled Worker Visa Requirements 2026: 70 Points Checklist',
   description: `Skilled Worker visa requirements in 2026: the 70 points, an A-rated sponsor, the certificate of sponsorship, B2 English, ${K.gbp(S.maintenance)} savings, TB and record checks.`,
   h1: 'Skilled Worker visa requirements: the full checklist',
-  intro: `You need 70 points: a certificate from an A-rated sponsor, an eligible job, English at ${S.englishLevel} and a qualifying salary, plus ${K.gbp(S.maintenance)} in savings unless your employer covers you.`,
+  intro: `For the Skilled Worker visa you need 70 points: a certificate from an A-rated sponsor, an eligible job, English at ${S.englishLevel} and a qualifying salary, plus ${K.gbp(S.maintenance)} in savings unless your employer covers you.`,
   resume: `The Skilled Worker visa works on points, and every applicant needs the same 70. Fifty are mandatory: 20 for a valid certificate of sponsorship from an employer rated A on the register of licensed sponsors, 20 for a job in an eligible occupation code, and 10 for English at level ${S.englishLevel} of the Common European Framework, the level required for new applicants since ${K.date(S.englishB2From)}. The last 20 come from the salary, through one of the options in Appendix Skilled Worker. Around the points sit further conditions: you must be 18 or over, hold ${K.gbp(S.maintenance)} for 28 days unless the sponsor certifies maintenance or you have been in the UK for a year, provide a tuberculosis certificate if you live in a listed country, and supply criminal record certificates for jobs in health, education and social care. You must apply within ${S.cosApplyWithinMonths} months of receiving the certificate and no more than ${S.applyBeforeStartMonths} months before the job starts. The checker above covers the job and salary points.`,
   tool: { kind: 'sw', props: { initialCode: '2124', initialSalary: 54000, title: 'Check the job and salary points of your offer' } },
   body: (h) => `
-<h2>The points table</h2>
+<h2>The Skilled Worker visa points table</h2>
 ${h.table(['Requirement', 'Points', 'Type', 'Rules'], [
     ['Certificate of sponsorship from a licensed, A-rated sponsor', 20, 'Mandatory', 'SW 5.1 to 5.7'],
     ['Job in an eligible occupation code', 20, 'Mandatory', 'SW 6.1 to 6.5'],
