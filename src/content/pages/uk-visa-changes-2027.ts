@@ -28,7 +28,7 @@ ${h.table(['Date', 'Change', 'Status'], [
     ['1 February 2027', 'Care workers whose sponsor lost its licence: 120 days to find a new sponsor', 'Announced in the government response (CP 1707)'],
     [K.date(ST.englishB2SettlementFrom), 'ILR: English at B2 instead of B1 on routes that test English at settlement', 'In the Immigration Rules (HC 1691)'],
     ['April 2027', 'Usual month for fee and health surcharge changes', 'Nothing laid on the date of this page'],
-    ['2027, date not set', 'Earned settlement: 10-year baseline for ILR, 3 or 5 years for some, 20 years after breaches', 'Policy confirmed, rules not laid'],
+    ['Date not set', 'Earned settlement: 10-year baseline for ILR, 3 or 5 years for some, 20 years after breaches', 'Policy confirmed, rules not laid'],
     ['After 31 December 2026', `Temporary Shortage List: ${tslCount} occupations today, 28 recommended by the MAC`, 'Awaiting a Statement of Changes'],
   ], 'Sources: Immigration Rules and HC 1691, Home Office response CP 1707 (November 2026), MAC stage 2 report (July 2026).', ['l', 'l', 'l'])}
 <p>"In the Immigration Rules" means the change has been laid before Parliament in a Statement of Changes and has a commencement date: it will apply unless a later statement reverses it. "Announced" means the Home Office has published a policy, but the rules that would make it binding have not yet been laid, so details and dates can still move. The ${h.src('hc_1691', 'Statement of Changes HC 1691')} carries the English change; the 18-month Graduate visa is already written into the rules on GOV.UK’s ${h.src('graduate_visa', 'Graduate visa page')}.</p>

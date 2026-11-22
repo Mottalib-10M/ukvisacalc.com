@@ -3,69 +3,73 @@ import { KIT as K } from '../../lib/kit';
 
 const S = K.P.settlement;
 /**
- * Figures PROPOSED in "A Fairer Pathway to Settlement" (CP 1448, Home Office consultation opened
- * 20 November 2025, closed 13 February 2026), Tables 1 to 3. Not law. Read in
- * scripts/data-raw/govuk/government__consultations__earned-settlement__a-fairer-pathway-to-settlement-statement-and-accompanying-consultation-on-earned-settlement-accessible.txt
- * (to move into params-2026.json > settlement.earnedSettlementProposal).
+ * Figures CONFIRMED in "A Fairer Pathway to Settlement: government response to the consultation"
+ * (CP 1707, added to GOV.UK on 2 November 2026, accessible version 12 November 2026, read 22 November 2026), Table 1
+ * and chapters 1 to 8. Policy, not law: no Immigration Rules laid and no commencement date given.
+ * The November 2025 consultation (CP 1448) opened 20 November 2025 and closed 13 February 2026.
  */
-const PROP = {
-  opened: '2025-11-20', closed: '2026-02-13',
-  baselineYears: 10, earningsFloor: 12570, earningsYears: '3 to 5',
-  higherRate: 50270, additionalRate: 125140, lowSkillBaseline: 15,
+const CP = {
+  read: '2026-11-22', published: '2026-11-02', opened: '2025-11-20', closed: '2026-02-13', responses: 204667,
+  baselineYears: 10, floor: 12571, household: 25142, higherRate: 50271, additionalRate: 125141,
+  breachYears: 20, careWorkerDate: '2027-02-01',
 };
 // Someone who started a Skilled Worker visa on 2 September 2024, no long trips.
 const now = K.settlementDate('skilled-worker', '2024-09-02', [{ out: '2025-07-19', back: '2025-08-10' }]);
-const baseline = K.addYears(now.start, PROP.baselineYears);
+const baseline = K.addYears(now.start, CP.baselineYears);
 
 export default definePage({
   id: 'earned-settlement',
   group: 'settlement',
   order: 70,
-  nav: 'Earned settlement (proposed)',
-  card: 'The November 2025 consultation: a proposed 10-year baseline, reductions, additions and what applies today.',
-  title: 'Earned Settlement: the Proposed 10-Year ILR Model in Detail',
-  description: `Earned settlement: the proposed ${PROP.baselineYears}-year ILR baseline, its earned reductions and penalties, who keeps 5 or 3 years, and the rules that still apply today.`,
-  h1: 'Earned settlement: what the Home Office proposed, and what still applies',
-  intro: `The government consulted on raising the usual wait for settlement from ${S.skilledWorkerYears} to ${PROP.baselineYears} years, then adjusting it up or down. Nothing in that model is law yet: the rules in force on ${K.date(K.P.retrieved_at)} still give ${S.skilledWorkerYears} years on the main routes.`,
-  resume: `"A Fairer Pathway to Settlement" is a Home Office statement and consultation (CP 1448) opened on ${K.date(PROP.opened)} and closed on ${K.date(PROP.closed)}. It proposes that settlement should no longer follow automatically from a fixed period but be "earned" through character, integration, contribution and residence. The proposed baseline qualifying period for most migrants would be ${PROP.baselineYears} years instead of ${S.skilledWorkerYears}, adjusted down for things like higher earnings, C1 English or public service work, and up for things like claiming public funds or overstaying. Mandatory conditions would include B2 English, the Life in the UK test, no debt to the NHS or the tax authorities and earnings above ${K.gbp(PROP.earningsFloor)} for ${PROP.earningsYears} years. Partners of British citizens and BN(O) holders would keep ${S.familyYears} years; Global Talent and Innovator Founder holders could keep ${S.globalTalentFastYears}. These are proposals. On ${K.date(K.P.retrieved_at)} no Statement of Changes up to HC 584 had laid them, and the calculator applies the rules in force.`,
+  nav: 'Earned settlement (confirmed, no date)',
+  card: 'The government response of November 2026 (CP 1707): a 10-year baseline, 5 and 3-year routes, 20 years after breaches, no start date.',
+  title: 'Earned Settlement UK: the Confirmed 10-Year Path to ILR',
+  description: `Earned settlement UK: the Home Office response (CP 1707) confirms a ${CP.baselineYears}-year ILR baseline, 5 or 3 years for some, ${CP.breachYears} after breaches. No start date set yet.`,
+  h1: 'Earned settlement in the UK: what the government confirmed, and what still applies',
+  intro: `The Home Office has answered its consultation: the usual wait for settlement will rise from ${S.skilledWorkerYears} to ${CP.baselineYears} years, with 5 and 3-year routes for some. No Immigration Rules and no start date have been published, so today's ${S.skilledWorkerYears}-year rules still apply.`,
+  resume: `Earned settlement is the reform that makes indefinite leave to remain depend on character, contribution, integration and residence rather than on time alone. The Home Office consulted on it from ${K.date(CP.opened)} to ${K.date(CP.closed)} (CP 1448) and published its response, "A Fairer Pathway to Settlement" (CP 1707), on ${K.date(CP.published)}, after ${K.int(CP.responses)} responses. The response confirms a starting point of ${CP.baselineYears} years for most people, a 5-year pathway for those earning at least ${K.gbp(CP.higherRate)} in three of the last five years, eligible health and education workers and British connections, a 3-year pathway at ${K.gbp(CP.additionalRate)}, and ${CP.breachYears} years after immigration breaches or recent use of public funds. Everyone must have B2 English, the Life in the UK test, no government debt and no criminal record. It does not give a commencement date: the government says guidance will be published before implementation, and the rules have not been laid. Until they are, the calculator below applies the rules in force.`,
   tool: { kind: 'ilr', props: { initialRoute: 'skilled-worker', title: 'Your ILR date under the rules in force today' } },
   body: (h) => `
-<h2>The proposed earned settlement model in four pillars</h2>
-<p>The consultation describes a "time adjustment" model: start from a baseline of ${PROP.baselineYears} years and move it according to who you are and what you have done. It groups the conditions under four pillars. <strong>Character</strong> would be a gate, not a factor to trade: the paper says "you should not be able to settle with a criminal record" and announces a review of criminality thresholds. <strong>Integration</strong> means English and the Life in the UK test. <strong>Contribution</strong> means earnings, public service or volunteering. <strong>Residence</strong> still counts, but the paper says people would "not normally qualify on the basis of residence alone".</p>
-<p>Table 1 of the paper lists the proposed minimum for any applicant: meet Part Suitability, have no litigation, NHS, tax or other government debt, show English at B2, pass the Life in the UK test, and have had annual earnings above ${K.gbp(PROP.earningsFloor)} for a minimum of ${PROP.earningsYears} years, the exact length being one of the consultation questions.</p>
-<h2>Proposed reductions and additions</h2>
-${h.table(['Proposed consideration', 'Proposed adjustment'], [
-    ['English at C1', 'minus 1 year'],
-    [`Taxable income of ${K.gbp(PROP.additionalRate)} for the 3 years before applying`, 'minus 7 years'],
-    [`Taxable income of ${K.gbp(PROP.higherRate)} for the 3 years before applying`, 'minus 5 years'],
-    ['5 years in a specified public service occupation (RQF 6 or above)', 'minus 5 years'],
-    ['Work in the community, such as volunteering', 'minus 3 to 5 years'],
-    ['Partner, parent or child of a British citizen; BN(O) route', 'minus 5 years (not consulted on)'],
-    ['3 years as a Global Talent or Innovator Founder holder', 'minus 7 years'],
-    ['Public funds for less than 12 months on the route', 'plus 5 years'],
-    ['Public funds for more than 12 months', 'plus 10 years'],
-    ['Illegal entry, entry as a visitor, or overstaying 6 months or more', 'plus up to 20 years'],
-  ], 'Tables 2 and 3 of "A Fairer Pathway to Settlement" (November 2025). Proposals only; all subject to consultation except where marked.', ['l', 'l'])}
-<p>Only the largest reduction and the largest addition would apply, and an addition would take precedence over a reduction. The paper gives its own example: a person who received public funds for under 12 months but has C1 English would go up 5 years and down 1, for a total of 14. The income levels match the higher and additional rate income tax thresholds, and the paper says they would not track future tax changes. A separate question asks whether workers sponsored below RQF 6, such as care workers, should start from ${PROP.lowSkillBaseline} years rather than ${PROP.baselineYears}.</p>
-<h2>Who would keep a shorter path, and what else would change</h2>
-<p>Partners, parents and children of British citizens and BN(O) holders would, under the proposal, still settle after ${S.familyYears} years subject to the mandatory requirements; Global Talent and Innovator Founder holders would generally keep ${S.globalTalentFastYears}. The paper states plainly that routes such as Skilled Worker "will cease" to lead to settlement after ${S.skilledWorkerYears} years and default to ${PROP.baselineYears} unless an earned reduction applies. It also proposes:</p>
+<h2>Earned settlement in the UK: the status on ${K.date(CP.read)}</h2>
+<p>The government response (${h.src('earned_settlement_response', 'CP 1707')}) sets out the "final approach" to settlement. It is a policy decision, not law. The response says that "before implementation, the government will publish further guidance", that the qualifying immigration breaches "will be set out in the Immigration Rules", and that a full Impact Assessment "will be prepared to accompany the implementation". It names no date on which the new periods start. The only dated measure is for care workers: from ${K.date(CP.careWorkerDate)}, a care worker whose sponsor loses its licence will have up to 120 days to secure a job offer and a further 60 days to resolve their status.</p>
+<h2>The confirmed pathways</h2>
+${h.table(['Pathway', 'Who it is for', 'What you need'], [
+    ['3 years', 'Exceptional economic contribution', `Earnings of ${K.gbp(CP.additionalRate)} in 3 of the 4 years before applying, or qualifying through the Highest Talent Group`],
+    ['5 years', 'Higher earners, public service, British connection', `Earnings of ${K.gbp(CP.higherRate)} in 3 of the last 5 years; or 5 years in an eligible health or education occupation; or partner, parent or child of a British citizen, or UK Ancestry`],
+    [`${CP.baselineYears} years`, 'The default for anyone following the rules', `Earnings of ${K.gbp(CP.floor)} in 5 of the previous 7 years`],
+    [`${CP.breachYears} years`, 'Immigration breaches or public funds', `For anyone who committed a qualifying breach as an adult, or used specified public funds in the 5 years before applying`],
+  ], 'Table 1 of "A Fairer Pathway to Settlement: government response" (CP 1707, November 2026). The mandatory requirements apply on every pathway.', ['l', 'l', 'l'])}
+<p>The earnings thresholds follow the income tax bands: ${K.gbp(CP.floor)} for the minimum contribution, ${K.gbp(CP.higherRate)} for the higher rate and ${K.gbp(CP.additionalRate)} for the additional rate. Couples can combine their earnings to reach a household threshold of ${K.gbp(CP.household)}, twice the individual one. Children, people aged 65 and over and those who cannot meet the requirement because of a physical or mental condition are exempt from the minimum income requirement. The eligible public service jobs are health and education roles on national pay scales, such as doctors, nurses and teachers, listed in Annex C of the response.</p>
+<h2>Requirements nobody can offset</h2>
+<p>Higher earnings or public service cannot make up for the minimum standards. Every applicant must show good character and suitability, have no outstanding government debt (NHS charges, unpaid tax or National Insurance, Home Office litigation costs), have English at B2, have passed the Life in the UK test and show sustained contribution. The criminality rule is much stricter than today: "any adult applicant with a criminal record in the UK will be refused settlement", including cautions, discharges and fines. Overseas convictions also count where the conduct would be an offence in the UK.</p>
+<h2>What changed from the consultation</h2>
 <ul>
-<li>no separate ${h.a('long-residence-ilr', 'long residence route')}, its role absorbed by the adjustable baseline;</li>
-<li>adult dependants of workers assessed on their own attributes, so a partner's period could differ from the main applicant's;</li>
-<li>a question on whether settlement could carry a "no recourse to public funds" condition, moving access to benefits to citizenship;</li>
-<li>transitional arrangements for people already on a path, on which the consultation sought views without committing to any.</li>
+<li><strong>No reduction for C1 English</strong>: B2 is the standard, and C1 gives no shorter path.</li>
+<li><strong>No reduction for volunteering</strong>: the government "will not use volunteering to reduce settlement periods".</li>
+<li><strong>Breaches</strong>: the consultation offered 5 to 20 extra years; the response fixes a ${CP.breachYears}-year pathway for specified breaches committed as an adult, such as overstaying, breaching a visa condition or using deception. Illegal entry will ordinarily add 10 years, except where Article 31 of the Refugee Convention protects the person.</li>
+<li><strong>Public funds</strong>: instead of 5 or 10 extra years, an applicant who used specified public funds in the 5 years before applying must either spend 5 continuous years on a qualifying route without them or complete ${CP.breachYears} years.</li>
+<li><strong>Workers below RQF 6</strong>: the proposed 15-year path is dropped; they default to ${CP.baselineYears} years.</li>
+<li><strong>Long residence closes</strong>: the ${h.a('long-residence-ilr', 'long residence route')} goes, and time on Visit, Student, Graduate, Temporary Worker, Youth Mobility and other temporary routes will no longer count towards settlement.</li>
+<li><strong>Families</strong>: a partner who arrives with the main applicant settles at the same time; one who joins later completes the same period. Children under 18 settle with their parents, and 18 to 24-year-olds who keep child-dependant status settle with the family without an earnings test. From 25, a person must qualify in their own right.</li>
 </ul>
-<p>Citizenship reform would follow but needs primary legislation to amend the British Nationality Act 1981, the paper says.</p>
+<h2>People already in the UK</h2>
+<p>The response is explicit that there is no general protection for people already here: applications are "ordinarily considered under the Immigration Rules in force at the date of settlement decision", and the transitional arrangements "do not create a wider exemption for everyone already living in the UK". The cohorts that are protected, all with the cut-off of the May 2025 Immigration White Paper, are:</p>
+<ul>
+<li>care workers who entered or switched into the route before May 2025: they keep 5 years if they meet the £25,000 salary, sponsorship and employment requirements, and those who do not can apply for a further 5-year Health and Care visa;</li>
+<li>health and education workers below RQF 6 on a national pay scale who came before May 2025: they keep a 5-year route;</li>
+<li>the pre-April 2024 Skilled Worker cohort: they can extend on their current salary terms until 2035 instead of 2030.</li>
+</ul>
+<p>BN(O) holders keep settlement after 5 years, the Afghan schemes immediate settlement and the Armed Forces 4 years, but these groups must also meet the new criminality rule and the B2 English standard unless an exemption applies.</p>
 <h2>What applies today</h2>
-<p>On ${K.date(K.P.retrieved_at)} the Immigration Rules still set the periods shown on the ${h.a('indefinite-leave-to-remain', 'ILR page')}: ${S.skilledWorkerYears} years for Skilled Worker, family and UK Ancestry, ${S.longResidenceYears} for long residence. The Statements of Changes since the consultation, up to HC 584 in force on ${K.date(K.P.valid_from)}, did not change those periods, and the consultation page lists no government response. One change from the same white paper is already law: HC 1691 raises the English level for settlement to B2 for applications from ${K.date(S.englishB2SettlementFrom)}.</p>
-<p>The difference is large for someone starting now. A Skilled Worker who arrived on ${K.date(now.start)} can apply under today's rules from ${K.date(now.earliestApply)}. If a ${PROP.baselineYears}-year baseline were adopted without transitional protection and no reduction applied, the same person would reach it on ${K.date(baseline)}. Whether that happens depends on rules not yet written, so plan on the current ones and keep evidence of earnings, tax and any volunteering in case reductions are introduced.</p>
-<p>Sources: the ${h.src('earned_settlement', 'consultation page')} and the ${h.ext('https://www.gov.uk/government/consultations/earned-settlement/a-fairer-pathway-to-settlement-statement-and-accompanying-consultation-on-earned-settlement-accessible', 'accessible text of the paper')}.</p>`,
+<p>On ${K.date(K.P.retrieved_at)} the Immigration Rules still set the periods shown on the ${h.a('indefinite-leave-to-remain', 'ILR page')}: ${S.skilledWorkerYears} years for Skilled Worker, family and UK Ancestry, ${S.longResidenceYears} for long residence. The Statements of Changes up to HC 584, in force on ${K.date(K.P.valid_from)}, did not change those periods. One change from the same white paper is already law: HC 1691 raises the English level for settlement to B2 for applications from ${K.date(S.englishB2SettlementFrom)}.</p>
+<p>The difference is large for someone starting out. A Skilled Worker who arrived on ${K.date(now.start)} can apply under today's rules from ${K.date(now.earliestApply)}. If the ${CP.baselineYears}-year pathway applied to them, they would reach it on ${K.date(baseline)}, or keep a 5-year date by earning ${K.gbp(CP.higherRate)} in three of the five years before applying. Which rule applies depends on when the new rules come into force, so plan on the current rules and keep payslips, P60s and tax records for every year.</p>
+<p>Sources: the ${h.src('earned_settlement_response', 'government response (CP 1707)')}, read on ${K.date(CP.read)}, and the ${h.src('earned_settlement', 'consultation page')}.</p>`,
   faqs: [
-    { q: 'Has the 10-year settlement rule come into force?', a: `No. On ${K.date(K.P.retrieved_at)} the ${PROP.baselineYears}-year baseline was a proposal from the November 2025 consultation. The Immigration Rules, as amended up to HC 584, still give ${S.skilledWorkerYears} years for Skilled Worker, family and UK Ancestry settlement and ${S.longResidenceYears} for long residence. A change would need new Immigration Rules, laid before Parliament in a Statement of Changes.` },
-    { q: 'Would earned settlement apply to people already on a visa?', a: `The paper does not decide this. It notes that without transitional arrangements the new rules would affect everyone not yet settled when they come into force, and asks respondents whether there should be protection for those already on a path. Until the government publishes its response and rules, nobody can say which cohorts would be covered.` },
-    { q: 'How could a high earner settle sooner under the proposal?', a: `The paper proposes taking 5 years off the baseline for taxable income above ${K.gbp(PROP.higherRate)}, and 7 years for income above ${K.gbp(PROP.additionalRate)}, in each of the 3 years before applying. From a ${PROP.baselineYears}-year start that would mean 5 or 3 years, provided the mandatory requirements, such as B2 English and a clean record, are met.` },
-    { q: 'Would long residence disappear under earned settlement?', a: `That is the proposal: the paper says there would "no longer be a separate long residence route" because an adjustable baseline would take over its purpose. It remains in force today, with its ${S.longResidenceYears}-year qualifying period and the ${S.maxAbsenceDays}-day rolling absence rule for recent trips. Anyone close to ten years can still apply under the current appendix.` },
+    { q: 'Has the 10-year settlement rule come into force?', a: `No. The government response of November 2026 (CP 1707) confirms a ${CP.baselineYears}-year starting point, but it gives no start date and no Immigration Rules had been laid by ${K.date(CP.read)}. The rules as amended up to HC 584 still give ${S.skilledWorkerYears} years for Skilled Worker, family and UK Ancestry and ${S.longResidenceYears} for long residence.` },
+    { q: 'Will earned settlement apply to people already on a visa?', a: `For most, yes once it starts: the response says applications are ordinarily decided under the rules in force on the date of decision and gives no general exemption. Only defined cohorts who arrived before the May 2025 White Paper keep 5 years, mainly care workers and health or education staff below RQF 6 on national pay scales.` },
+    { q: 'How can a high earner settle sooner under earned settlement?', a: `By earning at least ${K.gbp(CP.higherRate)} in three of the five years before applying, which gives the 5-year pathway, or ${K.gbp(CP.additionalRate)} in three of the four years before applying, which gives 3 years. The mandatory requirements still apply: B2 English, Life in the UK test, no government debt and no criminal record.` },
+    { q: 'Will long residence disappear under earned settlement?', a: `Yes, the response says the Long Residence route will close and time on temporary routes such as Student or Graduate will no longer count. Until the new rules start, it remains in force with its ${S.longResidenceYears}-year qualifying period and the ${S.maxAbsenceDays}-day rolling absence rule, so someone close to ten years can still apply under the current appendix.` },
   ],
-  related: ['indefinite-leave-to-remain', 'long-residence-ilr', 'ilr-requirements', 'british-citizenship-application', 'skilled-worker-visa'],
-  sources: ['earned_settlement', 'hc_1691', 'hc_584', 'ilr'],
+  related: ['indefinite-leave-to-remain', 'long-residence-ilr', 'ilr-requirements', 'uk-visa-changes-2027', 'british-citizenship-application', 'skilled-worker-visa'],
+  sources: ['earned_settlement_response', 'earned_settlement', 'hc_1691', 'hc_584', 'ilr'],
 });
